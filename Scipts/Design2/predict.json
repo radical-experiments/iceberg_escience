@@ -1,0 +1,6 @@
+{
+    "model_arch": "UnetCntWRN",
+    "training_set": "test_vanilla",
+    "model_path": "./",
+    "hyperparameter_set": "A"
+}
