@@ -1,0 +1,55 @@
+#time,event,comp,thread,uid,state,msg
+1553540944.3306,sync_abs,umgr.0000,MainThread,,,js-104-13.jetstream-cloud.org:127.0.0.1:1553540944.33:1553540944.33:sys
+1553540951.1893,component_init,umgr.0000,MainThread,,,
+1553540951.3168,setup_done,umgr.0000,MainThread,umgr.0000,,
+1553540951.3262,advance,umgr.0000,MainThread,unit.000000,NEW,
+1553540951.3651,advance,umgr.0000,MainThread,unit.000000,UMGR_SCHEDULING_PENDING,
+1553540951.3655,publish,umgr.0000,MainThread,unit.000000,UMGR_SCHEDULING_PENDING,
+1553540951.3667,put,umgr.0000,MainThread,unit.000000,UMGR_SCHEDULING_PENDING,umgr.scheduling.queue.input.0000
+1553541062.6826,advance,umgr.0000,MainThread,unit.000001,NEW,
+1553541062.7212,advance,umgr.0000,MainThread,unit.000001,UMGR_SCHEDULING_PENDING,
+1553541062.7216,publish,umgr.0000,MainThread,unit.000001,UMGR_SCHEDULING_PENDING,
+1553541062.7219,put,umgr.0000,MainThread,unit.000001,UMGR_SCHEDULING_PENDING,umgr.scheduling.queue.input.0000
+1553541094.7626,get,umgr.0000,umgr.0000.idler._unit_pull_cb,umgr.0000,,bulk size: 1
+1553541094.7626,get,umgr.0000,umgr.0000.idler._unit_pull_cb,unit.000001,,
+1553541094.7634,publish,umgr.0000,umgr.0000.idler._unit_pull_cb,unit.000001,UMGR_STAGING_OUTPUT_PENDING,
+1553541094.7640,put,umgr.0000,umgr.0000.idler._unit_pull_cb,unit.000001,UMGR_STAGING_OUTPUT_PENDING,umgr.staging.output.queue.input.0000
+1553541094.8210,advance,umgr.0000,MainThread,unit.000002,NEW,
+1553541094.8245,advance,umgr.0000,MainThread,unit.000003,NEW,
+1553541094.8278,advance,umgr.0000,MainThread,unit.000004,NEW,
+1553541094.8311,advance,umgr.0000,MainThread,unit.000005,NEW,
+1553541094.8713,advance,umgr.0000,MainThread,unit.000002,UMGR_SCHEDULING_PENDING,
+1553541094.8713,advance,umgr.0000,MainThread,unit.000003,UMGR_SCHEDULING_PENDING,
+1553541094.8713,advance,umgr.0000,MainThread,unit.000004,UMGR_SCHEDULING_PENDING,
+1553541094.8713,advance,umgr.0000,MainThread,unit.000005,UMGR_SCHEDULING_PENDING,
+1553541094.8718,publish,umgr.0000,MainThread,unit.000002,UMGR_SCHEDULING_PENDING,
+1553541094.8718,publish,umgr.0000,MainThread,unit.000003,UMGR_SCHEDULING_PENDING,
+1553541094.8718,publish,umgr.0000,MainThread,unit.000004,UMGR_SCHEDULING_PENDING,
+1553541094.8718,publish,umgr.0000,MainThread,unit.000005,UMGR_SCHEDULING_PENDING,
+1553541094.8722,put,umgr.0000,MainThread,unit.000002,UMGR_SCHEDULING_PENDING,umgr.scheduling.queue.input.0000
+1553541094.8722,put,umgr.0000,MainThread,unit.000003,UMGR_SCHEDULING_PENDING,umgr.scheduling.queue.input.0000
+1553541094.8722,put,umgr.0000,MainThread,unit.000004,UMGR_SCHEDULING_PENDING,umgr.scheduling.queue.input.0000
+1553541094.8722,put,umgr.0000,MainThread,unit.000005,UMGR_SCHEDULING_PENDING,umgr.scheduling.queue.input.0000
+1553575385.4542,get,umgr.0000,umgr.0000.idler._unit_pull_cb,umgr.0000,,bulk size: 1
+1553575385.4543,get,umgr.0000,umgr.0000.idler._unit_pull_cb,unit.000000,,
+1553575385.4550,publish,umgr.0000,umgr.0000.idler._unit_pull_cb,unit.000000,UMGR_STAGING_OUTPUT_PENDING,
+1553575385.4554,put,umgr.0000,umgr.0000.idler._unit_pull_cb,unit.000000,UMGR_STAGING_OUTPUT_PENDING,umgr.staging.output.queue.input.0000
+1553581392.4847,get,umgr.0000,umgr.0000.idler._unit_pull_cb,umgr.0000,,bulk size: 1
+1553581392.4848,get,umgr.0000,umgr.0000.idler._unit_pull_cb,unit.000004,,
+1553581392.4856,publish,umgr.0000,umgr.0000.idler._unit_pull_cb,unit.000004,UMGR_STAGING_OUTPUT_PENDING,
+1553581392.4861,put,umgr.0000,umgr.0000.idler._unit_pull_cb,unit.000004,UMGR_STAGING_OUTPUT_PENDING,umgr.staging.output.queue.input.0000
+1553587130.8685,get,umgr.0000,umgr.0000.idler._unit_pull_cb,umgr.0000,,bulk size: 1
+1553587130.8686,get,umgr.0000,umgr.0000.idler._unit_pull_cb,unit.000003,,
+1553587130.8694,publish,umgr.0000,umgr.0000.idler._unit_pull_cb,unit.000003,UMGR_STAGING_OUTPUT_PENDING,
+1553587130.8702,put,umgr.0000,umgr.0000.idler._unit_pull_cb,unit.000003,UMGR_STAGING_OUTPUT_PENDING,umgr.staging.output.queue.input.0000
+1553595080.3706,get,umgr.0000,umgr.0000.idler._unit_pull_cb,umgr.0000,,bulk size: 1
+1553595080.3707,get,umgr.0000,umgr.0000.idler._unit_pull_cb,unit.000002,,
+1553595080.3711,publish,umgr.0000,umgr.0000.idler._unit_pull_cb,unit.000002,UMGR_STAGING_OUTPUT_PENDING,
+1553595080.3713,put,umgr.0000,umgr.0000.idler._unit_pull_cb,unit.000002,UMGR_STAGING_OUTPUT_PENDING,umgr.staging.output.queue.input.0000
+1553623565.2289,get,umgr.0000,umgr.0000.idler._unit_pull_cb,umgr.0000,,bulk size: 1
+1553623565.2291,get,umgr.0000,umgr.0000.idler._unit_pull_cb,unit.000005,,
+1553623565.2359,publish,umgr.0000,umgr.0000.idler._unit_pull_cb,unit.000005,UMGR_STAGING_OUTPUT_PENDING,
+1553623565.2363,put,umgr.0000,umgr.0000.idler._unit_pull_cb,unit.000005,UMGR_STAGING_OUTPUT_PENDING,umgr.staging.output.queue.input.0000
+1553623565.3249,flush,umgr.0000,MainThread,,,
+1553623572.6743,component_final,umgr.0000,MainThread,,,
+1553623572.6744,END,umgr.0000,MainThread,,,
