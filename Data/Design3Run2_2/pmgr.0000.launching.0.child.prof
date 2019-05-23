@@ -1,0 +1,13 @@
+#time,event,comp,thread,uid,state,msg
+1555782930.8346,sync_abs,pmgr.0000.launching.0.child,MainThread,,,js-104-13.jetstream-cloud.org:127.0.0.1:1555782930.83:1555782930.83:sys
+1555782930.0391,component_init,pmgr.0000.launching.0.child,MainThread,,,
+1555782933.8939,get,pmgr.0000.launching.0.child,MainThread,pilot.0000,PMGR_LAUNCHING_PENDING,
+1555782933.8941,advance,pmgr.0000.launching.0.child,MainThread,pilot.0000,PMGR_LAUNCHING,
+1555782933.8944,publish,pmgr.0000.launching.0.child,MainThread,pilot.0000,PMGR_LAUNCHING,
+1555782935.1876,staging_in_start,pmgr.0000.launching.0.child,MainThread,pilot.0000,,
+1555782944.2370,staging_in_stop,pmgr.0000.launching.0.child,MainThread,pilot.0000,,
+1555782944.2370,submission_start,pmgr.0000.launching.0.child,MainThread,pilot.0000,,
+1555782950.2933,submission_stop,pmgr.0000.launching.0.child,MainThread,pilot.0000,,
+1555782950.2935,advance,pmgr.0000.launching.0.child,MainThread,pilot.0000,PMGR_ACTIVE_PENDING,
+1555782950.2941,publish,pmgr.0000.launching.0.child,MainThread,pilot.0000,PMGR_ACTIVE_PENDING,
+1555849035.1882,flush,pmgr.0000.launching.0.child,MainThread,,,

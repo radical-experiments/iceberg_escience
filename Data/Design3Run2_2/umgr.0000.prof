@@ -1,0 +1,47 @@
+#time,event,comp,thread,uid,state,msg
+1555782934.9129,sync_abs,umgr.0000,MainThread,,,js-104-13.jetstream-cloud.org:127.0.0.1:1555782934.91:1555782934.91:sys
+1555782941.5059,component_init,umgr.0000,MainThread,,,
+1555782941.6349,setup_done,umgr.0000,MainThread,umgr.0000,,
+1555782941.6445,advance,umgr.0000,MainThread,unit.000000,NEW,
+1555782941.6835,advance,umgr.0000,MainThread,unit.000000,UMGR_SCHEDULING_PENDING,
+1555782941.6839,publish,umgr.0000,MainThread,unit.000000,UMGR_SCHEDULING_PENDING,
+1555782941.6852,put,umgr.0000,MainThread,unit.000000,UMGR_SCHEDULING_PENDING,umgr.scheduling.queue.input.0000
+1555783016.5667,advance,umgr.0000,MainThread,unit.000001,NEW,
+1555783016.5697,advance,umgr.0000,MainThread,unit.000002,NEW,
+1555783016.5727,advance,umgr.0000,MainThread,unit.000003,NEW,
+1555783016.5755,advance,umgr.0000,MainThread,unit.000004,NEW,
+1555783016.6157,advance,umgr.0000,MainThread,unit.000001,UMGR_SCHEDULING_PENDING,
+1555783016.6157,advance,umgr.0000,MainThread,unit.000002,UMGR_SCHEDULING_PENDING,
+1555783016.6157,advance,umgr.0000,MainThread,unit.000003,UMGR_SCHEDULING_PENDING,
+1555783016.6157,advance,umgr.0000,MainThread,unit.000004,UMGR_SCHEDULING_PENDING,
+1555783016.6164,publish,umgr.0000,MainThread,unit.000001,UMGR_SCHEDULING_PENDING,
+1555783016.6164,publish,umgr.0000,MainThread,unit.000002,UMGR_SCHEDULING_PENDING,
+1555783016.6164,publish,umgr.0000,MainThread,unit.000003,UMGR_SCHEDULING_PENDING,
+1555783016.6164,publish,umgr.0000,MainThread,unit.000004,UMGR_SCHEDULING_PENDING,
+1555783016.6180,put,umgr.0000,MainThread,unit.000001,UMGR_SCHEDULING_PENDING,umgr.scheduling.queue.input.0000
+1555783016.6180,put,umgr.0000,MainThread,unit.000002,UMGR_SCHEDULING_PENDING,umgr.scheduling.queue.input.0000
+1555783016.6180,put,umgr.0000,MainThread,unit.000003,UMGR_SCHEDULING_PENDING,umgr.scheduling.queue.input.0000
+1555783016.6180,put,umgr.0000,MainThread,unit.000004,UMGR_SCHEDULING_PENDING,umgr.scheduling.queue.input.0000
+1555803446.9152,get,umgr.0000,umgr.0000.idler._unit_pull_cb,umgr.0000,,bulk size: 1
+1555803446.9154,get,umgr.0000,umgr.0000.idler._unit_pull_cb,unit.000000,,
+1555803446.9165,publish,umgr.0000,umgr.0000.idler._unit_pull_cb,unit.000000,UMGR_STAGING_OUTPUT_PENDING,
+1555803446.9176,put,umgr.0000,umgr.0000.idler._unit_pull_cb,unit.000000,UMGR_STAGING_OUTPUT_PENDING,umgr.staging.output.queue.input.0000
+1555846289.3666,get,umgr.0000,umgr.0000.idler._unit_pull_cb,umgr.0000,,bulk size: 1
+1555846289.3666,get,umgr.0000,umgr.0000.idler._unit_pull_cb,unit.000001,,
+1555846289.3674,publish,umgr.0000,umgr.0000.idler._unit_pull_cb,unit.000001,UMGR_STAGING_OUTPUT_PENDING,
+1555846289.3678,put,umgr.0000,umgr.0000.idler._unit_pull_cb,unit.000001,UMGR_STAGING_OUTPUT_PENDING,umgr.staging.output.queue.input.0000
+1555846681.6485,get,umgr.0000,umgr.0000.idler._unit_pull_cb,umgr.0000,,bulk size: 1
+1555846681.6486,get,umgr.0000,umgr.0000.idler._unit_pull_cb,unit.000003,,
+1555846681.6496,publish,umgr.0000,umgr.0000.idler._unit_pull_cb,unit.000003,UMGR_STAGING_OUTPUT_PENDING,
+1555846681.6502,put,umgr.0000,umgr.0000.idler._unit_pull_cb,unit.000003,UMGR_STAGING_OUTPUT_PENDING,umgr.staging.output.queue.input.0000
+1555846990.9363,get,umgr.0000,umgr.0000.idler._unit_pull_cb,umgr.0000,,bulk size: 1
+1555846990.9364,get,umgr.0000,umgr.0000.idler._unit_pull_cb,unit.000002,,
+1555846990.9373,publish,umgr.0000,umgr.0000.idler._unit_pull_cb,unit.000002,UMGR_STAGING_OUTPUT_PENDING,
+1555846990.9377,put,umgr.0000,umgr.0000.idler._unit_pull_cb,unit.000002,UMGR_STAGING_OUTPUT_PENDING,umgr.staging.output.queue.input.0000
+1555849029.4121,get,umgr.0000,umgr.0000.idler._unit_pull_cb,umgr.0000,,bulk size: 1
+1555849029.4123,get,umgr.0000,umgr.0000.idler._unit_pull_cb,unit.000004,,
+1555849029.4135,publish,umgr.0000,umgr.0000.idler._unit_pull_cb,unit.000004,UMGR_STAGING_OUTPUT_PENDING,
+1555849029.4147,put,umgr.0000,umgr.0000.idler._unit_pull_cb,unit.000004,UMGR_STAGING_OUTPUT_PENDING,umgr.staging.output.queue.input.0000
+1555849029.5709,flush,umgr.0000,MainThread,,,
+1555849034.3508,component_final,umgr.0000,MainThread,,,
+1555849034.3508,END,umgr.0000,MainThread,,,
