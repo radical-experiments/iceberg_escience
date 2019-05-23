@@ -1,0 +1,17 @@
+#time,event,comp,thread,uid,state,msg
+1554067587.6244,sync_abs,pmgr.0000,MainThread,,,js-104-13.jetstream-cloud.org:127.0.0.1:1554067587.62:1554067587.62:sys
+1554067590.0006,component_init,pmgr.0000,MainThread,,,
+1554067590.0898,setup_done,pmgr.0000,MainThread,pmgr.0000,,
+1554067593.6176,advance,pmgr.0000,MainThread,pilot.0000,NEW,
+1554067593.6578,advance,pmgr.0000,MainThread,pilot.0000,PMGR_LAUNCHING_PENDING,
+1554067593.6584,publish,pmgr.0000,MainThread,pilot.0000,PMGR_LAUNCHING_PENDING,
+1554067593.6591,put,pmgr.0000,MainThread,pilot.0000,PMGR_LAUNCHING_PENDING,pmgr.launching.queue.input.0000
+1554067593.6628,advance,pmgr.0000,pmgr.0000.subscriber._state_sub_cb,pilot.0000,PMGR_LAUNCHING,
+1554067613.1188,advance,pmgr.0000,pmgr.0000.subscriber._state_sub_cb,pilot.0000,PMGR_ACTIVE_PENDING,
+1554067660.4879,advance,pmgr.0000,pmgr.0000.idler._state_pull_cb,pilot.0000,PMGR_ACTIVE,
+1554067660.4884,publish,pmgr.0000,pmgr.0000.idler._state_pull_cb,pilot.0000,PMGR_ACTIVE,
+1554127095.6839,flush,pmgr.0000,MainThread,,,
+1554127095.9041,advance,pmgr.0000,MainThread,pilot.0000,FAILED,
+1554127095.9044,publish,pmgr.0000,MainThread,pilot.0000,FAILED,
+1554127099.0201,component_final,pmgr.0000,MainThread,,,
+1554127099.0201,END,pmgr.0000,MainThread,,,
