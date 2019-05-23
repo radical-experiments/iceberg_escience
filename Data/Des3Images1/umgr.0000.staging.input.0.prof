@@ -1,0 +1,4 @@
+#time,event,comp,thread,uid,state,msg
+1553877478.3714,sync_abs,umgr.0000.staging.input.0,MainThread,,,js-157-203.jetstream-cloud.org:127.0.0.1:1553877478.35:1553877478.99:ntp
+1553877478.4527,END,umgr.0000.staging.input.0,MainThread,,,
+1553877478.5587,component_init,umgr.0000.staging.input.0,MainThread,,,

@@ -1,0 +1,15 @@
+#time,event,comp,thread,uid,state,msg
+1553877377.2441,sync_abs,pmgr.0000.launching.0.child,MainThread,,,js-157-203.jetstream-cloud.org:127.0.0.1:1553877377.22:1553877377.43:ntp
+1553877377.3481,component_init,pmgr.0000.launching.0.child,MainThread,,,
+1553877382.2365,get,pmgr.0000.launching.0.child,MainThread,pilot.0000,PMGR_LAUNCHING_PENDING,
+1553877382.2369,advance,pmgr.0000.launching.0.child,MainThread,pilot.0000,PMGR_LAUNCHING,
+1553877382.2374,publish,pmgr.0000.launching.0.child,MainThread,pilot.0000,PMGR_LAUNCHING,
+1553877383.6621,staging_in_start,pmgr.0000.launching.0.child,MainThread,pilot.0000,,
+1553877390.4854,staging_in_stop,pmgr.0000.launching.0.child,MainThread,pilot.0000,,
+1553877390.4854,submission_start,pmgr.0000.launching.0.child,MainThread,pilot.0000,,
+1553877393.6537,submission_stop,pmgr.0000.launching.0.child,MainThread,pilot.0000,,
+1553877393.6539,advance,pmgr.0000.launching.0.child,MainThread,pilot.0000,PMGR_ACTIVE_PENDING,
+1553877393.6548,publish,pmgr.0000.launching.0.child,MainThread,pilot.0000,PMGR_ACTIVE_PENDING,
+1553877393.6572,staging_in_start,pmgr.0000.launching.0.child,pmgr.0000.launching.0.child.subscriber._pmgr_control_cb,pilot.0000,,sd.0000
+1553877397.7613,staging_in_stop,pmgr.0000.launching.0.child,pmgr.0000.launching.0.child.subscriber._pmgr_control_cb,pilot.0000,,sd.0000
+1553949954.1788,flush,pmgr.0000.launching.0.child,MainThread,,,

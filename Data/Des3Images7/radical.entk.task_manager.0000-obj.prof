@@ -1,0 +1,12 @@
+#time,event,comp,thread,uid,state,msg
+1555944620.1181,sync_abs,radical.entk.task_manager.0000-obj,MainThread,,,js-157-203.jetstream-cloud.org:127.0.0.1:1555944620.1:1555944620.89:ntp
+1555944620.1561,tmgr obj created,radical.entk.task_manager.0000-obj,MainThread,task_manager.0000,,
+1555944620.1563,creating tmgr process,radical.entk.task_manager.0000-obj,MainThread,task_manager.0000,,
+1555944620.1573,starting tmgr process,radical.entk.task_manager.0000-obj,MainThread,task_manager.0000,,
+1555944620.1838,creating heartbeat thread,radical.entk.task_manager.0000-obj,MainThread,task_manager.0000,,
+1555944620.1839,starting heartbeat thread,radical.entk.task_manager.0000-obj,MainThread,task_manager.0000,,
+1555944620.2183,heartbeat thread started,radical.entk.task_manager.0000-obj,heartbeat,task_manager.0000,,
+1556026574.2295,tmgr process terminated,radical.entk.task_manager.0000-obj,MainThread,task_manager.0000,,
+1556026624.7192,terminating heartbeat thread,radical.entk.task_manager.0000-obj,heartbeat,task_manager.0000,,
+1556026624.7206,heartbeat thread terminated,radical.entk.task_manager.0000-obj,MainThread,task_manager.0000,,
+1556026624.7207,END,radical.entk.task_manager.0000-obj,MainThread,,,
