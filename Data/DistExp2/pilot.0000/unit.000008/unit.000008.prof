@@ -1,0 +1,7 @@
+1556553648.367767,cu_start,unit_script,MainThread,unit.000008,AGENT_EXECUTING,
+1556553648.401664,cu_cd_done,unit_script,MainThread,unit.000008,AGENT_EXECUTING,
+1556553648.403992,cu_pre_start,unit_script,MainThread,unit.000008,AGENT_EXECUTING,
+1556553648.467886,cu_pre_stop,unit_script,MainThread,unit.000008,AGENT_EXECUTING,
+1556553648.470693,cu_exec_start,unit_script,MainThread,unit.000008,AGENT_EXECUTING,
+1556553654.859925,cu_exec_stop,unit_script,MainThread,unit.000008,AGENT_EXECUTING,
+1556553654.862758,cu_stop,unit_script,MainThread,unit.000008,AGENT_EXECUTING,
