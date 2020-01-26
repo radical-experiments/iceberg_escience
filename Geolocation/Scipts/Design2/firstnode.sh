@@ -7,7 +7,7 @@ mdoule load xdusage/2.1-1
 source /pylon5/mc3bggp/aymen/penguins_pkg/bin/activate
 export PYTHONPATH=/pylon5/mc3bggp/aymen/penguins_pkg/lib/python2.7/site-packages:$PYTHONPATH
 
-python q1.py --queue Q1 > Q1_queue.log &
+python q1.py --queue /home/aymen/Des3Test/Q1 > Q1_queue.log &
 
 sleep 1
 
