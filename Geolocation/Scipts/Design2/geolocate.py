@@ -4,10 +4,12 @@ from geolocation.geolocating.match import ImageMatching
 
 if __name__ == "__main__":
 
-    name = "geolocate" 
-    queue_in = "Q1.queue.url"  
-    queue_out = "Q2.queue.url"
+    parser = argparse.ArgumentParser(description='Image Geolocation')
+    parser.add_argument('--name', type=str)
+    parser.add_argument('--queue_in', type=str)
+    parser.add_argument('--queue_out', type=str)
+    args = parser.parse_args()
 
-    match = ImageMatching(name=name, queue_in=queue_in, queue_out=queue_out)
+    match = ImageMatching(name=args.name, queue_in=args.queue_in, queue_out=args.queue_out)
 
     match.run()
