@@ -75,6 +75,8 @@ if __name__ == '__main__':
         cud = rp.ComputeUnitDescription()
         cud.pre_exec = ['module load psc_path/1.1',
                         'module load slurm/default',
+			'module load intel/19.5',
+			'mdoule load xdusage/2.1-1',
                         'source /pylon5/mc3bggp/aymen/penguins_pkg/bin/activate',
                         'export PYTHONPATH=/pylon5/mc3bggp/aymen/penguins_pkg/lib/python2.7/site-packages:$PYTHONPATH']
         cud.executable = 'python'
@@ -88,12 +90,15 @@ if __name__ == '__main__':
         cud = rp.ComputeUnitDescription()
         cud.pre_exec = ['module load psc_path/1.1',
                         'module load slurm/default',
+			'module load intel/19.5',
+			'mdoule load xdusage/2.1-1',
                         'source /pylon5/mc3bggp/aymen/penguins_pkg/bin/activate',
                         'export PYTHONPATH=/pylon5/mc3bggp/aymen/penguins_pkg/lib/python2.7/site-packages:$PYTHONPATH']
         cud.executable = 'python'
-        cud.arguments = ['disc.py','--name=discovery',
-                                   '--queue_file=/pylon5/mc3bggp/aymen/Des3Test/discovered.queue.url',
-                                   '--path=/pylon5/mc3bggp/bspitz/Penguins_Data/All_sites_images/A/'
+        cud.arguments = ['disc.py','--src_path /pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/',
+                                   '--trg_path /pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/',
+                                   '--name discovery',
+				   '--queue_file /home/aymen/Des3Test/discovered.queue.url'
                         ]
         cud.input_staging  = [{'source': 'client:///disc.py', 'target': 'unit:///disc.py', 'action': rp.TRANSFER}]
         cud.cpu_processes = 1
@@ -105,8 +110,8 @@ if __name__ == '__main__':
         cud.executable = 'sh'
         cud.arguments = ['firstnode.sh']
         cud.input_staging  = [{'source': 'client:///firstnode.sh', 'target': 'unit:///firstnode.sh', 'action': rp.TRANSFER},
-                              {'source': 'client:///predict.json', 'target': 'unit:///predict.json', 'action': rp.TRANSFER},
-                              {'source': 'client:///predictor.py', 'target': 'unit:///predictor.py', 'action': rp.TRANSFER},
+                              {'source': 'client:///geolocate.py', 'target': 'unit:///geolocate.py', 'action': rp.TRANSFER},
+                              {'source': 'client:///ransac.py', 'target': 'unit:///ransac.py', 'action': rp.TRANSFER},
                               {'source': 'client:///q1.py', 'target': 'unit:///q1.py', 'action': rp.TRANSFER}]
         cud.cpu_processes = 30
         cuds.append(cud)
@@ -115,8 +120,8 @@ if __name__ == '__main__':
         cud.executable = 'sh'
         cud.arguments = ['secondnode.sh']
         cud.input_staging  = [{'source': 'client:///secondnode.sh', 'target': 'unit:///secondnode.sh', 'action': rp.TRANSFER},
-                              {'source': 'client:///predict.json', 'target': 'unit:///predict.json', 'action': rp.TRANSFER},
-                              {'source': 'client:///predictor.py', 'target': 'unit:///predictor.py', 'action': rp.TRANSFER},
+                              {'source': 'client:///geolocate.py', 'target': 'unit:///geolocate.py', 'action': rp.TRANSFER},
+                              {'source': 'client:///ransac.py', 'target': 'unit:///ransac.py', 'action': rp.TRANSFER},
                               {'source': 'client:///q1.py', 'target': 'unit:///q1.py', 'action': rp.TRANSFER}]
         cud.cpu_processes = 32
         cuds.append(cud)
@@ -125,8 +130,8 @@ if __name__ == '__main__':
         cud.executable = 'sh'
         cud.arguments = ['thirdnode.sh']
         cud.input_staging  = [{'source': 'client:///thirdnode.sh', 'target': 'unit:///thirdnode.sh', 'action': rp.TRANSFER},
-                              {'source': 'client:///predict.json', 'target': 'unit:///predict.json', 'action': rp.TRANSFER},
-                              {'source': 'client:///predictor.py', 'target': 'unit:///predictor.py', 'action': rp.TRANSFER},
+                              {'source': 'client:///geolocate.py', 'target': 'unit:///geolocate.py', 'action': rp.TRANSFER},
+                              {'source': 'client:///ransac.py', 'target': 'unit:///ransac.py', 'action': rp.TRANSFER},
                               {'source': 'client:///q1.py', 'target': 'unit:///q1.py', 'action': rp.TRANSFER}]
         cud.cpu_processes = 32
         cuds.append(cud)
@@ -135,8 +140,8 @@ if __name__ == '__main__':
         cud.executable = 'sh'
         cud.arguments = ['forthnode.sh']
         cud.input_staging  = [{'source': 'client:///forthnode.sh', 'target': 'unit:///forthnode.sh', 'action': rp.TRANSFER},
-                              {'source': 'client:///predict.json', 'target': 'unit:///predict.json', 'action': rp.TRANSFER},
-                              {'source': 'client:///predictor.py', 'target': 'unit:///predictor.py', 'action': rp.TRANSFER},
+                              {'source': 'client:///geolocate.py', 'target': 'unit:///geolocate.py', 'action': rp.TRANSFER},
+                              {'source': 'client:///ransac.py', 'target': 'unit:///ransac.py', 'action': rp.TRANSFER},
                               {'source': 'client:///q1.py', 'target': 'unit:///q1.py', 'action': rp.TRANSFER}]
         cud.cpu_processes = 32
         cuds.append(cud)
