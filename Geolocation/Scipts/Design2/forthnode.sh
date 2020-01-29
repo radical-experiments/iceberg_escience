@@ -7,16 +7,16 @@ module load xdusage/2.1-1
 source /pylon5/mc3bggp/aymen/penguins_pkg/bin/activate
 export PYTHONPATH=/pylon5/mc3bggp/aymen/penguins_pkg/lib/python2.7/site-packages:$PYTHONPATH
 
-python q1.py --queue /home/aymen/Des3Test/geolocate > geolocate_queue.log &
+python q1.py --queue geolocate > geolocate_queue.log &
 
 sleep 1
 
-CUDA_VISIBLE_DEVICES=0 python geolocate.py   >geo7.log &
-CUDA_VISIBLE_DEVICES=1 python geolocate.py   >geo8.log &
+CUDA_VISIBLE_DEVICES=0 python geolocate.py  --name geolocate7 --queue_in /pylon5/mc3bggp/aymen/Des3Test/discovered.queue.url  --queue_out ransac.queue.url >geo7.log &
+CUDA_VISIBLE_DEVICES=1 python geolocate.py  --name geolocate8 --queue_in /pylon5/mc3bggp/aymen/Des3Test/discovered.queue.url  --queue_out ransac.queue.url >geo8.log &
 
-sleep 1
+sleep 1 
 
-python ransac.py > ransac4.log &
+python ransac.py --name ransac4 --queue_in ransac.queue.url > ransac4.log &
 
 wait
 
