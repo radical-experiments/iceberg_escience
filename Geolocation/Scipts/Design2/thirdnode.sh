@@ -11,8 +11,8 @@ python q1.py --queue geolocate > geolocate_queue.log &
 
 sleep 1
 
-CUDA_VISIBLE_DEVICES=0 python geolocate.py  --name geolocate5 --queue_in /pylon5/mc3bggp/aymen/Des3Test/discovered.queue.url  --queue_out ransac.queue.url >geo5.log &
-CUDA_VISIBLE_DEVICES=1 python geolocate.py  --name geolocate6 --queue_in /pylon5/mc3bggp/aymen/Des3Test/discovered.queue.url  --queue_out ransac.queue.url >geo6.log &
+CUDA_VISIBLE_DEVICES=0 python geolocate.py  --name geolocate5 --queue_in /pylon5/mc3bggp/aymen/Des3Test/discovered.queue.url  --queue_out geolocate.queue.url >geo5.log &
+CUDA_VISIBLE_DEVICES=1 python geolocate.py  --name geolocate6 --queue_in /pylon5/mc3bggp/aymen/Des3Test/discovered.queue.url  --queue_out geolocate.queue.url >geo6.log &
 
 sleep 1 
 
