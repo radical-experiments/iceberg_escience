@@ -98,7 +98,7 @@ if __name__ == '__main__':
         cud.arguments = ['disc.py','--src_path /pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/',
                                    '--trg_path /pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/',
                                    '--name discovery',
-				   '--queue_file /home/aymen/Des3Test/discovered.queue.url'
+				   '--queue_file /pylon5/mc3bggp/aymen/Des3Test/discovered.queue.url'
                         ]
         cud.input_staging  = [{'source': 'client:///disc.py', 'target': 'unit:///disc.py', 'action': rp.TRANSFER}]
         cud.cpu_processes = 1
