@@ -1,0 +1,19 @@
+2020-01-31 00:25:12,041: control.pubsub.sub.0000: update.0                        : MainThread     : INFO    : create control_pubsub - sub - tcp://172.27.61.10:38740
+2020-01-31 00:25:12,050: control.pubsub.sub.0000: update.0                        : MainThread     : DEBUG   : start process
+2020-01-31 00:25:12,050: control.pubsub.sub.0000: update.0                        : MainThread     : DEBUG   : ru_initialize_common (NOOP)
+2020-01-31 00:25:12,051: control.pubsub.sub.0000: update.0                        : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
+2020-01-31 00:25:12,051: control.pubsub.sub.0000: update.0                        : MainThread     : DEBUG   : process class started (no child)
+2020-01-31 00:25:16,775: control.pubsub.sub.0000: pmgr.0000.launching.0           : MainThread     : INFO    : create control_pubsub - sub - tcp://172.27.61.10:38740
+2020-01-31 00:25:16,776: control.pubsub.sub.0000: pmgr.0000.launching.0           : MainThread     : DEBUG   : start process
+2020-01-31 00:25:16,776: control.pubsub.sub.0000: pmgr.0000.launching.0           : MainThread     : DEBUG   : ru_initialize_common (NOOP)
+2020-01-31 00:25:16,776: control.pubsub.sub.0000: pmgr.0000.launching.0           : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
+2020-01-31 00:25:16,776: control.pubsub.sub.0000: pmgr.0000.launching.0           : MainThread     : DEBUG   : process class started (no child)
+2020-01-31 00:25:16,828: control.pubsub.sub.0000: MainProcess                     : MainThread     : INFO    : create control_pubsub - sub - tcp://172.27.61.10:38740
+2020-01-31 00:25:16,829: control.pubsub.sub.0000: MainProcess                     : MainThread     : DEBUG   : start process
+2020-01-31 00:25:16,829: control.pubsub.sub.0000: MainProcess                     : MainThread     : DEBUG   : ru_initialize_common (NOOP)
+2020-01-31 00:25:16,829: control.pubsub.sub.0000: MainProcess                     : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
+2020-01-31 00:25:16,830: control.pubsub.sub.0000: MainProcess                     : MainThread     : DEBUG   : process class started (no child)
+2020-01-31 00:31:05,505: control.pubsub.sub.0000: MainProcess                     : MainThread     : INFO    : parent stops child  29164 -> None [control.pubsub.sub.0000]
+2020-01-31 00:31:05,506: control.pubsub.sub.0000: MainProcess                     : MainThread     : DEBUG   : ru_finalize_parent (NOOP)
+2020-01-31 00:31:05,847: control.pubsub.sub.0000: update.0                        : MainThread     : INFO    : parent stops child  29194 -> None [control.pubsub.sub.0000]
+2020-01-31 00:31:05,848: control.pubsub.sub.0000: update.0                        : MainThread     : DEBUG   : ru_finalize_parent (NOOP)

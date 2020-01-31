@@ -1,0 +1,75 @@
+2020-01-31 00:25:10,852: update.0            : MainProcess                     : MainThread     : DEBUG   : alive check in term
+2020-01-31 00:25:10,852: update.0            : MainProcess                     : MainThread     : DEBUG   : start process
+2020-01-31 00:25:13,193: update.0            : MainProcess                     : MainThread     : INFO    : recv message: alive
+2020-01-31 00:25:13,194: update.0            : MainProcess                     : MainThread     : INFO    : initialize update.0
+2020-01-31 00:25:13,197: update.0            : MainProcess                     : MainThread     : INFO    : cfg: {'agents': {},
+ u'bridges': {u'control_pubsub': {'addr_in': 'tcp://172.27.61.10:46786',
+                                  'addr_out': 'tcp://172.27.61.10:38740',
+                                  u'bulk_size': 0,
+                                  u'log_level': u'error',
+                                  u'stall_hwm': 1},
+              u'log_pubsub': {'addr_in': 'tcp://172.27.61.10:40987',
+                              'addr_out': 'tcp://172.27.61.10:46169',
+                              u'bulk_size': 0,
+                              u'log_level': u'error',
+                              u'stall_hwm': 1},
+              u'state_pubsub': {'addr_in': 'tcp://172.27.61.10:35186',
+                                'addr_out': 'tcp://172.27.61.10:36567',
+                                u'bulk_size': 0,
+                                u'log_level': u'error',
+                                u'stall_hwm': 1}},
+ 'cname': u'UpdateWorker',
+ u'components': {},
+ u'count': 1,
+ 'dburl': 'mongodb://rct:rct_test@two.radical-project.org/rct_test',
+ u'default_dburl': u'mongodb://rct:rct_test@two.radical-project.org/rct_test',
+ 'logdir': '/home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007',
+ 'number': 0,
+ 'owner': 'rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007',
+ 'session_id': 'rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007'}
+2020-01-31 00:25:13,197: update.0            : MainProcess                     : MainThread     : DEBUG   : alive check in term
+2020-01-31 00:25:13,197: update.0            : MainProcess                     : MainThread     : DEBUG   : START: update.0 register publisher log_pubsub
+2020-01-31 00:25:13,198: update.0            : MainProcess                     : MainThread     : DEBUG   : using addr tcp://172.27.61.10:40987 for pubsub log_pubsub
+2020-01-31 00:25:13,201: update.0            : MainProcess                     : MainThread     : DEBUG   : registered publisher : log_pubsub : log.pubsub.pub.0000
+2020-01-31 00:25:13,201: update.0            : MainProcess                     : MainThread     : DEBUG   : alive check in term
+2020-01-31 00:25:13,201: update.0            : MainProcess                     : MainThread     : DEBUG   : START: update.0 register publisher state_pubsub
+2020-01-31 00:25:13,201: update.0            : MainProcess                     : MainThread     : DEBUG   : using addr tcp://172.27.61.10:35186 for pubsub state_pubsub
+2020-01-31 00:25:13,203: update.0            : MainProcess                     : MainThread     : DEBUG   : registered publisher : state_pubsub : state.pubsub.pub.0000
+2020-01-31 00:25:13,204: update.0            : MainProcess                     : MainThread     : DEBUG   : alive check in term
+2020-01-31 00:25:13,204: update.0            : MainProcess                     : MainThread     : DEBUG   : START: update.0 register publisher control_pubsub
+2020-01-31 00:25:13,204: update.0            : MainProcess                     : MainThread     : DEBUG   : using addr tcp://172.27.61.10:46786 for pubsub control_pubsub
+2020-01-31 00:25:13,206: update.0            : MainProcess                     : MainThread     : DEBUG   : registered publisher : control_pubsub : control.pubsub.pub.0000
+2020-01-31 00:25:13,206: update.0            : MainProcess                     : MainThread     : DEBUG   : parent name: update.0.watch
+2020-01-31 00:25:13,206: update.0            : MainProcess                     : MainThread     : DEBUG   : start thread
+2020-01-31 00:25:13,207: update.0            : MainProcess                     : update.0.watch : DEBUG   : child name: update.0.watch.thread
+2020-01-31 00:25:13,207: update.0            : MainProcess                     : update.0.watch : INFO    : child (me) initializing
+2020-01-31 00:25:13,207: update.0            : MainProcess                     : update.0.watch : DEBUG   : ru_initialize_common (NOOP)
+2020-01-31 00:25:13,208: update.0            : MainProcess                     : update.0.watch : DEBUG   : ru_initialize_child (NOOP)
+2020-01-31 00:25:13,208: update.0            : MainProcess                     : update.0.watch : INFO    : send alive
+2020-01-31 00:25:13,208: update.0            : MainProcess                     : update.0.watch : INFO    : put message: [update.0.watch.thread] alive
+2020-01-31 00:25:13,208: update.0            : MainProcess                     : MainThread     : INFO    : get msg: alive
+2020-01-31 00:25:13,209: update.0            : MainProcess                     : MainThread     : DEBUG   : ru_initialize_common (NOOP)
+2020-01-31 00:25:13,209: update.0            : MainProcess                     : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
+2020-01-31 00:25:13,209: update.0            : MainProcess                     : MainThread     : DEBUG   : child thread update.0.watch started
+2020-01-31 00:25:13,209: update.0            : MainProcess                     : MainThread     : INFO    : child is alive
+2020-01-31 00:25:13,209: update.0            : MainProcess                     : MainThread     : DEBUG   : process class started child
+2020-01-31 00:31:05,509: update.0            : MainProcess                     : MainThread     : INFO    : stop update.0 (29164 : 29194 : MainThread) [radical.pilot.worker.update.Update.stop]
+2020-01-31 00:31:05,515: update.0            : MainProcess                     : MainThread     : INFO    : parent stops child  29164 -> 29194 [update.0]
+2020-01-31 00:31:05,515: update.0            : MainProcess                     : MainThread     : INFO    : send message: [update.0] STOP
+2020-01-31 00:31:05,515: update.0            : MainProcess                     : MainThread     : DEBUG   : ru_finalize_common()
+2020-01-31 00:31:05,515: update.0            : MainProcess                     : MainThread     : DEBUG   : TERM : update.0 unregister publisher log_pubsub
+2020-01-31 00:31:05,516: update.0            : MainProcess                     : MainThread     : DEBUG   : unregistered publisher log_pubsub
+2020-01-31 00:31:05,516: update.0            : MainProcess                     : MainThread     : DEBUG   : TERM : update.0 unregister publisher state_pubsub
+2020-01-31 00:31:05,517: update.0            : MainProcess                     : MainThread     : DEBUG   : unregistered publisher state_pubsub
+2020-01-31 00:31:05,517: update.0            : MainProcess                     : MainThread     : DEBUG   : TERM : update.0 unregister publisher control_pubsub
+2020-01-31 00:31:05,518: update.0            : MainProcess                     : MainThread     : DEBUG   : unregistered publisher control_pubsub
+2020-01-31 00:31:05,518: update.0            : MainProcess                     : MainThread     : DEBUG   : update.0 close prof
+2020-01-31 00:31:05,524: update.0            : MainProcess                     : MainThread     : INFO    : parent stops child
+2020-01-31 00:31:05,524: update.0            : MainProcess                     : MainThread     : DEBUG   : ru_finalize_parent (NOOP)
+2020-01-31 00:31:05,524: update.0            : MainProcess                     : MainThread     : DEBUG   : ru_finalize_common (NOOP)
+2020-01-31 00:31:05,553: update.0            : MainProcess                     : update.0.watch : INFO    : watcher closes
+2020-01-31 00:31:05,554: update.0            : MainProcess                     : update.0.watch : INFO    : put message: [update.0.watch.thread] work finished
+2020-01-31 00:31:05,554: update.0            : MainProcess                     : update.0.watch : DEBUG   : ru_finalize_child (NOOP)
+2020-01-31 00:31:05,554: update.0            : MainProcess                     : update.0.watch : DEBUG   : ru_finalize_common (NOOP)
+2020-01-31 00:31:05,554: update.0            : MainProcess                     : update.0.watch : INFO    : put message: [update.0.watch.thread] terminating
+2020-01-31 00:31:09,064: update.0            : MainProcess                     : MainThread     : INFO    : stop update.0 (29164 : 29194 : MainThread) [radical.pilot.worker.update.Update.stop]

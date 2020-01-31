@@ -1,0 +1,14 @@
+2020-01-31 00:25:23,266: control.pubsub.pub.0003: umgr.0000.staging.input.0       : MainThread     : INFO    : create control_pubsub - pub - tcp://172.27.61.10:46786
+2020-01-31 00:25:23,266: control.pubsub.pub.0003: umgr.0000.staging.input.0       : MainThread     : DEBUG   : start process
+2020-01-31 00:25:23,266: control.pubsub.pub.0003: umgr.0000.staging.input.0       : MainThread     : DEBUG   : ru_initialize_common (NOOP)
+2020-01-31 00:25:23,266: control.pubsub.pub.0003: umgr.0000.staging.input.0       : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
+2020-01-31 00:25:23,267: control.pubsub.pub.0003: umgr.0000.staging.input.0       : MainThread     : DEBUG   : process class started (no child)
+2020-01-31 00:25:23,297: control.pubsub.pub.0003: MainProcess                     : MainThread     : INFO    : create control_pubsub - pub - tcp://172.27.61.10:46786
+2020-01-31 00:25:23,297: control.pubsub.pub.0003: MainProcess                     : MainThread     : DEBUG   : start process
+2020-01-31 00:25:23,297: control.pubsub.pub.0003: MainProcess                     : MainThread     : DEBUG   : ru_initialize_common (NOOP)
+2020-01-31 00:25:23,298: control.pubsub.pub.0003: MainProcess                     : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
+2020-01-31 00:25:23,298: control.pubsub.pub.0003: MainProcess                     : MainThread     : DEBUG   : process class started (no child)
+2020-01-31 00:30:57,064: control.pubsub.pub.0003: MainProcess                     : MainThread     : INFO    : parent stops child  29164 -> None [control.pubsub.pub.0003]
+2020-01-31 00:30:57,064: control.pubsub.pub.0003: MainProcess                     : MainThread     : DEBUG   : ru_finalize_parent (NOOP)
+2020-01-31 00:30:57,352: control.pubsub.pub.0003: umgr.0000.staging.input.0       : MainThread     : INFO    : parent stops child  29307 -> None [control.pubsub.pub.0003]
+2020-01-31 00:30:57,352: control.pubsub.pub.0003: umgr.0000.staging.input.0       : MainThread     : DEBUG   : ru_finalize_parent (NOOP)

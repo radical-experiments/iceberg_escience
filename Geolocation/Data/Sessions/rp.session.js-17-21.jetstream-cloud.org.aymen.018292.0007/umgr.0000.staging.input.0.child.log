@@ -1,0 +1,521 @@
+2020-01-31 00:25:23,251: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : INFO    : initialize umgr.0000.staging.input.0.child
+2020-01-31 00:25:23,257: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : INFO    : cfg: {'agents': {},
+ u'bridges': {u'control_pubsub': {'addr_in': 'tcp://172.27.61.10:46786',
+                                  'addr_out': 'tcp://172.27.61.10:38740',
+                                  u'bulk_size': 0,
+                                  u'log_level': u'error',
+                                  u'stall_hwm': 1},
+              u'log_pubsub': {'addr_in': 'tcp://172.27.61.10:40987',
+                              'addr_out': 'tcp://172.27.61.10:46169',
+                              u'bulk_size': 0,
+                              u'log_level': u'error',
+                              u'stall_hwm': 1},
+              u'state_pubsub': {'addr_in': 'tcp://172.27.61.10:35186',
+                                'addr_out': 'tcp://172.27.61.10:36567',
+                                u'bulk_size': 0,
+                                u'log_level': u'error',
+                                u'stall_hwm': 1},
+              u'umgr_reschedule_pubsub': {'addr_in': 'tcp://172.27.61.10:46043',
+                                          'addr_out': 'tcp://172.27.61.10:36313',
+                                          u'bulk_size': 0,
+                                          u'log_level': u'error',
+                                          u'stall_hwm': 1},
+              u'umgr_scheduling_queue': {'addr_in': 'tcp://172.27.61.10:44482',
+                                         'addr_out': 'tcp://172.27.61.10:41093',
+                                         u'bulk_size': 0,
+                                         u'log_level': u'error',
+                                         u'stall_hwm': 1},
+              u'umgr_staging_input_queue': {'addr_in': 'tcp://172.27.61.10:41401',
+                                            'addr_out': 'tcp://172.27.61.10:35206',
+                                            u'bulk_size': 0,
+                                            u'log_level': u'error',
+                                            u'stall_hwm': 1},
+              u'umgr_staging_output_queue': {'addr_in': 'tcp://172.27.61.10:44958',
+                                             'addr_out': 'tcp://172.27.61.10:39448',
+                                             u'bulk_size': 0,
+                                             u'log_level': u'error',
+                                             u'stall_hwm': 1},
+              u'umgr_unschedule_pubsub': {'addr_in': 'tcp://172.27.61.10:41058',
+                                          'addr_out': 'tcp://172.27.61.10:40714',
+                                          u'bulk_size': 0,
+                                          u'log_level': u'error',
+                                          u'stall_hwm': 1}},
+ u'bulk_collection_size': 100,
+ u'bulk_collection_time': 1.0,
+ 'cname': u'UMGRStagingInputComponent',
+ u'components': {},
+ u'count': 1,
+ u'db_poll_sleeptime': 1.0,
+ 'number': 0,
+ 'owner': 'umgr.0000',
+ u'scheduler': u'round_robin',
+ 'uid': 'umgr.0000'}
+2020-01-31 00:25:23,258: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : start components: {}
+2020-01-31 00:25:23,258: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : alive check in term
+2020-01-31 00:25:23,258: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : START: umgr.0000.staging.input.0.child register publisher log_pubsub
+2020-01-31 00:25:23,258: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : using addr tcp://172.27.61.10:40987 for pubsub log_pubsub
+2020-01-31 00:25:23,262: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : registered publisher : log_pubsub : log.pubsub.pub.0003
+2020-01-31 00:25:23,262: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : alive check in term
+2020-01-31 00:25:23,262: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : START: umgr.0000.staging.input.0.child register publisher state_pubsub
+2020-01-31 00:25:23,262: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : using addr tcp://172.27.61.10:35186 for pubsub state_pubsub
+2020-01-31 00:25:23,264: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : registered publisher : state_pubsub : state.pubsub.pub.0003
+2020-01-31 00:25:23,264: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : alive check in term
+2020-01-31 00:25:23,264: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : START: umgr.0000.staging.input.0.child register publisher control_pubsub
+2020-01-31 00:25:23,265: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : using addr tcp://172.27.61.10:46786 for pubsub control_pubsub
+2020-01-31 00:25:23,267: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : registered publisher : control_pubsub : control.pubsub.pub.0003
+2020-01-31 00:25:23,267: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : alive check in term
+2020-01-31 00:25:23,267: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : START: umgr.0000.staging.input.0.child register subscriber umgr.0000.staging.input.0.child.subscriber._cancel_monitor_cb
+2020-01-31 00:25:23,267: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : using addr tcp://172.27.61.10:38740 for pubsub control_pubsub
+2020-01-31 00:25:23,270: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : parent name: umgr.0000.staging.input.0.child.subscriber._cancel_monitor_cb
+2020-01-31 00:25:23,270: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : start thread
+2020-01-31 00:25:23,271: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : umgr.0000.staging.input.0.child.subscriber._cancel_monitor_cb: DEBUG   : child name: umgr.0000.staging.input.0.child.subscriber._cancel_monitor_cb.thread
+2020-01-31 00:25:23,271: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : umgr.0000.staging.input.0.child.subscriber._cancel_monitor_cb: INFO    : child (me) initializing
+2020-01-31 00:25:23,271: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : umgr.0000.staging.input.0.child.subscriber._cancel_monitor_cb: DEBUG   : ru_initialize_common (NOOP)
+2020-01-31 00:25:23,271: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : umgr.0000.staging.input.0.child.subscriber._cancel_monitor_cb: DEBUG   : ru_initialize_child (NOOP)
+2020-01-31 00:25:23,271: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : umgr.0000.staging.input.0.child.subscriber._cancel_monitor_cb: INFO    : send alive
+2020-01-31 00:25:23,272: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : umgr.0000.staging.input.0.child.subscriber._cancel_monitor_cb: INFO    : put message: [umgr.0000.staging.input.0.child.subscriber._cancel_monitor_cb.thread] alive
+2020-01-31 00:25:23,272: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : INFO    : get msg: alive
+2020-01-31 00:25:23,272: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : ru_initialize_common (NOOP)
+2020-01-31 00:25:23,272: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
+2020-01-31 00:25:23,273: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : child thread umgr.0000.staging.input.0.child.subscriber._cancel_monitor_cb started
+2020-01-31 00:25:23,273: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : umgr.0000.staging.input.0.child registered control_pubsub subscriber umgr.0000.staging.input.0.child.subscriber._cancel_monitor_cb
+2020-01-31 00:25:23,273: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : alive check in term
+2020-01-31 00:25:23,273: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : using addr tcp://172.27.61.10:35206 for input umgr_staging_input_queue
+2020-01-31 00:25:23,275: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : registered input umgr.0000.staging.input.0.child.work.UMGR_STAGING_INPUT_PENDING
+2020-01-31 00:25:23,275: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : START: umgr.0000.staging.input.0.child register input UMGR_STAGING_INPUT_PENDING: umgr.0000.staging.input.0.child.work.UMGR_STAGING_INPUT_PENDING
+2020-01-31 00:25:23,275: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : registered worker work [UMGR_STAGING_INPUT_PENDING]
+2020-01-31 00:25:23,275: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : alive check in term
+2020-01-31 00:25:23,276: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : START: umgr.0000.staging.input.0.child register output AGENT_STAGING_INPUT_PENDING
+2020-01-31 00:25:23,276: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : alive check in term
+2020-01-31 00:25:23,276: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : START: umgr.0000.staging.input.0.child register subscriber umgr.0000.staging.input.0.child.subscriber._base_command_cb
+2020-01-31 00:25:23,276: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : using addr tcp://172.27.61.10:38740 for pubsub control_pubsub
+2020-01-31 00:25:23,278: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : parent name: umgr.0000.staging.input.0.child.subscriber._base_command_cb
+2020-01-31 00:25:23,278: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : start thread
+2020-01-31 00:25:23,278: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : umgr.0000.staging.input.0.child.subscriber._base_command_cb: DEBUG   : child name: umgr.0000.staging.input.0.child.subscriber._base_command_cb.thread
+2020-01-31 00:25:23,279: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : umgr.0000.staging.input.0.child.subscriber._base_command_cb: INFO    : child (me) initializing
+2020-01-31 00:25:23,279: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : umgr.0000.staging.input.0.child.subscriber._base_command_cb: DEBUG   : ru_initialize_common (NOOP)
+2020-01-31 00:25:23,279: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : umgr.0000.staging.input.0.child.subscriber._base_command_cb: DEBUG   : ru_initialize_child (NOOP)
+2020-01-31 00:25:23,279: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : umgr.0000.staging.input.0.child.subscriber._base_command_cb: INFO    : send alive
+2020-01-31 00:25:23,279: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : umgr.0000.staging.input.0.child.subscriber._base_command_cb: INFO    : put message: [umgr.0000.staging.input.0.child.subscriber._base_command_cb.thread] alive
+2020-01-31 00:25:23,280: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : INFO    : get msg: alive
+2020-01-31 00:25:23,280: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : ru_initialize_common (NOOP)
+2020-01-31 00:25:23,280: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
+2020-01-31 00:25:23,280: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : child thread umgr.0000.staging.input.0.child.subscriber._base_command_cb started
+2020-01-31 00:25:23,280: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : umgr.0000.staging.input.0.child registered control_pubsub subscriber umgr.0000.staging.input.0.child.subscriber._base_command_cb
+2020-01-31 00:25:23,281: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : INFO    : child (me) initializing
+2020-01-31 00:25:23,281: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : parent name: umgr.0000.staging.input.0.child.watch
+2020-01-31 00:25:23,281: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : start thread
+2020-01-31 00:25:23,281: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : umgr.0000.staging.input.0.child.watch: DEBUG   : child name: umgr.0000.staging.input.0.child.watch.thread
+2020-01-31 00:25:23,282: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : umgr.0000.staging.input.0.child.watch: INFO    : child (me) initializing
+2020-01-31 00:25:23,282: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : umgr.0000.staging.input.0.child.watch: DEBUG   : ru_initialize_common (NOOP)
+2020-01-31 00:25:23,282: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : umgr.0000.staging.input.0.child.watch: DEBUG   : ru_initialize_child (NOOP)
+2020-01-31 00:25:23,282: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : umgr.0000.staging.input.0.child.watch: INFO    : send alive
+2020-01-31 00:25:23,282: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : umgr.0000.staging.input.0.child.watch: INFO    : put message: [umgr.0000.staging.input.0.child.watch.thread] alive
+2020-01-31 00:25:23,283: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : INFO    : get msg: alive
+2020-01-31 00:25:23,283: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : ru_initialize_common (NOOP)
+2020-01-31 00:25:23,283: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
+2020-01-31 00:25:23,283: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : child thread umgr.0000.staging.input.0.child.watch started
+2020-01-31 00:25:23,283: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : INFO    : child (me) is alive
+2020-01-31 00:25:23,283: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : INFO    : send alive
+2020-01-31 00:25:23,284: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : INFO    : send message: [umgr.0000.staging.input.0.child] alive
+2020-01-31 00:25:28,431: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : umgr.0000.staging.input.0.child.subscriber._base_command_cb: DEBUG   : add pilot pilot.0000
+2020-01-31 00:25:28,431: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : umgr.0000.staging.input.0.child.subscriber._cancel_monitor_cb: DEBUG   : command ignored: add_pilots
+2020-01-31 00:25:28,584: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : got unit (unit.000000)
+2020-01-31 00:25:28,584: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2020-01-31 00:25:28,585: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : key gsisftp://bridges.psc.xsede.org:2222/ / gsisftp://bridges.psc.xsede.org:2222/
+2020-01-31 00:25:30,206: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : <- client:///q1.py (<type 'str'>)
+2020-01-31 00:25:30,206: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    client:///q1.py
+2020-01-31 00:25:30,206: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    pwd
+2020-01-31 00:25:30,206: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    expand with /home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2
+2020-01-31 00:25:30,207: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : -> file:///home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2/q1.py
+2020-01-31 00:25:30,207: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : <- unit:///q1.py (<type 'str'>)
+2020-01-31 00:25:30,207: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    unit:///q1.py
+2020-01-31 00:25:30,207: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    unit
+2020-01-31 00:25:30,207: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    expand with gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000//unit.000000/
+2020-01-31 00:25:30,208: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : -> gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/unit.000000/q1.py
+2020-01-31 00:25:30,208: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : <- file:///home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2/q1.py (<class 'radical.utils.url.Url'>)
+2020-01-31 00:25:30,208: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    file:///home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2/q1.py
+2020-01-31 00:25:30,208: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    file
+2020-01-31 00:25:30,208: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : -> file:///home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2/q1.py
+2020-01-31 00:25:30,208: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : <- gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/unit.000000/q1.py (<class 'radical.utils.url.Url'>)
+2020-01-31 00:25:30,208: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/unit.000000/q1.py
+2020-01-31 00:25:30,208: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    gsisftp
+2020-01-31 00:25:30,209: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : -> gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/unit.000000/q1.py
+2020-01-31 00:25:33,484: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2020-01-31 00:25:33,484: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : drop  unit.000000 [AGENT_STAGING_INPUT_PENDING]
+2020-01-31 00:28:45,627: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : got unit (unit.000001)
+2020-01-31 00:28:45,628: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2020-01-31 00:28:45,629: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : key gsisftp://bridges.psc.xsede.org:2222/ / gsisftp://bridges.psc.xsede.org:2222/
+2020-01-31 00:28:46,612: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : <- client:///disc.py (<type 'str'>)
+2020-01-31 00:28:46,612: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    client:///disc.py
+2020-01-31 00:28:46,612: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    pwd
+2020-01-31 00:28:46,613: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    expand with /home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2
+2020-01-31 00:28:46,613: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : -> file:///home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2/disc.py
+2020-01-31 00:28:46,613: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : <- unit:///disc.py (<type 'str'>)
+2020-01-31 00:28:46,613: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    unit:///disc.py
+2020-01-31 00:28:46,613: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    unit
+2020-01-31 00:28:46,613: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    expand with gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000//unit.000001/
+2020-01-31 00:28:46,614: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : -> gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/unit.000001/disc.py
+2020-01-31 00:28:46,614: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : <- file:///home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2/disc.py (<class 'radical.utils.url.Url'>)
+2020-01-31 00:28:46,614: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    file:///home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2/disc.py
+2020-01-31 00:28:46,614: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    file
+2020-01-31 00:28:46,614: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : -> file:///home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2/disc.py
+2020-01-31 00:28:46,615: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : <- gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/unit.000001/disc.py (<class 'radical.utils.url.Url'>)
+2020-01-31 00:28:46,615: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/unit.000001/disc.py
+2020-01-31 00:28:46,615: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    gsisftp
+2020-01-31 00:28:46,615: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : -> gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/unit.000001/disc.py
+2020-01-31 00:28:50,782: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2020-01-31 00:28:50,783: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : drop  unit.000001 [AGENT_STAGING_INPUT_PENDING]
+2020-01-31 00:29:04,326: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : got unit (unit.000002)
+2020-01-31 00:29:04,326: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : got unit (unit.000003)
+2020-01-31 00:29:04,327: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : got unit (unit.000004)
+2020-01-31 00:29:04,327: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : got unit (unit.000005)
+2020-01-31 00:29:04,327: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : advance bulk size: 4 [False, True]
+2020-01-31 00:29:04,327: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : key gsisftp://bridges.psc.xsede.org:2222/ / gsisftp://bridges.psc.xsede.org:2222/
+2020-01-31 00:29:05,293: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : <- client:///firstnode.sh (<type 'str'>)
+2020-01-31 00:29:05,293: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    client:///firstnode.sh
+2020-01-31 00:29:05,293: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    pwd
+2020-01-31 00:29:05,294: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    expand with /home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2
+2020-01-31 00:29:05,294: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : -> file:///home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2/firstnode.sh
+2020-01-31 00:29:05,294: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : <- unit:///firstnode.sh (<type 'str'>)
+2020-01-31 00:29:05,294: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    unit:///firstnode.sh
+2020-01-31 00:29:05,294: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    unit
+2020-01-31 00:29:05,294: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    expand with gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000//unit.000002/
+2020-01-31 00:29:05,295: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : -> gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/unit.000002/firstnode.sh
+2020-01-31 00:29:05,295: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : <- file:///home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2/firstnode.sh (<class 'radical.utils.url.Url'>)
+2020-01-31 00:29:05,295: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    file:///home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2/firstnode.sh
+2020-01-31 00:29:05,295: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    file
+2020-01-31 00:29:05,295: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : -> file:///home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2/firstnode.sh
+2020-01-31 00:29:05,295: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : <- gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/unit.000002/firstnode.sh (<class 'radical.utils.url.Url'>)
+2020-01-31 00:29:05,295: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/unit.000002/firstnode.sh
+2020-01-31 00:29:05,295: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    gsisftp
+2020-01-31 00:29:05,296: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : -> gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/unit.000002/firstnode.sh
+2020-01-31 00:29:08,769: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : <- client:///geolocate.py (<type 'str'>)
+2020-01-31 00:29:08,769: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    client:///geolocate.py
+2020-01-31 00:29:08,770: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    pwd
+2020-01-31 00:29:08,770: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    expand with /home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2
+2020-01-31 00:29:08,770: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : -> file:///home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2/geolocate.py
+2020-01-31 00:29:08,770: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : <- unit:///geolocate.py (<type 'str'>)
+2020-01-31 00:29:08,770: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    unit:///geolocate.py
+2020-01-31 00:29:08,771: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    unit
+2020-01-31 00:29:08,771: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    expand with gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000//unit.000002/
+2020-01-31 00:29:08,771: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : -> gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/unit.000002/geolocate.py
+2020-01-31 00:29:08,771: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : <- file:///home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2/geolocate.py (<class 'radical.utils.url.Url'>)
+2020-01-31 00:29:08,771: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    file:///home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2/geolocate.py
+2020-01-31 00:29:08,771: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    file
+2020-01-31 00:29:08,771: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : -> file:///home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2/geolocate.py
+2020-01-31 00:29:08,772: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : <- gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/unit.000002/geolocate.py (<class 'radical.utils.url.Url'>)
+2020-01-31 00:29:08,772: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/unit.000002/geolocate.py
+2020-01-31 00:29:08,772: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    gsisftp
+2020-01-31 00:29:08,772: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : -> gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/unit.000002/geolocate.py
+2020-01-31 00:29:12,357: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : <- client:///ransac.py (<type 'str'>)
+2020-01-31 00:29:12,357: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    client:///ransac.py
+2020-01-31 00:29:12,357: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    pwd
+2020-01-31 00:29:12,358: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    expand with /home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2
+2020-01-31 00:29:12,358: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : -> file:///home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2/ransac.py
+2020-01-31 00:29:12,358: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : <- unit:///ransac.py (<type 'str'>)
+2020-01-31 00:29:12,358: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    unit:///ransac.py
+2020-01-31 00:29:12,359: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    unit
+2020-01-31 00:29:12,359: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    expand with gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000//unit.000002/
+2020-01-31 00:29:12,359: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : -> gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/unit.000002/ransac.py
+2020-01-31 00:29:12,359: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : <- file:///home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2/ransac.py (<class 'radical.utils.url.Url'>)
+2020-01-31 00:29:12,359: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    file:///home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2/ransac.py
+2020-01-31 00:29:12,359: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    file
+2020-01-31 00:29:12,360: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : -> file:///home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2/ransac.py
+2020-01-31 00:29:12,360: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : <- gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/unit.000002/ransac.py (<class 'radical.utils.url.Url'>)
+2020-01-31 00:29:12,360: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/unit.000002/ransac.py
+2020-01-31 00:29:12,360: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    gsisftp
+2020-01-31 00:29:12,360: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : -> gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/unit.000002/ransac.py
+2020-01-31 00:29:16,022: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : <- client:///q1.py (<type 'str'>)
+2020-01-31 00:29:16,022: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    client:///q1.py
+2020-01-31 00:29:16,022: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    pwd
+2020-01-31 00:29:16,022: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    expand with /home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2
+2020-01-31 00:29:16,023: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : -> file:///home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2/q1.py
+2020-01-31 00:29:16,023: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : <- unit:///q1.py (<type 'str'>)
+2020-01-31 00:29:16,023: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    unit:///q1.py
+2020-01-31 00:29:16,023: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    unit
+2020-01-31 00:29:16,023: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    expand with gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000//unit.000002/
+2020-01-31 00:29:16,023: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : -> gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/unit.000002/q1.py
+2020-01-31 00:29:16,024: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : <- file:///home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2/q1.py (<class 'radical.utils.url.Url'>)
+2020-01-31 00:29:16,024: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    file:///home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2/q1.py
+2020-01-31 00:29:16,024: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    file
+2020-01-31 00:29:16,024: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : -> file:///home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2/q1.py
+2020-01-31 00:29:16,024: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : <- gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/unit.000002/q1.py (<class 'radical.utils.url.Url'>)
+2020-01-31 00:29:16,024: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/unit.000002/q1.py
+2020-01-31 00:29:16,024: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    gsisftp
+2020-01-31 00:29:16,024: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : -> gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/unit.000002/q1.py
+2020-01-31 00:29:19,582: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2020-01-31 00:29:19,582: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : drop  unit.000002 [AGENT_STAGING_INPUT_PENDING]
+2020-01-31 00:29:19,583: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : key gsisftp://bridges.psc.xsede.org:2222/ / gsisftp://bridges.psc.xsede.org:2222/
+2020-01-31 00:29:20,546: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : <- client:///secondnode.sh (<type 'str'>)
+2020-01-31 00:29:20,546: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    client:///secondnode.sh
+2020-01-31 00:29:20,546: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    pwd
+2020-01-31 00:29:20,547: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    expand with /home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2
+2020-01-31 00:29:20,547: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : -> file:///home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2/secondnode.sh
+2020-01-31 00:29:20,547: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : <- unit:///secondnode.sh (<type 'str'>)
+2020-01-31 00:29:20,547: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    unit:///secondnode.sh
+2020-01-31 00:29:20,547: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    unit
+2020-01-31 00:29:20,547: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    expand with gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000//unit.000003/
+2020-01-31 00:29:20,548: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : -> gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/unit.000003/secondnode.sh
+2020-01-31 00:29:20,548: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : <- file:///home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2/secondnode.sh (<class 'radical.utils.url.Url'>)
+2020-01-31 00:29:20,548: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    file:///home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2/secondnode.sh
+2020-01-31 00:29:20,548: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    file
+2020-01-31 00:29:20,548: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : -> file:///home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2/secondnode.sh
+2020-01-31 00:29:20,548: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : <- gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/unit.000003/secondnode.sh (<class 'radical.utils.url.Url'>)
+2020-01-31 00:29:20,548: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/unit.000003/secondnode.sh
+2020-01-31 00:29:20,548: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    gsisftp
+2020-01-31 00:29:20,549: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : -> gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/unit.000003/secondnode.sh
+2020-01-31 00:29:23,999: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : <- client:///geolocate.py (<type 'str'>)
+2020-01-31 00:29:23,999: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    client:///geolocate.py
+2020-01-31 00:29:23,999: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    pwd
+2020-01-31 00:29:23,999: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    expand with /home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2
+2020-01-31 00:29:24,000: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : -> file:///home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2/geolocate.py
+2020-01-31 00:29:24,000: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : <- unit:///geolocate.py (<type 'str'>)
+2020-01-31 00:29:24,000: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    unit:///geolocate.py
+2020-01-31 00:29:24,000: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    unit
+2020-01-31 00:29:24,000: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    expand with gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000//unit.000003/
+2020-01-31 00:29:24,001: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : -> gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/unit.000003/geolocate.py
+2020-01-31 00:29:24,001: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : <- file:///home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2/geolocate.py (<class 'radical.utils.url.Url'>)
+2020-01-31 00:29:24,001: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    file:///home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2/geolocate.py
+2020-01-31 00:29:24,001: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    file
+2020-01-31 00:29:24,001: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : -> file:///home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2/geolocate.py
+2020-01-31 00:29:24,001: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : <- gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/unit.000003/geolocate.py (<class 'radical.utils.url.Url'>)
+2020-01-31 00:29:24,001: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/unit.000003/geolocate.py
+2020-01-31 00:29:24,002: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    gsisftp
+2020-01-31 00:29:24,002: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : -> gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/unit.000003/geolocate.py
+2020-01-31 00:29:27,641: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : <- client:///ransac.py (<type 'str'>)
+2020-01-31 00:29:27,642: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    client:///ransac.py
+2020-01-31 00:29:27,642: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    pwd
+2020-01-31 00:29:27,642: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    expand with /home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2
+2020-01-31 00:29:27,642: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : -> file:///home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2/ransac.py
+2020-01-31 00:29:27,642: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : <- unit:///ransac.py (<type 'str'>)
+2020-01-31 00:29:27,643: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    unit:///ransac.py
+2020-01-31 00:29:27,643: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    unit
+2020-01-31 00:29:27,643: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    expand with gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000//unit.000003/
+2020-01-31 00:29:27,643: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : -> gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/unit.000003/ransac.py
+2020-01-31 00:29:27,643: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : <- file:///home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2/ransac.py (<class 'radical.utils.url.Url'>)
+2020-01-31 00:29:27,643: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    file:///home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2/ransac.py
+2020-01-31 00:29:27,643: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    file
+2020-01-31 00:29:27,644: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : -> file:///home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2/ransac.py
+2020-01-31 00:29:27,644: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : <- gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/unit.000003/ransac.py (<class 'radical.utils.url.Url'>)
+2020-01-31 00:29:27,644: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/unit.000003/ransac.py
+2020-01-31 00:29:27,644: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    gsisftp
+2020-01-31 00:29:27,644: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : -> gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/unit.000003/ransac.py
+2020-01-31 00:29:31,303: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : <- client:///q1.py (<type 'str'>)
+2020-01-31 00:29:31,303: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    client:///q1.py
+2020-01-31 00:29:31,303: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    pwd
+2020-01-31 00:29:31,303: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    expand with /home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2
+2020-01-31 00:29:31,304: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : -> file:///home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2/q1.py
+2020-01-31 00:29:31,304: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : <- unit:///q1.py (<type 'str'>)
+2020-01-31 00:29:31,304: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    unit:///q1.py
+2020-01-31 00:29:31,304: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    unit
+2020-01-31 00:29:31,304: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    expand with gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000//unit.000003/
+2020-01-31 00:29:31,304: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : -> gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/unit.000003/q1.py
+2020-01-31 00:29:31,305: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : <- file:///home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2/q1.py (<class 'radical.utils.url.Url'>)
+2020-01-31 00:29:31,305: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    file:///home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2/q1.py
+2020-01-31 00:29:31,305: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    file
+2020-01-31 00:29:31,305: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : -> file:///home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2/q1.py
+2020-01-31 00:29:31,305: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : <- gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/unit.000003/q1.py (<class 'radical.utils.url.Url'>)
+2020-01-31 00:29:31,305: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/unit.000003/q1.py
+2020-01-31 00:29:31,305: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    gsisftp
+2020-01-31 00:29:31,305: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : -> gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/unit.000003/q1.py
+2020-01-31 00:29:34,862: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2020-01-31 00:29:34,862: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : drop  unit.000003 [AGENT_STAGING_INPUT_PENDING]
+2020-01-31 00:29:34,863: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : key gsisftp://bridges.psc.xsede.org:2222/ / gsisftp://bridges.psc.xsede.org:2222/
+2020-01-31 00:29:35,831: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : <- client:///thirdnode.sh (<type 'str'>)
+2020-01-31 00:29:35,831: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    client:///thirdnode.sh
+2020-01-31 00:29:35,832: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    pwd
+2020-01-31 00:29:35,832: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    expand with /home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2
+2020-01-31 00:29:35,832: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : -> file:///home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2/thirdnode.sh
+2020-01-31 00:29:35,832: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : <- unit:///thirdnode.sh (<type 'str'>)
+2020-01-31 00:29:35,832: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    unit:///thirdnode.sh
+2020-01-31 00:29:35,833: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    unit
+2020-01-31 00:29:35,833: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    expand with gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000//unit.000004/
+2020-01-31 00:29:35,833: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : -> gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/unit.000004/thirdnode.sh
+2020-01-31 00:29:35,833: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : <- file:///home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2/thirdnode.sh (<class 'radical.utils.url.Url'>)
+2020-01-31 00:29:35,833: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    file:///home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2/thirdnode.sh
+2020-01-31 00:29:35,833: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    file
+2020-01-31 00:29:35,833: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : -> file:///home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2/thirdnode.sh
+2020-01-31 00:29:35,834: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : <- gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/unit.000004/thirdnode.sh (<class 'radical.utils.url.Url'>)
+2020-01-31 00:29:35,834: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/unit.000004/thirdnode.sh
+2020-01-31 00:29:35,834: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    gsisftp
+2020-01-31 00:29:35,834: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : -> gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/unit.000004/thirdnode.sh
+2020-01-31 00:29:39,165: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : <- client:///geolocate.py (<type 'str'>)
+2020-01-31 00:29:39,165: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    client:///geolocate.py
+2020-01-31 00:29:39,165: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    pwd
+2020-01-31 00:29:39,165: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    expand with /home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2
+2020-01-31 00:29:39,166: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : -> file:///home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2/geolocate.py
+2020-01-31 00:29:39,166: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : <- unit:///geolocate.py (<type 'str'>)
+2020-01-31 00:29:39,166: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    unit:///geolocate.py
+2020-01-31 00:29:39,166: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    unit
+2020-01-31 00:29:39,166: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    expand with gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000//unit.000004/
+2020-01-31 00:29:39,166: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : -> gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/unit.000004/geolocate.py
+2020-01-31 00:29:39,167: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : <- file:///home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2/geolocate.py (<class 'radical.utils.url.Url'>)
+2020-01-31 00:29:39,167: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    file:///home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2/geolocate.py
+2020-01-31 00:29:39,167: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    file
+2020-01-31 00:29:39,167: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : -> file:///home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2/geolocate.py
+2020-01-31 00:29:39,167: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : <- gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/unit.000004/geolocate.py (<class 'radical.utils.url.Url'>)
+2020-01-31 00:29:39,167: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/unit.000004/geolocate.py
+2020-01-31 00:29:39,167: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    gsisftp
+2020-01-31 00:29:39,167: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : -> gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/unit.000004/geolocate.py
+2020-01-31 00:29:42,623: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : <- client:///ransac.py (<type 'str'>)
+2020-01-31 00:29:42,624: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    client:///ransac.py
+2020-01-31 00:29:42,624: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    pwd
+2020-01-31 00:29:42,624: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    expand with /home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2
+2020-01-31 00:29:42,624: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : -> file:///home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2/ransac.py
+2020-01-31 00:29:42,625: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : <- unit:///ransac.py (<type 'str'>)
+2020-01-31 00:29:42,625: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    unit:///ransac.py
+2020-01-31 00:29:42,625: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    unit
+2020-01-31 00:29:42,625: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    expand with gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000//unit.000004/
+2020-01-31 00:29:42,625: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : -> gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/unit.000004/ransac.py
+2020-01-31 00:29:42,626: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : <- file:///home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2/ransac.py (<class 'radical.utils.url.Url'>)
+2020-01-31 00:29:42,626: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    file:///home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2/ransac.py
+2020-01-31 00:29:42,626: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    file
+2020-01-31 00:29:42,626: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : -> file:///home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2/ransac.py
+2020-01-31 00:29:42,626: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : <- gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/unit.000004/ransac.py (<class 'radical.utils.url.Url'>)
+2020-01-31 00:29:42,626: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/unit.000004/ransac.py
+2020-01-31 00:29:42,626: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    gsisftp
+2020-01-31 00:29:42,626: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : -> gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/unit.000004/ransac.py
+2020-01-31 00:29:46,209: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : <- client:///q1.py (<type 'str'>)
+2020-01-31 00:29:46,209: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    client:///q1.py
+2020-01-31 00:29:46,209: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    pwd
+2020-01-31 00:29:46,209: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    expand with /home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2
+2020-01-31 00:29:46,210: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : -> file:///home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2/q1.py
+2020-01-31 00:29:46,210: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : <- unit:///q1.py (<type 'str'>)
+2020-01-31 00:29:46,210: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    unit:///q1.py
+2020-01-31 00:29:46,210: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    unit
+2020-01-31 00:29:46,211: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    expand with gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000//unit.000004/
+2020-01-31 00:29:46,211: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : -> gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/unit.000004/q1.py
+2020-01-31 00:29:46,211: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : <- file:///home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2/q1.py (<class 'radical.utils.url.Url'>)
+2020-01-31 00:29:46,211: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    file:///home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2/q1.py
+2020-01-31 00:29:46,211: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    file
+2020-01-31 00:29:46,211: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : -> file:///home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2/q1.py
+2020-01-31 00:29:46,211: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : <- gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/unit.000004/q1.py (<class 'radical.utils.url.Url'>)
+2020-01-31 00:29:46,212: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/unit.000004/q1.py
+2020-01-31 00:29:46,212: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    gsisftp
+2020-01-31 00:29:46,212: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : -> gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/unit.000004/q1.py
+2020-01-31 00:29:49,708: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2020-01-31 00:29:49,709: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : drop  unit.000004 [AGENT_STAGING_INPUT_PENDING]
+2020-01-31 00:29:49,709: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : key gsisftp://bridges.psc.xsede.org:2222/ / gsisftp://bridges.psc.xsede.org:2222/
+2020-01-31 00:29:50,673: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : <- client:///forthnode.sh (<type 'str'>)
+2020-01-31 00:29:50,673: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    client:///forthnode.sh
+2020-01-31 00:29:50,673: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    pwd
+2020-01-31 00:29:50,673: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    expand with /home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2
+2020-01-31 00:29:50,674: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : -> file:///home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2/forthnode.sh
+2020-01-31 00:29:50,674: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : <- unit:///forthnode.sh (<type 'str'>)
+2020-01-31 00:29:50,674: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    unit:///forthnode.sh
+2020-01-31 00:29:50,674: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    unit
+2020-01-31 00:29:50,674: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    expand with gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000//unit.000005/
+2020-01-31 00:29:50,675: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : -> gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/unit.000005/forthnode.sh
+2020-01-31 00:29:50,675: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : <- file:///home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2/forthnode.sh (<class 'radical.utils.url.Url'>)
+2020-01-31 00:29:50,675: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    file:///home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2/forthnode.sh
+2020-01-31 00:29:50,675: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    file
+2020-01-31 00:29:50,675: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : -> file:///home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2/forthnode.sh
+2020-01-31 00:29:50,675: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : <- gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/unit.000005/forthnode.sh (<class 'radical.utils.url.Url'>)
+2020-01-31 00:29:50,675: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/unit.000005/forthnode.sh
+2020-01-31 00:29:50,676: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    gsisftp
+2020-01-31 00:29:50,676: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : -> gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/unit.000005/forthnode.sh
+2020-01-31 00:29:54,128: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : <- client:///geolocate.py (<type 'str'>)
+2020-01-31 00:29:54,128: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    client:///geolocate.py
+2020-01-31 00:29:54,128: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    pwd
+2020-01-31 00:29:54,129: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    expand with /home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2
+2020-01-31 00:29:54,129: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : -> file:///home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2/geolocate.py
+2020-01-31 00:29:54,129: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : <- unit:///geolocate.py (<type 'str'>)
+2020-01-31 00:29:54,129: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    unit:///geolocate.py
+2020-01-31 00:29:54,129: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    unit
+2020-01-31 00:29:54,129: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    expand with gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000//unit.000005/
+2020-01-31 00:29:54,130: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : -> gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/unit.000005/geolocate.py
+2020-01-31 00:29:54,130: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : <- file:///home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2/geolocate.py (<class 'radical.utils.url.Url'>)
+2020-01-31 00:29:54,130: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    file:///home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2/geolocate.py
+2020-01-31 00:29:54,130: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    file
+2020-01-31 00:29:54,130: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : -> file:///home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2/geolocate.py
+2020-01-31 00:29:54,130: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : <- gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/unit.000005/geolocate.py (<class 'radical.utils.url.Url'>)
+2020-01-31 00:29:54,131: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/unit.000005/geolocate.py
+2020-01-31 00:29:54,131: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    gsisftp
+2020-01-31 00:29:54,131: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : -> gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/unit.000005/geolocate.py
+2020-01-31 00:29:57,490: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : <- client:///ransac.py (<type 'str'>)
+2020-01-31 00:29:57,491: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    client:///ransac.py
+2020-01-31 00:29:57,491: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    pwd
+2020-01-31 00:29:57,491: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    expand with /home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2
+2020-01-31 00:29:57,491: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : -> file:///home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2/ransac.py
+2020-01-31 00:29:57,491: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : <- unit:///ransac.py (<type 'str'>)
+2020-01-31 00:29:57,492: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    unit:///ransac.py
+2020-01-31 00:29:57,492: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    unit
+2020-01-31 00:29:57,492: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    expand with gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000//unit.000005/
+2020-01-31 00:29:57,492: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : -> gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/unit.000005/ransac.py
+2020-01-31 00:29:57,492: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : <- file:///home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2/ransac.py (<class 'radical.utils.url.Url'>)
+2020-01-31 00:29:57,492: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    file:///home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2/ransac.py
+2020-01-31 00:29:57,492: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    file
+2020-01-31 00:29:57,493: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : -> file:///home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2/ransac.py
+2020-01-31 00:29:57,493: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : <- gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/unit.000005/ransac.py (<class 'radical.utils.url.Url'>)
+2020-01-31 00:29:57,493: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/unit.000005/ransac.py
+2020-01-31 00:29:57,493: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    gsisftp
+2020-01-31 00:29:57,493: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : -> gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/unit.000005/ransac.py
+2020-01-31 00:30:00,876: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : <- client:///q1.py (<type 'str'>)
+2020-01-31 00:30:00,876: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    client:///q1.py
+2020-01-31 00:30:00,876: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    pwd
+2020-01-31 00:30:00,876: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    expand with /home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2
+2020-01-31 00:30:00,877: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : -> file:///home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2/q1.py
+2020-01-31 00:30:00,877: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : <- unit:///q1.py (<type 'str'>)
+2020-01-31 00:30:00,877: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    unit:///q1.py
+2020-01-31 00:30:00,877: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    unit
+2020-01-31 00:30:00,877: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    expand with gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000//unit.000005/
+2020-01-31 00:30:00,877: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : -> gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/unit.000005/q1.py
+2020-01-31 00:30:00,878: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : <- file:///home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2/q1.py (<class 'radical.utils.url.Url'>)
+2020-01-31 00:30:00,878: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    file:///home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2/q1.py
+2020-01-31 00:30:00,878: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    file
+2020-01-31 00:30:00,878: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : -> file:///home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design2/q1.py
+2020-01-31 00:30:00,878: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : <- gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/unit.000005/q1.py (<class 'radical.utils.url.Url'>)
+2020-01-31 00:30:00,878: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/unit.000005/q1.py
+2020-01-31 00:30:00,878: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   :    gsisftp
+2020-01-31 00:30:00,878: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : -> gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/unit.000005/q1.py
+2020-01-31 00:30:04,222: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2020-01-31 00:30:04,223: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : drop  unit.000005 [AGENT_STAGING_INPUT_PENDING]
+2020-01-31 00:30:57,128: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : umgr.0000.staging.input.0.child.watch: INFO    : recv message: STOP
+2020-01-31 00:30:57,129: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : umgr.0000.staging.input.0.child.watch: INFO    : message received: STOP
+2020-01-31 00:30:57,129: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : umgr.0000.staging.input.0.child.watch: INFO    : STOP received: STOP
+2020-01-31 00:30:57,129: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : umgr.0000.staging.input.0.child.watch: INFO    : watcher closes
+2020-01-31 00:30:57,129: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : umgr.0000.staging.input.0.child.watch: INFO    : put message: [umgr.0000.staging.input.0.child.watch.thread] work finished
+2020-01-31 00:30:57,129: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : umgr.0000.staging.input.0.child.watch: DEBUG   : ru_finalize_child (NOOP)
+2020-01-31 00:30:57,129: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : umgr.0000.staging.input.0.child.watch: DEBUG   : ru_finalize_common (NOOP)
+2020-01-31 00:30:57,130: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : umgr.0000.staging.input.0.child.watch: INFO    : put message: [umgr.0000.staging.input.0.child.watch.thread] terminating
+2020-01-31 00:30:57,284: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : WARNING : alive check: proc invalid - stop [False - True]
+2020-01-31 00:30:57,343: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : INFO    : stop umgr.0000.staging.input.0.child (29307 : 29307 : MainThread) [radical.utils.process.Default.is_valid]
+2020-01-31 00:30:57,349: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : INFO    : parent stops child  29307 -> 29307 [umgr.0000.staging.input.0.child]
+2020-01-31 00:30:57,349: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : INFO    : send message: [umgr.0000.staging.input.0.child] STOP
+2020-01-31 00:30:57,349: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : WARNING : send failed ([Errno 9] Bad file descriptor) - terminate
+2020-01-31 00:30:57,349: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : TERM : umgr.0000.staging.input.0.child unregister subscriber umgr.0000.staging.input.0.child.subscriber._base_command_cb
+2020-01-31 00:30:57,350: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : unregistered subscriber umgr.0000.staging.input.0.child.subscriber._base_command_cb
+2020-01-31 00:30:57,350: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : ru_finalize_common()
+2020-01-31 00:30:57,350: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : TERM : umgr.0000.staging.input.0.child unregister publisher log_pubsub
+2020-01-31 00:30:57,351: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : unregistered publisher log_pubsub
+2020-01-31 00:30:57,351: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : TERM : umgr.0000.staging.input.0.child unregister publisher state_pubsub
+2020-01-31 00:30:57,352: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : unregistered publisher state_pubsub
+2020-01-31 00:30:57,352: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : TERM : umgr.0000.staging.input.0.child unregister publisher control_pubsub
+2020-01-31 00:30:57,353: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : unregistered publisher control_pubsub
+2020-01-31 00:30:57,353: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : umgr.0000.staging.input.0.child close prof
+2020-01-31 00:30:57,358: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : INFO    : parent stops child
+2020-01-31 00:30:57,358: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : ru_finalize_parent (NOOP)
+2020-01-31 00:30:57,358: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : ru_finalize_common (NOOP)
+2020-01-31 00:30:57,359: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : INFO    : parent stops child
+2020-01-31 00:30:57,359: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : ru_finalize_parent (NOOP)
+2020-01-31 00:30:57,359: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : umgr.0000.staging.input.0.child.subscriber._base_command_cb: DEBUG   : ru_finalize_child (NOOP)
+2020-01-31 00:30:57,360: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : umgr.0000.staging.input.0.child.subscriber._base_command_cb: INFO    : put message: [umgr.0000.staging.input.0.child.subscriber._base_command_cb.thread] terminating
+2020-01-31 00:30:57,361: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : INFO    : parent stops child
+2020-01-31 00:30:57,361: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : ru_finalize_parent (NOOP)
+2020-01-31 00:30:57,361: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : umgr.0000.staging.input.0.child.subscriber._cancel_monitor_cb: DEBUG   : ru_finalize_child (NOOP)
+2020-01-31 00:30:57,362: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : umgr.0000.staging.input.0.child.subscriber._cancel_monitor_cb: INFO    : put message: [umgr.0000.staging.input.0.child.subscriber._cancel_monitor_cb.thread] terminating
+2020-01-31 00:30:57,362: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : WARNING : super umgr.0000.staging.input.0.child is invalid
+2020-01-31 00:30:57,362: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : WARNING : component umgr.0000.staging.input.0.child is invalid
+2020-01-31 00:30:57,363: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : INFO    : stop umgr.0000.staging.input.0.child (29307 : 29307 : MainThread) [radical.pilot.utils.component.Default.is_valid]
+2020-01-31 00:30:57,364: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : TERM : umgr.0000.staging.input.0.child unregister subscriber umgr.0000.staging.input.0.child.subscriber._base_command_cb
+2020-01-31 00:30:57,364: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : WARNING : subscriber _base_command_cb is not registered
+2020-01-31 00:30:57,364: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : ru_finalize_common()
+2020-01-31 00:30:57,364: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : WARNING : publisher log_pubsub is not registered
+2020-01-31 00:30:57,364: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : WARNING : publisher state_pubsub is not registered
+2020-01-31 00:30:57,364: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : WARNING : publisher control_pubsub is not registered
+2020-01-31 00:30:57,364: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : DEBUG   : umgr.0000.staging.input.0.child close prof
+2020-01-31 00:30:57,364: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : INFO    : send message: [umgr.0000.staging.input.0.child] terminating
+2020-01-31 00:30:57,365: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : WARNING : send failed ([Errno 9] Bad file descriptor) - terminate
+2020-01-31 00:30:57,365: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : INFO    : parent stops child
+2020-01-31 00:30:57,365: umgr.0000.staging.input.0.child: umgr.0000.staging.input.0       : MainThread     : INFO    : parent stops child

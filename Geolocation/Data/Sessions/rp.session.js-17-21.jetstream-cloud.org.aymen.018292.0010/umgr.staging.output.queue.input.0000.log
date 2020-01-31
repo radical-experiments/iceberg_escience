@@ -1,0 +1,5 @@
+2020-01-31 10:50:39,259: umgr.staging.output.queue.input.0000: MainProcess                     : MainThread     : INFO    : create umgr_staging_output_queue - input - tcp://172.27.61.10:43445
+2020-01-31 10:50:39,259: umgr.staging.output.queue.input.0000: MainProcess                     : MainThread     : DEBUG   : start process
+2020-01-31 10:50:39,259: umgr.staging.output.queue.input.0000: MainProcess                     : MainThread     : DEBUG   : ru_initialize_common (NOOP)
+2020-01-31 10:50:39,260: umgr.staging.output.queue.input.0000: MainProcess                     : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
+2020-01-31 10:50:39,260: umgr.staging.output.queue.input.0000: MainProcess                     : MainThread     : DEBUG   : process class started (no child)
