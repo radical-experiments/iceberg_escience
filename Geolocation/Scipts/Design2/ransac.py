@@ -4,7 +4,7 @@ from geolocation.geolocating.ransac import RansacFilter
 
 if __name__ == "__main__":
 
-    arser = argparse.ArgumentParser(description='divides a raster image into \
+    parser = argparse.ArgumentParser(description='divides a raster image into \
                                                   files')
     parser.add_argument('--name', type=str)
     parser.add_argument('--queue_in', type=str)
