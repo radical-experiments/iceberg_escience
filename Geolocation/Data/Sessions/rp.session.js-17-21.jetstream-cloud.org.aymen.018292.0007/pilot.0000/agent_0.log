@@ -1,0 +1,682 @@
+2020-01-31 01:28:36,048: agent_0             : MainProcess                     : MainThread     : INFO    : using database mongodb://rct:rct_test@two.radical-project.org/rct_test
+2020-01-31 01:28:36,051: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations from /pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/rp_install/lib/python2.7/site-packages/radical/pilot/configs/resource_ncar.json
+2020-01-31 01:28:36,054: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for ncar.cheyenne
+2020-01-31 01:28:36,055: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for ncar.cheyenne (36)
+2020-01-31 01:28:36,055: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for ncar.yellowstone_ssh
+2020-01-31 01:28:36,055: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for ncar.yellowstone_ssh (None)
+2020-01-31 01:28:36,055: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations from /pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/rp_install/lib/python2.7/site-packages/radical/pilot/configs/resource_chameleon.json
+2020-01-31 01:28:36,057: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for chameleon.cloud_vm_yarn
+2020-01-31 01:28:36,058: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for chameleon.cloud_vm_yarn (None)
+2020-01-31 01:28:36,058: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations from /pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/rp_install/lib/python2.7/site-packages/radical/pilot/configs/resource_rice.json
+2020-01-31 01:28:36,061: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for rice.davinci_ssh
+2020-01-31 01:28:36,061: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for rice.davinci_ssh (None)
+2020-01-31 01:28:36,061: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for rice.biou_ssh
+2020-01-31 01:28:36,062: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for rice.biou_ssh (None)
+2020-01-31 01:28:36,062: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations from /pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/rp_install/lib/python2.7/site-packages/radical/pilot/configs/resource_radical.json
+2020-01-31 01:28:36,066: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for radical.two
+2020-01-31 01:28:36,067: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for radical.two (None)
+2020-01-31 01:28:36,067: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for radical.tutorial
+2020-01-31 01:28:36,067: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for radical.tutorial (None)
+2020-01-31 01:28:36,067: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for radical.one
+2020-01-31 01:28:36,067: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for radical.one (None)
+2020-01-31 01:28:36,068: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations from /pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/rp_install/lib/python2.7/site-packages/radical/pilot/configs/resource_ncsa.json
+2020-01-31 01:28:36,074: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for ncsa.bw_orte
+2020-01-31 01:28:36,075: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for ncsa.bw_orte (None)
+2020-01-31 01:28:36,075: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for ncsa.bw_ccm_ssh
+2020-01-31 01:28:36,075: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for ncsa.bw_ccm_ssh (None)
+2020-01-31 01:28:36,075: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for ncsa.bw_ortelib
+2020-01-31 01:28:36,076: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for ncsa.bw_ortelib (None)
+2020-01-31 01:28:36,076: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for ncsa.bw_aprun
+2020-01-31 01:28:36,076: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for ncsa.bw_aprun (None)
+2020-01-31 01:28:36,076: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations from /pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/rp_install/lib/python2.7/site-packages/radical/pilot/configs/resource_lumc.json
+2020-01-31 01:28:36,080: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for lumc.gb-ui_ssh
+2020-01-31 01:28:36,080: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for lumc.gb-ui_ssh (None)
+2020-01-31 01:28:36,080: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for lumc.shark_ssh
+2020-01-31 01:28:36,080: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for lumc.shark_ssh (None)
+2020-01-31 01:28:36,080: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations from /pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/rp_install/lib/python2.7/site-packages/radical/pilot/configs/resource_debug.json
+2020-01-31 01:28:36,083: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for debug.summit
+2020-01-31 01:28:36,083: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for debug.summit (None)
+2020-01-31 01:28:36,083: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations from /pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/rp_install/lib/python2.7/site-packages/radical/pilot/configs/resource_das4.json
+2020-01-31 01:28:36,085: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for das4.fs2_ssh
+2020-01-31 01:28:36,086: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for das4.fs2_ssh (None)
+2020-01-31 01:28:36,086: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations from /pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/rp_install/lib/python2.7/site-packages/radical/pilot/configs/resource_osg.json
+2020-01-31 01:28:36,089: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for osg.xsede-virt-clust
+2020-01-31 01:28:36,090: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for osg.xsede-virt-clust (None)
+2020-01-31 01:28:36,090: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for osg.connect
+2020-01-31 01:28:36,090: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for osg.connect (None)
+2020-01-31 01:28:36,090: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations from /pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/rp_install/lib/python2.7/site-packages/radical/pilot/configs/resource_yale.json
+2020-01-31 01:28:36,092: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for yale.grace_ssh
+2020-01-31 01:28:36,093: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for yale.grace_ssh (None)
+2020-01-31 01:28:36,093: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations from /pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/rp_install/lib/python2.7/site-packages/radical/pilot/configs/resource_das5.json
+2020-01-31 01:28:36,095: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for das5.fs1_ssh
+2020-01-31 01:28:36,095: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for das5.fs1_ssh (None)
+2020-01-31 01:28:36,095: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations from /pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/rp_install/lib/python2.7/site-packages/radical/pilot/configs/resource_princeton.json
+2020-01-31 01:28:36,099: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for princeton.tiger_cpu
+2020-01-31 01:28:36,099: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for princeton.tiger_cpu (40)
+2020-01-31 01:28:36,100: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for princeton.tiger_gpu
+2020-01-31 01:28:36,100: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for princeton.tiger_gpu (28)
+2020-01-31 01:28:36,100: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations from /pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/rp_install/lib/python2.7/site-packages/radical/pilot/configs/resource_aliases.json
+2020-01-31 01:28:36,101: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations from /pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/rp_install/lib/python2.7/site-packages/radical/pilot/configs/resource_epsrc.json
+2020-01-31 01:28:36,105: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for epsrc.archer_orte
+2020-01-31 01:28:36,105: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for epsrc.archer_orte (None)
+2020-01-31 01:28:36,105: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for epsrc.archer_aprun
+2020-01-31 01:28:36,106: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for epsrc.archer_aprun (None)
+2020-01-31 01:28:36,106: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations from /pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/rp_install/lib/python2.7/site-packages/radical/pilot/configs/resource_lrz.json
+2020-01-31 01:28:36,108: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for lrz.supermuc_ssh
+2020-01-31 01:28:36,108: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for lrz.supermuc_ssh (None)
+2020-01-31 01:28:36,108: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations from /pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/rp_install/lib/python2.7/site-packages/radical/pilot/configs/resource_local.json
+2020-01-31 01:28:36,120: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for local.localhost_orte
+2020-01-31 01:28:36,121: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for local.localhost_orte (8)
+2020-01-31 01:28:36,121: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for local.localhost_anaconda
+2020-01-31 01:28:36,121: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for local.localhost_anaconda (8)
+2020-01-31 01:28:36,121: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for local.localhost_ortelib
+2020-01-31 01:28:36,122: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for local.localhost_ortelib (8)
+2020-01-31 01:28:36,122: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for local.localhost_prte
+2020-01-31 01:28:36,122: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for local.localhost_prte (8)
+2020-01-31 01:28:36,122: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for local.localhost_aprun
+2020-01-31 01:28:36,122: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for local.localhost_aprun (8)
+2020-01-31 01:28:36,122: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for local.localhost
+2020-01-31 01:28:36,123: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for local.localhost (8)
+2020-01-31 01:28:36,123: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for local.localhost_spark
+2020-01-31 01:28:36,123: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for local.localhost_spark (8)
+2020-01-31 01:28:36,123: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for local.localhost_spark_anaconda
+2020-01-31 01:28:36,123: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for local.localhost_spark_anaconda (8)
+2020-01-31 01:28:36,124: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for local.localhost_yarn
+2020-01-31 01:28:36,124: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for local.localhost_yarn (None)
+2020-01-31 01:28:36,124: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations from /pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/rp_install/lib/python2.7/site-packages/radical/pilot/configs/resource_xsede.json
+2020-01-31 01:28:36,151: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for xsede.stampede2_ssh
+2020-01-31 01:28:36,151: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for xsede.stampede2_ssh (68)
+2020-01-31 01:28:36,151: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for xsede.supermic_ssh
+2020-01-31 01:28:36,152: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for xsede.supermic_ssh (20)
+2020-01-31 01:28:36,152: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for xsede.wrangler_yarn
+2020-01-31 01:28:36,152: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for xsede.wrangler_yarn (None)
+2020-01-31 01:28:36,152: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for xsede.comet_orte
+2020-01-31 01:28:36,153: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for xsede.comet_orte (24)
+2020-01-31 01:28:36,153: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for xsede.gordon_ssh
+2020-01-31 01:28:36,153: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for xsede.gordon_ssh (None)
+2020-01-31 01:28:36,153: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for xsede.lonestar_ssh
+2020-01-31 01:28:36,153: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for xsede.lonestar_ssh (None)
+2020-01-31 01:28:36,153: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for xsede.supermic_spark
+2020-01-31 01:28:36,154: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for xsede.supermic_spark (20)
+2020-01-31 01:28:36,154: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for xsede.wrangler_ssh
+2020-01-31 01:28:36,154: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for xsede.wrangler_ssh (None)
+2020-01-31 01:28:36,154: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for xsede.supermic_ortelib
+2020-01-31 01:28:36,155: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for xsede.supermic_ortelib (20)
+2020-01-31 01:28:36,155: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for xsede.bridges
+2020-01-31 01:28:36,155: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for xsede.bridges (None)
+2020-01-31 01:28:36,155: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for xsede.frontera
+2020-01-31 01:28:36,156: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for xsede.frontera (56)
+2020-01-31 01:28:36,156: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for xsede.supermic_orte
+2020-01-31 01:28:36,156: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for xsede.supermic_orte (20)
+2020-01-31 01:28:36,156: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for xsede.wrangler_spark
+2020-01-31 01:28:36,156: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for xsede.wrangler_spark (None)
+2020-01-31 01:28:36,157: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for xsede.greenfield
+2020-01-31 01:28:36,157: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for xsede.greenfield (15)
+2020-01-31 01:28:36,157: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for xsede.comet_spark
+2020-01-31 01:28:36,157: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for xsede.comet_spark (24)
+2020-01-31 01:28:36,157: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for xsede.trestles_ssh
+2020-01-31 01:28:36,158: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for xsede.trestles_ssh (None)
+2020-01-31 01:28:36,158: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for xsede.comet_ssh
+2020-01-31 01:28:36,158: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for xsede.comet_ssh (24)
+2020-01-31 01:28:36,158: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for xsede.comet_ortelib
+2020-01-31 01:28:36,158: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for xsede.comet_ortelib (24)
+2020-01-31 01:28:36,159: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for xsede.blacklight_ssh
+2020-01-31 01:28:36,159: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for xsede.blacklight_ssh (16)
+2020-01-31 01:28:36,159: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations from /pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/rp_install/lib/python2.7/site-packages/radical/pilot/configs/resource_stfc.json
+2020-01-31 01:28:36,161: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for stfc.joule_runjob
+2020-01-31 01:28:36,162: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for stfc.joule_runjob (None)
+2020-01-31 01:28:36,162: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations from /pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/rp_install/lib/python2.7/site-packages/radical/pilot/configs/resource_fub.json
+2020-01-31 01:28:36,164: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for fub.allegro_rsh
+2020-01-31 01:28:36,164: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for fub.allegro_rsh (None)
+2020-01-31 01:28:36,164: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations from /pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/rp_install/lib/python2.7/site-packages/radical/pilot/configs/resource_nersc.json
+2020-01-31 01:28:36,173: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for nersc.edison_ccm_ssh
+2020-01-31 01:28:36,173: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for nersc.edison_ccm_ssh (None)
+2020-01-31 01:28:36,173: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for nersc.hopper_orte
+2020-01-31 01:28:36,174: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for nersc.hopper_orte (None)
+2020-01-31 01:28:36,174: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for nersc.hopper_ccm_ssh
+2020-01-31 01:28:36,174: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for nersc.hopper_ccm_ssh (24)
+2020-01-31 01:28:36,174: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for nersc.edison_aprun
+2020-01-31 01:28:36,174: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for nersc.edison_aprun (None)
+2020-01-31 01:28:36,174: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for nersc.hopper_aprun
+2020-01-31 01:28:36,175: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for nersc.hopper_aprun (24)
+2020-01-31 01:28:36,175: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for nersc.edison_orte
+2020-01-31 01:28:36,175: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for nersc.edison_orte (None)
+2020-01-31 01:28:36,175: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations from /pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/rp_install/lib/python2.7/site-packages/radical/pilot/configs/resource_futuregrid.json
+2020-01-31 01:28:36,192: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for futuregrid.delta_ssh
+2020-01-31 01:28:36,193: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for futuregrid.delta_ssh (None)
+2020-01-31 01:28:36,193: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for futuregrid.india_ssh
+2020-01-31 01:28:36,193: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for futuregrid.india_ssh (None)
+2020-01-31 01:28:36,193: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for futuregrid.echo_ssh
+2020-01-31 01:28:36,193: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for futuregrid.echo_ssh (None)
+2020-01-31 01:28:36,193: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for futuregrid.xray_ccm
+2020-01-31 01:28:36,194: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for futuregrid.xray_ccm (None)
+2020-01-31 01:28:36,194: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for futuregrid.bravo_ssh
+2020-01-31 01:28:36,194: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for futuregrid.bravo_ssh (None)
+2020-01-31 01:28:36,194: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for futuregrid.xray_aprun
+2020-01-31 01:28:36,194: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for futuregrid.xray_aprun (None)
+2020-01-31 01:28:36,195: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations from /pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/rp_install/lib/python2.7/site-packages/radical/pilot/configs/resource_ornl.json
+2020-01-31 01:28:36,207: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for ornl.rhea
+2020-01-31 01:28:36,207: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for ornl.rhea (16)
+2020-01-31 01:28:36,207: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for ornl.rhea_aprun
+2020-01-31 01:28:36,208: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for ornl.rhea_aprun (None)
+2020-01-31 01:28:36,208: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for ornl.summitdev
+2020-01-31 01:28:36,208: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for ornl.summitdev (None)
+2020-01-31 01:28:36,208: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for ornl.titan_ortelib
+2020-01-31 01:28:36,209: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for ornl.titan_ortelib (None)
+2020-01-31 01:28:36,209: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for ornl.titan_orte
+2020-01-31 01:28:36,209: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for ornl.titan_orte (16)
+2020-01-31 01:28:36,209: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for ornl.summit_prte
+2020-01-31 01:28:36,210: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for ornl.summit_prte (None)
+2020-01-31 01:28:36,210: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for ornl.summit
+2020-01-31 01:28:36,210: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for ornl.summit (None)
+2020-01-31 01:28:36,210: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for ornl.titan_aprun
+2020-01-31 01:28:36,211: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for ornl.titan_aprun (None)
+2020-01-31 01:28:36,211: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations from /pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/rp_install/lib/python2.7/site-packages/radical/pilot/configs/resource_vtarc_dt.json
+2020-01-31 01:28:36,213: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for vtarc_dt.stampede_ssh
+2020-01-31 01:28:36,213: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for vtarc_dt.stampede_ssh (None)
+2020-01-31 01:28:36,214: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations from /pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/rp_install/lib/python2.7/site-packages/radical/pilot/configs/resource_iu.json
+2020-01-31 01:28:36,232: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for iu.bigred2_ccm_ssh
+2020-01-31 01:28:36,232: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for iu.bigred2_ccm_ssh (None)
+2020-01-31 01:28:36,232: agent_0             : MainProcess                     : MainThread     : INFO    : Load resource configurations for iu.bigred2_aprun
+2020-01-31 01:28:36,232: agent_0             : MainProcess                     : MainThread     : DEBUG   : read rcfg for iu.bigred2_aprun (None)
+2020-01-31 01:28:37,086: agent_0             : MainProcess                     : MainThread     : INFO    : New Session created: rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007.
+2020-01-31 01:28:37,088: agent_0             : MainProcess                     : MainThread     : DEBUG   : start bridges   : {'agent_executing_queue': {'bulk_size': 0,
+                           'log_level': 'error',
+                           'stall_hwm': 1},
+ 'agent_schedule_pubsub': {'bulk_size': 0,
+                           'log_level': 'error',
+                           'stall_hwm': 1},
+ 'agent_scheduling_queue': {'bulk_size': 0,
+                            'log_level': 'error',
+                            'stall_hwm': 1},
+ 'agent_staging_input_queue': {'bulk_size': 0,
+                               'log_level': 'error',
+                               'stall_hwm': 1},
+ 'agent_staging_output_queue': {'bulk_size': 0,
+                                'log_level': 'error',
+                                'stall_hwm': 1},
+ 'agent_unschedule_pubsub': {'bulk_size': 0,
+                             'log_level': 'error',
+                             'stall_hwm': 1},
+ 'control_pubsub': {'bulk_size': 0, 'log_level': 'error', 'stall_hwm': 1},
+ 'log_pubsub': {'bulk_size': 0, 'log_level': 'error', 'stall_hwm': 1},
+ 'state_pubsub': {'bulk_size': 0, 'log_level': 'error', 'stall_hwm': 1}}
+2020-01-31 01:28:37,088: agent_0             : MainProcess                     : MainThread     : INFO    : create bridge state_pubsub
+2020-01-31 01:28:37,127: agent_0             : MainProcess                     : MainThread     : INFO    : created bridge state_pubsub (state.pubsub.bridge.0000)
+2020-01-31 01:28:37,127: agent_0             : MainProcess                     : MainThread     : INFO    : create bridge agent_unschedule_pubsub
+2020-01-31 01:28:37,191: agent_0             : MainProcess                     : MainThread     : INFO    : created bridge agent_unschedule_pubsub (agent.unschedule.pubsub.bridge.0000)
+2020-01-31 01:28:37,191: agent_0             : MainProcess                     : MainThread     : INFO    : create bridge log_pubsub
+2020-01-31 01:28:37,215: agent_0             : MainProcess                     : MainThread     : INFO    : created bridge log_pubsub (log.pubsub.bridge.0000)
+2020-01-31 01:28:37,216: agent_0             : MainProcess                     : MainThread     : INFO    : create bridge agent_staging_output_queue
+2020-01-31 01:28:37,247: agent_0             : MainProcess                     : MainThread     : INFO    : created bridge agent_staging_output_queue (agent.staging.output.queue.bridge.0000)
+2020-01-31 01:28:37,247: agent_0             : MainProcess                     : MainThread     : INFO    : create bridge agent_schedule_pubsub
+2020-01-31 01:28:37,294: agent_0             : MainProcess                     : MainThread     : INFO    : created bridge agent_schedule_pubsub (agent.schedule.pubsub.bridge.0000)
+2020-01-31 01:28:37,294: agent_0             : MainProcess                     : MainThread     : INFO    : create bridge agent_scheduling_queue
+2020-01-31 01:28:37,320: agent_0             : MainProcess                     : MainThread     : INFO    : created bridge agent_scheduling_queue (agent.scheduling.queue.bridge.0000)
+2020-01-31 01:28:37,320: agent_0             : MainProcess                     : MainThread     : INFO    : create bridge control_pubsub
+2020-01-31 01:28:37,339: agent_0             : MainProcess                     : MainThread     : INFO    : created bridge control_pubsub (control.pubsub.bridge.0000)
+2020-01-31 01:28:37,339: agent_0             : MainProcess                     : MainThread     : INFO    : create bridge agent_executing_queue
+2020-01-31 01:28:37,423: agent_0             : MainProcess                     : MainThread     : INFO    : created bridge agent_executing_queue (agent.executing.queue.bridge.0000)
+2020-01-31 01:28:37,423: agent_0             : MainProcess                     : MainThread     : INFO    : create bridge agent_staging_input_queue
+2020-01-31 01:28:37,444: agent_0             : MainProcess                     : MainThread     : INFO    : created bridge agent_staging_input_queue (agent.staging.input.queue.bridge.0000)
+2020-01-31 01:28:37,445: agent_0             : MainProcess                     : MainThread     : DEBUG   : start components: {}
+2020-01-31 01:28:37,445: agent_0             : MainProcess                     : MainThread     : INFO    : radical.pilot version: 0.70.0
+2020-01-31 01:28:37,445: agent_0             : MainProcess                     : MainThread     : INFO    : radical.saga  version: 0.70.0
+2020-01-31 01:28:37,445: agent_0             : MainProcess                     : MainThread     : INFO    : radical.utils version: 0.70.0
+2020-01-31 01:28:37,637: agent_0             : MainProcess                     : MainThread     : DEBUG   : alive check in term
+2020-01-31 01:28:37,676: agent_0             : MainProcess                     : MainThread     : INFO    : Configuring LRMS Slurm.
+2020-01-31 01:28:37,677: agent_0             : MainProcess                     : MainThread     : INFO    : Found SLURM_NODELIST gpu[019-022]. Expanded to: ['gpu019', 'gpu020', 'gpu021', 'gpu022']
+2020-01-31 01:28:37,678: agent_0             : MainProcess                     : MainThread     : INFO    : Discovered execution environment: [['gpu019', 'gpu019'], ['gpu020', 'gpu020'], ['gpu021', 'gpu021'], ['gpu022', 'gpu022']]
+2020-01-31 01:28:37,690: agent_0             : MainProcess                     : MainThread     : INFO    : no config hook defined for LaunchMethod MPIRUN
+2020-01-31 01:28:37,691: agent_0             : MainProcess                     : MainThread     : INFO    : lrms config hook succeeded (MPIRUN)
+2020-01-31 01:28:37,691: agent_0             : MainProcess                     : MainThread     : INFO    : no config hook defined for LaunchMethod SSH
+2020-01-31 01:28:37,691: agent_0             : MainProcess                     : MainThread     : INFO    : lrms config hook succeeded (SSH)
+2020-01-31 01:28:37,691: agent_0             : MainProcess                     : MainThread     : DEBUG   : start process
+2020-01-31 01:28:37,691: agent_0             : MainProcess                     : MainThread     : INFO    : initialize agent_0
+2020-01-31 01:28:37,698: agent_0             : MainProcess                     : MainThread     : INFO    : cfg: {'agent_launch_method': 'SSH',
+ 'agent_name': 'agent_0',
+ 'app_comm': None,
+ 'bridges': {'agent_executing_queue': {'addr_in': 'tcp://10.4.119.119:36603',
+                                       'addr_out': 'tcp://10.4.119.119:35326',
+                                       'bulk_size': 0,
+                                       'log_level': 'error',
+                                       'stall_hwm': 1},
+             'agent_schedule_pubsub': {'addr_in': 'tcp://10.4.119.119:38431',
+                                       'addr_out': 'tcp://10.4.119.119:40256',
+                                       'bulk_size': 0,
+                                       'log_level': 'error',
+                                       'stall_hwm': 1},
+             'agent_scheduling_queue': {'addr_in': 'tcp://10.4.119.119:32793',
+                                        'addr_out': 'tcp://10.4.119.119:36484',
+                                        'bulk_size': 0,
+                                        'log_level': 'error',
+                                        'stall_hwm': 1},
+             'agent_staging_input_queue': {'addr_in': 'tcp://10.4.119.119:41868',
+                                           'addr_out': 'tcp://10.4.119.119:35205',
+                                           'bulk_size': 0,
+                                           'log_level': 'error',
+                                           'stall_hwm': 1},
+             'agent_staging_output_queue': {'addr_in': 'tcp://10.4.119.119:34362',
+                                            'addr_out': 'tcp://10.4.119.119:34927',
+                                            'bulk_size': 0,
+                                            'log_level': 'error',
+                                            'stall_hwm': 1},
+             'agent_unschedule_pubsub': {'addr_in': 'tcp://10.4.119.119:45768',
+                                         'addr_out': 'tcp://10.4.119.119:41757',
+                                         'bulk_size': 0,
+                                         'log_level': 'error',
+                                         'stall_hwm': 1},
+             'control_pubsub': {'addr_in': 'tcp://10.4.119.119:46536',
+                                'addr_out': 'tcp://10.4.119.119:34365',
+                                'bulk_size': 0,
+                                'log_level': 'error',
+                                'stall_hwm': 1},
+             'log_pubsub': {'addr_in': 'tcp://10.4.119.119:43882',
+                            'addr_out': 'tcp://10.4.119.119:34956',
+                            'bulk_size': 0,
+                            'log_level': 'error',
+                            'stall_hwm': 1},
+             'state_pubsub': {'addr_in': 'tcp://10.4.119.119:40164',
+                              'addr_out': 'tcp://10.4.119.119:40023',
+                              'bulk_size': 0,
+                              'log_level': 'error',
+                              'stall_hwm': 1}},
+ 'bulk_collection_size': 100,
+ 'bulk_collection_time': 1.0,
+ 'components': {'AgentExecutingComponent': {'count': 1},
+                'AgentSchedulingComponent': {'count': 1},
+                'AgentStagingInputComponent': {'count': 1},
+                'AgentStagingOutputComponent': {'count': 1},
+                'UpdateWorker': {'count': 1}},
+ 'cores': 128,
+ 'cores_per_node': 0,
+ 'cu_post_exec': None,
+ 'cu_pre_exec': [],
+ 'cu_tmp': None,
+ 'db_poll_sleeptime': 1.0,
+ 'dburl': 'mongodb://rct:rct_test@two.radical-project.org/rct_test',
+ 'debug': 10,
+ 'export_to_cu': [],
+ 'gpus': 8,
+ 'gpus_per_node': 2,
+ 'lfs_path_per_node': '$LOCAL',
+ 'lfs_size_per_node': 3713368,
+ 'logdir': '.',
+ 'lrms': 'SLURM',
+ 'lrms_info': {'agent_nodes': {},
+               'cores_per_node': 32,
+               'gpus_per_node': 2,
+               'lfs_per_node': {'path': '/local/7534480', 'size': 3713368},
+               'lm_info': {'cores_per_node': 32},
+               'mem_per_node': 0,
+               'name': 'Slurm',
+               'node_list': [['gpu019', 'gpu019'],
+                             ['gpu020', 'gpu020'],
+                             ['gpu021', 'gpu021'],
+                             ['gpu022', 'gpu022']]},
+ 'max_io_loglength': 1024,
+ 'mode': 'shared',
+ 'mpi_launch_method': 'MPIRUN',
+ 'owner': 'agent_0',
+ 'pilot_id': 'pilot.0000',
+ 'pilot_sandbox': '/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000/',
+ 'resource_cfg': {'agent_launch_method': 'SSH',
+                  'agent_scheduler': 'CONTINUOUS',
+                  'agent_spawner': 'POPEN',
+                  'cu_pre_exec': [],
+                  'default_queue': 'RM',
+                  'default_remote_workdir': '$SCRATCH',
+                  'description': "The XSEDE 'Bridges' cluster at PSC (https://portal.xsede.org/psc-bridges/).",
+                  'export_to_cu': [],
+                  'filesystem_endpoint': 'gsisftp://bridges.psc.xsede.org:2222/',
+                  'go': {'filesystem_endpoint': 'go://xsede#bridges/',
+                         'job_manager_endpoint': 'slurm+ssh://bridges.psc.xsede.org/'},
+                  'gpus_per_node': 2,
+                  'gsissh': {'filesystem_endpoint': 'gsisftp://bridges.psc.xsede.org:2222/',
+                             'job_manager_endpoint': 'slurm+gsissh://bridges.psc.xsede.org:2222/'},
+                  'job_manager_endpoint': 'slurm+gsissh://bridges.psc.xsede.org:2222/',
+                  'label': 'xsede.bridges',
+                  'lfs_path_per_node': '$LOCAL',
+                  'lfs_size_per_node': 3713368,
+                  'lrms': 'SLURM',
+                  'mpi_launch_method': 'MPIRUN',
+                  'notes': 'Always set the ``project`` attribute in the ComputePilotDescription.',
+                  'pre_bootstrap_0': ['module purge',
+                                      'module load gcc',
+                                      'module load mpi/gcc_openmpi',
+                                      'module load slurm',
+                                      'module load python2'],
+                  'python_dist': 'default',
+                  'rp_version': 'local',
+                  'saga_jd_supplement': {'cpu_architecture': ['p100']},
+                  'schemas': ['gsissh', 'ssh', 'go'],
+                  'ssh': {'filesystem_endpoint': 'sftp://bridges.psc.xsede.org/',
+                          'job_manager_endpoint': 'slurm+ssh://bridges.psc.xsede.org/'},
+                  'task_launch_method': 'SSH',
+                  'valid_roots': ['/home', '/pylon1', '/pylon5'],
+                  'virtenv_mode': 'create'},
+ 'resource_sandbox': '/pylon5/mc3bggp/aymen/radical.pilot.sandbox',
+ 'runtime': 2880,
+ 'scheduler': 'CONTINUOUS',
+ 'session_id': 'rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007',
+ 'session_sandbox': '/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007',
+ 'spawner': 'POPEN',
+ 'staging_area': 'staging_area',
+ 'staging_schema': 'staging',
+ 'target': 'local',
+ 'task_launch_method': 'SSH',
+ 'workdir': '/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0007/pilot.0000'}
+2020-01-31 01:28:37,700: agent_0             : MainProcess                     : MainThread     : DEBUG   : start bridges   : {'agent_executing_queue': {'addr_in': 'tcp://10.4.119.119:36603',
+                           'addr_out': 'tcp://10.4.119.119:35326',
+                           'bulk_size': 0,
+                           'log_level': 'error',
+                           'stall_hwm': 1},
+ 'agent_schedule_pubsub': {'addr_in': 'tcp://10.4.119.119:38431',
+                           'addr_out': 'tcp://10.4.119.119:40256',
+                           'bulk_size': 0,
+                           'log_level': 'error',
+                           'stall_hwm': 1},
+ 'agent_scheduling_queue': {'addr_in': 'tcp://10.4.119.119:32793',
+                            'addr_out': 'tcp://10.4.119.119:36484',
+                            'bulk_size': 0,
+                            'log_level': 'error',
+                            'stall_hwm': 1},
+ 'agent_staging_input_queue': {'addr_in': 'tcp://10.4.119.119:41868',
+                               'addr_out': 'tcp://10.4.119.119:35205',
+                               'bulk_size': 0,
+                               'log_level': 'error',
+                               'stall_hwm': 1},
+ 'agent_staging_output_queue': {'addr_in': 'tcp://10.4.119.119:34362',
+                                'addr_out': 'tcp://10.4.119.119:34927',
+                                'bulk_size': 0,
+                                'log_level': 'error',
+                                'stall_hwm': 1},
+ 'agent_unschedule_pubsub': {'addr_in': 'tcp://10.4.119.119:45768',
+                             'addr_out': 'tcp://10.4.119.119:41757',
+                             'bulk_size': 0,
+                             'log_level': 'error',
+                             'stall_hwm': 1},
+ 'control_pubsub': {'addr_in': 'tcp://10.4.119.119:46536',
+                    'addr_out': 'tcp://10.4.119.119:34365',
+                    'bulk_size': 0,
+                    'log_level': 'error',
+                    'stall_hwm': 1},
+ 'log_pubsub': {'addr_in': 'tcp://10.4.119.119:43882',
+                'addr_out': 'tcp://10.4.119.119:34956',
+                'bulk_size': 0,
+                'log_level': 'error',
+                'stall_hwm': 1},
+ 'state_pubsub': {'addr_in': 'tcp://10.4.119.119:40164',
+                  'addr_out': 'tcp://10.4.119.119:40023',
+                  'bulk_size': 0,
+                  'log_level': 'error',
+                  'stall_hwm': 1}}
+2020-01-31 01:28:37,701: agent_0             : MainProcess                     : MainThread     : DEBUG   : start components: {'AgentExecutingComponent': {'count': 1},
+ 'AgentSchedulingComponent': {'count': 1},
+ 'AgentStagingInputComponent': {'count': 1},
+ 'AgentStagingOutputComponent': {'count': 1},
+ 'UpdateWorker': {'count': 1}}
+2020-01-31 01:28:37,701: agent_0             : MainProcess                     : MainThread     : DEBUG   : start 1 component(s) AgentStagingOutputComponent
+2020-01-31 01:28:38,839: agent_0             : MainProcess                     : MainThread     : INFO    : agent_0                        starts agent_0.staging.output.0
+2020-01-31 01:28:38,839: agent_0             : MainProcess                     : MainThread     : DEBUG   : start 1 component(s) AgentSchedulingComponent
+2020-01-31 01:28:40,102: agent_0             : MainProcess                     : MainThread     : INFO    : agent_0                        starts agent_0.scheduling.0
+2020-01-31 01:28:40,102: agent_0             : MainProcess                     : MainThread     : DEBUG   : start 1 component(s) AgentStagingInputComponent
+2020-01-31 01:28:40,861: agent_0             : MainProcess                     : MainThread     : INFO    : agent_0                        starts agent_0.staging.input.0
+2020-01-31 01:28:40,861: agent_0             : MainProcess                     : MainThread     : DEBUG   : start 1 component(s) UpdateWorker
+2020-01-31 01:28:42,328: agent_0             : MainProcess                     : MainThread     : INFO    : agent_0                        starts update.0
+2020-01-31 01:28:42,328: agent_0             : MainProcess                     : MainThread     : DEBUG   : start 1 component(s) AgentExecutingComponent
+2020-01-31 01:28:43,673: agent_0             : agent_0.executing.0             : MainThread     : DEBUG   : create LM: <class 'radical.pilot.agent.lm.ssh.SSH'>
+2020-01-31 01:28:43,675: agent_0             : agent_0.executing.0             : MainThread     : DEBUG   : create LM: <class 'radical.pilot.agent.lm.mpirun.MPIRun'>
+2020-01-31 01:28:43,827: agent_0             : agent_0.executing.0             : MainThread     : DEBUG   : mpi version: None [unknown]
+2020-01-31 01:28:43,858: agent_0             : MainProcess                     : MainThread     : INFO    : agent_0                        starts agent_0.executing.0
+2020-01-31 01:28:43,858: agent_0             : MainProcess                     : MainThread     : DEBUG   : alive check in term
+2020-01-31 01:28:43,858: agent_0             : MainProcess                     : MainThread     : DEBUG   : START: agent_0 register publisher log_pubsub
+2020-01-31 01:28:43,858: agent_0             : MainProcess                     : MainThread     : DEBUG   : using addr tcp://10.4.119.119:43882 for pubsub log_pubsub
+2020-01-31 01:28:43,862: agent_0             : MainProcess                     : MainThread     : DEBUG   : registered publisher : log_pubsub : log.pubsub.pub.0005
+2020-01-31 01:28:43,862: agent_0             : MainProcess                     : MainThread     : DEBUG   : alive check in term
+2020-01-31 01:28:43,862: agent_0             : MainProcess                     : MainThread     : DEBUG   : START: agent_0 register publisher state_pubsub
+2020-01-31 01:28:43,863: agent_0             : MainProcess                     : MainThread     : DEBUG   : using addr tcp://10.4.119.119:40164 for pubsub state_pubsub
+2020-01-31 01:28:43,867: agent_0             : MainProcess                     : MainThread     : DEBUG   : registered publisher : state_pubsub : state.pubsub.pub.0005
+2020-01-31 01:28:43,867: agent_0             : MainProcess                     : MainThread     : DEBUG   : alive check in term
+2020-01-31 01:28:43,867: agent_0             : MainProcess                     : MainThread     : DEBUG   : START: agent_0 register publisher control_pubsub
+2020-01-31 01:28:43,867: agent_0             : MainProcess                     : MainThread     : DEBUG   : using addr tcp://10.4.119.119:46536 for pubsub control_pubsub
+2020-01-31 01:28:43,927: agent_0             : MainProcess                     : MainThread     : DEBUG   : registered publisher : control_pubsub : control.pubsub.pub.0005
+2020-01-31 01:28:43,927: agent_0             : MainProcess                     : MainThread     : DEBUG   : start_sub_agents
+2020-01-31 01:28:43,927: agent_0             : MainProcess                     : MainThread     : DEBUG   : start_sub_agents noop
+2020-01-31 01:28:43,927: agent_0             : MainProcess                     : MainThread     : DEBUG   : alive check in term
+2020-01-31 01:28:43,927: agent_0             : MainProcess                     : MainThread     : DEBUG   : START: agent_0 register idler agent_0.idler._agent_command_cb
+2020-01-31 01:28:43,927: agent_0             : MainProcess                     : MainThread     : DEBUG   : parent name: agent_0.idler._agent_command_cb
+2020-01-31 01:28:43,928: agent_0             : MainProcess                     : MainThread     : DEBUG   : start thread
+2020-01-31 01:28:43,929: agent_0             : MainProcess                     : agent_0.idler._agent_command_cb: DEBUG   : child name: agent_0.idler._agent_command_cb.thread
+2020-01-31 01:28:43,929: agent_0             : MainProcess                     : agent_0.idler._agent_command_cb: INFO    : child (me) initializing
+2020-01-31 01:28:43,929: agent_0             : MainProcess                     : agent_0.idler._agent_command_cb: DEBUG   : ru_initialize_common (NOOP)
+2020-01-31 01:28:43,929: agent_0             : MainProcess                     : agent_0.idler._agent_command_cb: DEBUG   : ru_initialize_child (NOOP)
+2020-01-31 01:28:43,929: agent_0             : MainProcess                     : agent_0.idler._agent_command_cb: INFO    : send alive
+2020-01-31 01:28:43,929: agent_0             : MainProcess                     : agent_0.idler._agent_command_cb: INFO    : put message: [agent_0.idler._agent_command_cb.thread] alive
+2020-01-31 01:28:43,930: agent_0             : MainProcess                     : MainThread     : INFO    : get msg: alive
+2020-01-31 01:28:43,930: agent_0             : MainProcess                     : MainThread     : DEBUG   : ru_initialize_common (NOOP)
+2020-01-31 01:28:43,930: agent_0             : MainProcess                     : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
+2020-01-31 01:28:43,931: agent_0             : MainProcess                     : MainThread     : DEBUG   : child thread agent_0.idler._agent_command_cb started
+2020-01-31 01:28:43,931: agent_0             : MainProcess                     : agent_0.idler._agent_command_cb: DEBUG   : alive check in term
+2020-01-31 01:28:43,931: agent_0             : MainProcess                     : MainThread     : DEBUG   : agent_0 registered idler agent_0.idler._agent_command_cb
+2020-01-31 01:28:43,931: agent_0             : MainProcess                     : MainThread     : DEBUG   : alive check in term
+2020-01-31 01:28:43,932: agent_0             : MainProcess                     : MainThread     : DEBUG   : START: agent_0 register output AGENT_STAGING_INPUT_PENDING
+2020-01-31 01:28:43,933: agent_0             : MainProcess                     : MainThread     : DEBUG   : using addr tcp://10.4.119.119:41868 for output agent_staging_input_queue
+2020-01-31 01:28:43,938: agent_0             : MainProcess                     : MainThread     : DEBUG   : registered output    : AGENT_STAGING_INPUT_PENDING : agent_staging_input_queue : agent.staging.input.queue.input.0000
+2020-01-31 01:28:43,938: agent_0             : MainProcess                     : MainThread     : DEBUG   : alive check in term
+2020-01-31 01:28:43,938: agent_0             : MainProcess                     : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2020-01-31 01:28:43,938: agent_0             : MainProcess                     : MainThread     : DEBUG   : alive check in term
+2020-01-31 01:28:43,938: agent_0             : MainProcess                     : MainThread     : DEBUG   : alive check in term
+2020-01-31 01:28:43,939: agent_0             : MainProcess                     : MainThread     : DEBUG   : START: agent_0 register idler agent_0.idler._check_units_cb
+2020-01-31 01:28:44,040: agent_0             : MainProcess                     : MainThread     : DEBUG   : parent name: agent_0.idler._check_units_cb
+2020-01-31 01:28:44,040: agent_0             : MainProcess                     : MainThread     : DEBUG   : start thread
+2020-01-31 01:28:44,042: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: DEBUG   : child name: agent_0.idler._check_units_cb.thread
+2020-01-31 01:28:44,042: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : child (me) initializing
+2020-01-31 01:28:44,042: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: DEBUG   : ru_initialize_common (NOOP)
+2020-01-31 01:28:44,042: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: DEBUG   : ru_initialize_child (NOOP)
+2020-01-31 01:28:44,042: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : send alive
+2020-01-31 01:28:44,042: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : put message: [agent_0.idler._check_units_cb.thread] alive
+2020-01-31 01:28:44,043: agent_0             : MainProcess                     : MainThread     : INFO    : get msg: alive
+2020-01-31 01:28:44,043: agent_0             : MainProcess                     : MainThread     : DEBUG   : ru_initialize_common (NOOP)
+2020-01-31 01:28:44,043: agent_0             : MainProcess                     : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
+2020-01-31 01:28:44,043: agent_0             : MainProcess                     : MainThread     : DEBUG   : child thread agent_0.idler._check_units_cb started
+2020-01-31 01:28:44,044: agent_0             : MainProcess                     : MainThread     : DEBUG   : agent_0 registered idler agent_0.idler._check_units_cb
+2020-01-31 01:28:44,044: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: DEBUG   : alive check in term
+2020-01-31 01:28:44,044: agent_0             : MainProcess                     : MainThread     : DEBUG   : process class started (no child)
+2020-01-31 01:28:44,257: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units PULLED:    1
+2020-01-31 01:28:44,370: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    1
+2020-01-31 01:28:44,370: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: DEBUG   : advance bulk size: 1 [True, False]
+2020-01-31 01:28:44,370: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: DEBUG   : put bulk AGENT_STAGING_INPUT_PENDING: 1
+2020-01-31 01:28:45,483: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:28:46,588: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:28:47,694: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:28:48,800: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:28:49,905: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:28:51,011: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:28:52,219: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units PULLED:    1
+2020-01-31 01:28:52,323: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    1
+2020-01-31 01:28:52,324: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: DEBUG   : advance bulk size: 1 [True, False]
+2020-01-31 01:28:52,324: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: DEBUG   : put bulk AGENT_STAGING_INPUT_PENDING: 1
+2020-01-31 01:28:53,432: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:28:54,537: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:28:55,643: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:28:56,748: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:28:57,859: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:28:58,964: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:29:00,079: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:29:01,194: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:29:02,299: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:29:03,405: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:29:04,517: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:29:05,624: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:29:06,729: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:29:07,835: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:29:08,940: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:29:10,046: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:29:11,151: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:29:12,257: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:29:13,362: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:29:14,468: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:29:15,573: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:29:16,679: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:29:17,784: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:29:18,889: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:29:19,995: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:29:21,204: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units PULLED:    1
+2020-01-31 01:29:21,307: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    1
+2020-01-31 01:29:21,307: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: DEBUG   : advance bulk size: 1 [True, False]
+2020-01-31 01:29:21,308: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: DEBUG   : put bulk AGENT_STAGING_INPUT_PENDING: 1
+2020-01-31 01:29:22,413: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:29:23,518: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:29:24,624: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:29:25,729: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:29:26,834: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:29:27,939: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:29:29,044: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:29:30,148: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:29:31,253: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:29:32,359: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:29:33,464: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:29:34,568: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:29:35,677: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:29:36,885: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units PULLED:    1
+2020-01-31 01:29:36,988: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    1
+2020-01-31 01:29:36,989: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: DEBUG   : advance bulk size: 1 [True, False]
+2020-01-31 01:29:36,989: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: DEBUG   : put bulk AGENT_STAGING_INPUT_PENDING: 1
+2020-01-31 01:29:38,096: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:29:39,202: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:29:40,308: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:29:41,413: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:29:42,519: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:29:43,624: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:29:44,732: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:29:45,836: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:29:46,942: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:29:48,048: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:29:49,153: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:29:50,259: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:29:51,467: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units PULLED:    1
+2020-01-31 01:29:51,572: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    1
+2020-01-31 01:29:51,572: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: DEBUG   : advance bulk size: 1 [True, False]
+2020-01-31 01:29:51,572: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: DEBUG   : put bulk AGENT_STAGING_INPUT_PENDING: 1
+2020-01-31 01:29:52,678: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:29:53,782: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:29:54,887: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:29:55,992: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:29:57,097: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:29:58,202: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:29:59,307: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:30:00,412: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:30:01,517: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:30:02,622: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:30:03,727: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:30:04,834: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:30:06,042: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units PULLED:    1
+2020-01-31 01:30:06,145: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    1
+2020-01-31 01:30:06,146: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: DEBUG   : advance bulk size: 1 [True, False]
+2020-01-31 01:30:06,146: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: DEBUG   : put bulk AGENT_STAGING_INPUT_PENDING: 1
+2020-01-31 01:30:07,251: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:30:08,356: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:30:09,461: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:30:10,566: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:30:11,672: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:30:12,777: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:30:13,882: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:30:14,987: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:30:16,092: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:30:17,197: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:30:18,302: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:30:19,408: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:30:20,513: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:30:21,618: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:30:22,723: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:30:23,828: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:30:24,933: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:30:26,038: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:30:27,146: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:30:28,251: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:30:29,356: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:30:30,461: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:30:31,566: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:30:32,673: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:30:33,778: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:30:34,882: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:30:35,987: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:30:37,092: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:30:38,201: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:30:39,309: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:30:40,414: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:30:41,519: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:30:42,626: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:30:43,731: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:30:44,836: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:30:45,941: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:30:47,046: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:30:48,151: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:30:49,257: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:30:50,362: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:30:51,469: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:30:52,574: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:30:53,680: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:30:54,785: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:30:55,890: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:30:57,000: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:30:58,105: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:30:59,211: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:31:00,316: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:31:01,422: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:31:02,527: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:31:03,632: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:31:04,738: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:31:04,849: agent_0             : MainProcess                     : agent_0.idler._agent_command_cb: INFO    : cancel pilot cmd
+2020-01-31 01:31:04,850: agent_0             : MainProcess                     : agent_0.idler._agent_command_cb: INFO    : publish "terminate" cmd
+2020-01-31 01:31:04,851: agent_0             : update.0                        : update.0.child.subscriber._cancel_monitor_cb: DEBUG   : update.0.child stop called
+2020-01-31 01:31:05,087: agent_0             : MainProcess                     : agent_0.idler._agent_command_cb: INFO    : put message: [agent_0.idler._agent_command_cb.thread] work finished
+2020-01-31 01:31:05,087: agent_0             : MainProcess                     : agent_0.idler._agent_command_cb: DEBUG   : ru_finalize_child (NOOP)
+2020-01-31 01:31:05,087: agent_0             : MainProcess                     : agent_0.idler._agent_command_cb: DEBUG   : ru_finalize_common (NOOP)
+2020-01-31 01:31:05,087: agent_0             : MainProcess                     : agent_0.idler._agent_command_cb: INFO    : put message: [agent_0.idler._agent_command_cb.thread] terminating
+2020-01-31 01:31:05,191: agent_0             : MainProcess                     : MainThread     : DEBUG   : final: cancel
+2020-01-31 01:31:05,276: agent_0             : MainProcess                     : MainThread     : INFO    : stop agent_0 (6482 : None : MainThread) [__main__.bootstrap_3]
+2020-01-31 01:31:05,795: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: WARNING : alive check: proc invalid - stop [False - True]
+2020-01-31 01:31:05,799: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : stop agent_0 (6482 : None : agent_0.idler._check_units_cb) [radical.utils.process.Agent_0.is_valid]
+2020-01-31 01:31:05,946: agent_0             : MainProcess                     : MainThread     : INFO    : parent stops child  6482 -> None [agent_0]
+2020-01-31 01:31:06,083: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: WARNING : super agent_0 is invalid
+2020-01-31 01:31:06,083: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: WARNING : component agent_0 is invalid
+2020-01-31 01:31:06,084: agent_0             : MainProcess                     : MainThread     : INFO    : publish "terminate" cmd
+2020-01-31 01:31:06,084: agent_0             : MainProcess                     : MainThread     : DEBUG   : TERM : agent_0 unregister idler agent_0.idler._check_units_cb
+2020-01-31 01:31:06,085: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : stop agent_0 (6482 : None : agent_0.idler._check_units_cb) [radical.pilot.utils.component.Agent_0.is_valid]
+2020-01-31 01:31:06,486: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : units pulled:    0
+2020-01-31 01:31:06,486: agent_0             : MainProcess                     : MainThread     : INFO    : parent stops child
+2020-01-31 01:31:06,487: agent_0             : MainProcess                     : MainThread     : DEBUG   : ru_finalize_parent (NOOP)
+2020-01-31 01:31:06,487: agent_0             : MainProcess                     : MainThread     : DEBUG   : ru_finalize_common (NOOP)
+2020-01-31 01:31:06,587: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: DEBUG   : ru_finalize_child (NOOP)
+2020-01-31 01:31:06,587: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: DEBUG   : ru_finalize_common (NOOP)
+2020-01-31 01:31:06,587: agent_0             : MainProcess                     : agent_0.idler._check_units_cb: INFO    : put message: [agent_0.idler._check_units_cb.thread] terminating
+2020-01-31 01:31:06,601: agent_0             : MainProcess                     : MainThread     : DEBUG   : TERM : agent_0 unregistered idler agent_0.idler._check_units_cb
+2020-01-31 01:31:06,601: agent_0             : MainProcess                     : MainThread     : DEBUG   : TERM : agent_0 unregister output AGENT_STAGING_INPUT_PENDING
+2020-01-31 01:31:06,601: agent_0             : MainProcess                     : MainThread     : WARNING : input AGENT_STAGING_INPUT_PENDING is not registered
+2020-01-31 01:31:06,601: agent_0             : MainProcess                     : MainThread     : DEBUG   : TERM : agent_0 unregister idler agent_0.idler._agent_command_cb
+2020-01-31 01:31:06,601: agent_0             : MainProcess                     : MainThread     : INFO    : parent stops child
+2020-01-31 01:31:06,601: agent_0             : MainProcess                     : MainThread     : DEBUG   : ru_finalize_parent (NOOP)
+2020-01-31 01:31:06,602: agent_0             : MainProcess                     : MainThread     : DEBUG   : ru_finalize_common (NOOP)
+2020-01-31 01:31:06,602: agent_0             : MainProcess                     : MainThread     : DEBUG   : TERM : agent_0 unregistered idler agent_0.idler._agent_command_cb
+2020-01-31 01:31:06,602: agent_0             : MainProcess                     : MainThread     : DEBUG   : stop    lrms <radical.pilot.agent.rm.slurm.Slurm object at 0x7fc5cf84f450>
+2020-01-31 01:31:06,602: agent_0             : MainProcess                     : MainThread     : INFO    : no shutdown hook defined for LaunchMethod MPIRUN
+2020-01-31 01:31:06,602: agent_0             : MainProcess                     : MainThread     : INFO    : lrms shutdown hook succeeded (MPIRUN)
+2020-01-31 01:31:06,602: agent_0             : MainProcess                     : MainThread     : INFO    : no shutdown hook defined for LaunchMethod SSH
+2020-01-31 01:31:06,602: agent_0             : MainProcess                     : MainThread     : INFO    : lrms shutdown hook succeeded (SSH)
+2020-01-31 01:31:06,602: agent_0             : MainProcess                     : MainThread     : DEBUG   : stopped lrms <radical.pilot.agent.rm.slurm.Slurm object at 0x7fc5cf84f450>
+2020-01-31 01:31:06,603: agent_0             : MainProcess                     : MainThread     : DEBUG   : final state: CANCELED (cancel)
+2020-01-31 01:31:06,603: agent_0             : MainProcess                     : MainThread     : DEBUG   : update db state: CANCELED: cancel
+2020-01-31 01:31:06,603: agent_0             : MainProcess                     : MainThread     : INFO    : pilot state: CANCELED
+2020-01-31 01:31:06,612: agent_0             : MainProcess                     : MainThread     : INFO    : rusage: real 1580452266.612520 sec | user 1.566 sec | system 0.911 sec | mem 110340.00 kB
+2020-01-31 01:31:06,612: agent_0             : MainProcess                     : MainThread     : INFO    : cancel
+2020-01-31 01:31:06,719: agent_0             : MainProcess                     : MainThread     : DEBUG   : update ret: {'updatedExisting': True, u'nModified': 1, u'ok': 1.0, u'n': 1}
+2020-01-31 01:31:06,720: agent_0             : MainProcess                     : MainThread     : DEBUG   : ru_finalize_common()
+2020-01-31 01:31:06,720: agent_0             : MainProcess                     : MainThread     : DEBUG   : TERM : agent_0 unregister publisher log_pubsub
+2020-01-31 01:31:06,722: agent_0             : MainProcess                     : MainThread     : DEBUG   : unregistered publisher log_pubsub
+2020-01-31 01:31:06,722: agent_0             : MainProcess                     : MainThread     : DEBUG   : TERM : agent_0 unregister publisher state_pubsub
+2020-01-31 01:31:06,723: agent_0             : MainProcess                     : MainThread     : DEBUG   : unregistered publisher state_pubsub
+2020-01-31 01:31:06,723: agent_0             : MainProcess                     : MainThread     : DEBUG   : TERM : agent_0 unregister publisher control_pubsub
+2020-01-31 01:31:06,725: agent_0             : MainProcess                     : MainThread     : DEBUG   : unregistered publisher control_pubsub
+2020-01-31 01:31:06,725: agent_0             : MainProcess                     : MainThread     : DEBUG   : agent_0 close prof

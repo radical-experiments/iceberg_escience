@@ -1,0 +1,5 @@
+Namespace(name='ransac4', queue_in='geolocate.queue.url')
+PUB: tcp://10.4.219.131:33199
+
+SUB: tcp://10.4.219.131:34869
+

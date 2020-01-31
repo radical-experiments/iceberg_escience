@@ -1,0 +1,35 @@
+2020-01-31 01:28:38,692: control.pubsub.sub.0000: agent_0.staging.output.0        : MainThread     : INFO    : create control_pubsub - sub - tcp://10.4.119.119:34365
+2020-01-31 01:28:38,694: control.pubsub.sub.0000: agent_0.staging.output.0        : MainThread     : DEBUG   : start process
+2020-01-31 01:28:38,694: control.pubsub.sub.0000: agent_0.staging.output.0        : MainThread     : DEBUG   : ru_initialize_common (NOOP)
+2020-01-31 01:28:38,694: control.pubsub.sub.0000: agent_0.staging.output.0        : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
+2020-01-31 01:28:38,694: control.pubsub.sub.0000: agent_0.staging.output.0        : MainThread     : DEBUG   : process class started (no child)
+2020-01-31 01:28:39,804: control.pubsub.sub.0000: agent_0.scheduling.0            : MainThread     : INFO    : create control_pubsub - sub - tcp://10.4.119.119:34365
+2020-01-31 01:28:39,805: control.pubsub.sub.0000: agent_0.scheduling.0            : MainThread     : DEBUG   : start process
+2020-01-31 01:28:39,805: control.pubsub.sub.0000: agent_0.scheduling.0            : MainThread     : DEBUG   : ru_initialize_common (NOOP)
+2020-01-31 01:28:39,805: control.pubsub.sub.0000: agent_0.scheduling.0            : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
+2020-01-31 01:28:39,805: control.pubsub.sub.0000: agent_0.scheduling.0            : MainThread     : DEBUG   : process class started (no child)
+2020-01-31 01:28:40,775: control.pubsub.sub.0000: agent_0.staging.input.0         : MainThread     : INFO    : create control_pubsub - sub - tcp://10.4.119.119:34365
+2020-01-31 01:28:40,776: control.pubsub.sub.0000: agent_0.staging.input.0         : MainThread     : DEBUG   : start process
+2020-01-31 01:28:40,776: control.pubsub.sub.0000: agent_0.staging.input.0         : MainThread     : DEBUG   : ru_initialize_common (NOOP)
+2020-01-31 01:28:40,776: control.pubsub.sub.0000: agent_0.staging.input.0         : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
+2020-01-31 01:28:40,776: control.pubsub.sub.0000: agent_0.staging.input.0         : MainThread     : DEBUG   : process class started (no child)
+2020-01-31 01:28:41,762: control.pubsub.sub.0000: update.0                        : MainThread     : INFO    : create control_pubsub - sub - tcp://10.4.119.119:34365
+2020-01-31 01:28:41,762: control.pubsub.sub.0000: update.0                        : MainThread     : DEBUG   : start process
+2020-01-31 01:28:41,762: control.pubsub.sub.0000: update.0                        : MainThread     : DEBUG   : ru_initialize_common (NOOP)
+2020-01-31 01:28:41,762: control.pubsub.sub.0000: update.0                        : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
+2020-01-31 01:28:41,762: control.pubsub.sub.0000: update.0                        : MainThread     : DEBUG   : process class started (no child)
+2020-01-31 01:28:43,375: control.pubsub.sub.0000: agent_0.executing.0             : MainThread     : INFO    : create control_pubsub - sub - tcp://10.4.119.119:34365
+2020-01-31 01:28:43,376: control.pubsub.sub.0000: agent_0.executing.0             : MainThread     : DEBUG   : start process
+2020-01-31 01:28:43,376: control.pubsub.sub.0000: agent_0.executing.0             : MainThread     : DEBUG   : ru_initialize_common (NOOP)
+2020-01-31 01:28:43,376: control.pubsub.sub.0000: agent_0.executing.0             : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
+2020-01-31 01:28:43,376: control.pubsub.sub.0000: agent_0.executing.0             : MainThread     : DEBUG   : process class started (no child)
+2020-01-31 01:31:05,512: control.pubsub.sub.0000: agent_0.staging.input.0         : agent_0.staging.input.0.child.subscriber._cancel_monitor_cb: INFO    : parent stops child  6658 -> None [control.pubsub.sub.0000]
+2020-01-31 01:31:05,512: control.pubsub.sub.0000: agent_0.staging.input.0         : agent_0.staging.input.0.child.subscriber._cancel_monitor_cb: DEBUG   : ru_finalize_parent (NOOP)
+2020-01-31 01:31:05,596: control.pubsub.sub.0000: agent_0.executing.0             : agent_0.executing.0.child.subscriber._cancel_monitor_cb: INFO    : parent stops child  6705 -> None [control.pubsub.sub.0000]
+2020-01-31 01:31:05,596: control.pubsub.sub.0000: agent_0.executing.0             : agent_0.executing.0.child.subscriber._cancel_monitor_cb: DEBUG   : ru_finalize_parent (NOOP)
+2020-01-31 01:31:05,871: control.pubsub.sub.0000: agent_0.staging.output.0        : agent_0.staging.output.0.child.subscriber._cancel_monitor_cb: INFO    : parent stops child  6604 -> None [control.pubsub.sub.0000]
+2020-01-31 01:31:05,872: control.pubsub.sub.0000: agent_0.staging.output.0        : agent_0.staging.output.0.child.subscriber._cancel_monitor_cb: DEBUG   : ru_finalize_parent (NOOP)
+2020-01-31 01:31:05,972: control.pubsub.sub.0000: update.0                        : update.0.child.subscriber._cancel_monitor_cb: INFO    : parent stops child  6681 -> None [control.pubsub.sub.0000]
+2020-01-31 01:31:05,972: control.pubsub.sub.0000: update.0                        : update.0.child.subscriber._cancel_monitor_cb: DEBUG   : ru_finalize_parent (NOOP)
+2020-01-31 01:31:06,084: control.pubsub.sub.0000: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: INFO    : parent stops child  6625 -> None [control.pubsub.sub.0000]
+2020-01-31 01:31:06,084: control.pubsub.sub.0000: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: DEBUG   : ru_finalize_parent (NOOP)

@@ -1,0 +1,12 @@
+radical.utils>=0.60
+radical.saga>=0.60
+pymongo
+python-hostlist
+netifaces
+setproctitle
+ntplib
+msgpack-python
+pyzmq
+
+[autopilot]
+github3.py

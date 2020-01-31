@@ -1,0 +1,7 @@
+2020-01-31 01:28:43,565: control.pubsub.sub.0001: agent_0.executing.0             : MainThread     : INFO    : create control_pubsub - sub - tcp://10.4.119.119:34365
+2020-01-31 01:28:43,566: control.pubsub.sub.0001: agent_0.executing.0             : MainThread     : DEBUG   : start process
+2020-01-31 01:28:43,566: control.pubsub.sub.0001: agent_0.executing.0             : MainThread     : DEBUG   : ru_initialize_common (NOOP)
+2020-01-31 01:28:43,566: control.pubsub.sub.0001: agent_0.executing.0             : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
+2020-01-31 01:28:43,566: control.pubsub.sub.0001: agent_0.executing.0             : MainThread     : DEBUG   : process class started (no child)
+2020-01-31 01:31:05,852: control.pubsub.sub.0001: agent_0.executing.0             : agent_0.executing.0.child.subscriber.command_cb: INFO    : parent stops child  6705 -> None [control.pubsub.sub.0001]
+2020-01-31 01:31:05,853: control.pubsub.sub.0001: agent_0.executing.0             : agent_0.executing.0.child.subscriber.command_cb: DEBUG   : ru_finalize_parent (NOOP)

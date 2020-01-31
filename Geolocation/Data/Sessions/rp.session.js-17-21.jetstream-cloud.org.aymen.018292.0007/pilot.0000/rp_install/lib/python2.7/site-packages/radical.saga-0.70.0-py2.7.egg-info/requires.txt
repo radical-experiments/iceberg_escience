@@ -1,0 +1,3 @@
+radical.utils>=0.60
+apache-libcloud
+parse

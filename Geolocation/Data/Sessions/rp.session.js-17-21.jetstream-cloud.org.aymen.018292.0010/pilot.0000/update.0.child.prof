@@ -1,0 +1,121 @@
+#time,event,comp,thread,uid,state,msg
+1580489498.8065,sync_abs,update.0.child,MainThread,,,gpu024.pvt.bridges.psc.edu:10.4.219.124:1580489498.79:1580489498.8:ntp
+1580489499.6098261,component_init,update.0.child,MainThread,,,
+1580489500.6930990,update_request,update.0.child,update.0.child.subscriber._state_cb,pilot.0000,,PMGR_ACTIVE
+1580489500.7961919,update_pushed,update.0.child,update.0.child.subscriber._state_cb,,,bulk size: 1
+1580489500.7962260,update_pushed,update.0.child,update.0.child.subscriber._state_cb,pilot.0000,,PMGR_ACTIVE
+1580489501.1056199,update_request,update.0.child,update.0.child.subscriber._state_cb,unit.000000,,AGENT_STAGING_INPUT
+1580489501.1058359,update_request,update.0.child,update.0.child.subscriber._state_cb,unit.000000,,AGENT_SCHEDULING_PENDING
+1580489501.1078680,update_request,update.0.child,update.0.child.subscriber._state_cb,unit.000000,,AGENT_SCHEDULING
+1580489501.1096711,update_request,update.0.child,update.0.child.subscriber._state_cb,unit.000000,,AGENT_EXECUTING_PENDING
+1580489501.1116979,update_request,update.0.child,update.0.child.subscriber._state_cb,unit.000000,,AGENT_EXECUTING
+1580489502.7195160,update_pushed,update.0.child,update.0.child.idler._idle_cb,,,bulk size: 5
+1580489502.7195549,update_pushed,update.0.child,update.0.child.idler._idle_cb,unit.000000,,AGENT_STAGING_INPUT
+1580489502.7195740,update_pushed,update.0.child,update.0.child.idler._idle_cb,unit.000000,,AGENT_SCHEDULING_PENDING
+1580489502.7195899,update_pushed,update.0.child,update.0.child.idler._idle_cb,unit.000000,,AGENT_SCHEDULING
+1580489502.7196050,update_pushed,update.0.child,update.0.child.idler._idle_cb,unit.000000,,AGENT_EXECUTING_PENDING
+1580489502.7196200,update_pushed,update.0.child,update.0.child.idler._idle_cb,unit.000000,,AGENT_EXECUTING
+1580489510.1624999,update_request,update.0.child,update.0.child.subscriber._state_cb,unit.000001,,AGENT_STAGING_INPUT
+1580489510.2657981,update_pushed,update.0.child,update.0.child.subscriber._state_cb,,,bulk size: 1
+1580489510.2658379,update_pushed,update.0.child,update.0.child.subscriber._state_cb,unit.000001,,AGENT_STAGING_INPUT
+1580489510.2659709,update_request,update.0.child,update.0.child.subscriber._state_cb,unit.000001,,AGENT_SCHEDULING_PENDING
+1580489510.2661021,update_request,update.0.child,update.0.child.subscriber._state_cb,unit.000001,,AGENT_SCHEDULING
+1580489510.2662160,update_request,update.0.child,update.0.child.subscriber._state_cb,unit.000001,,AGENT_EXECUTING_PENDING
+1580489510.2663269,update_request,update.0.child,update.0.child.subscriber._state_cb,unit.000001,,AGENT_EXECUTING
+1580489511.8411019,update_pushed,update.0.child,update.0.child.idler._idle_cb,,,bulk size: 4
+1580489511.8411391,update_pushed,update.0.child,update.0.child.idler._idle_cb,unit.000001,,AGENT_SCHEDULING_PENDING
+1580489511.8411591,update_pushed,update.0.child,update.0.child.idler._idle_cb,unit.000001,,AGENT_SCHEDULING
+1580489511.8411751,update_pushed,update.0.child,update.0.child.idler._idle_cb,unit.000001,,AGENT_EXECUTING_PENDING
+1580489511.8411901,update_pushed,update.0.child,update.0.child.idler._idle_cb,unit.000001,,AGENT_EXECUTING
+1580489524.2448111,update_request,update.0.child,update.0.child.subscriber._state_cb,unit.000001,,AGENT_STAGING_OUTPUT_PENDING
+1580489524.3478091,update_pushed,update.0.child,update.0.child.subscriber._state_cb,,,bulk size: 1
+1580489524.3478391,update_pushed,update.0.child,update.0.child.subscriber._state_cb,unit.000001,,AGENT_STAGING_OUTPUT_PENDING
+1580489524.3479581,update_request,update.0.child,update.0.child.subscriber._state_cb,unit.000001,,AGENT_STAGING_OUTPUT
+1580489524.3481250,update_request,update.0.child,update.0.child.subscriber._state_cb,unit.000001,,UMGR_STAGING_OUTPUT_PENDING
+1580489525.9673989,update_pushed,update.0.child,update.0.child.idler._idle_cb,,,bulk size: 2
+1580489525.9674349,update_pushed,update.0.child,update.0.child.idler._idle_cb,unit.000001,,AGENT_STAGING_OUTPUT
+1580489525.9674571,update_pushed,update.0.child,update.0.child.idler._idle_cb,unit.000001,,UMGR_STAGING_OUTPUT_PENDING
+1580489567.8797660,update_request,update.0.child,update.0.child.subscriber._state_cb,unit.000002,,AGENT_STAGING_INPUT
+1580489567.9826291,update_pushed,update.0.child,update.0.child.subscriber._state_cb,,,bulk size: 1
+1580489567.9826651,update_pushed,update.0.child,update.0.child.subscriber._state_cb,unit.000002,,AGENT_STAGING_INPUT
+1580489567.9827731,update_request,update.0.child,update.0.child.subscriber._state_cb,unit.000002,,AGENT_SCHEDULING_PENDING
+1580489567.9828911,update_request,update.0.child,update.0.child.subscriber._state_cb,unit.000002,,AGENT_SCHEDULING
+1580489567.9830151,update_request,update.0.child,update.0.child.subscriber._state_cb,unit.000002,,AGENT_EXECUTING_PENDING
+1580489567.9831221,update_request,update.0.child,update.0.child.subscriber._state_cb,unit.000002,,AGENT_EXECUTING
+1580489569.1565869,update_pushed,update.0.child,update.0.child.idler._idle_cb,,,bulk size: 4
+1580489569.1566219,update_pushed,update.0.child,update.0.child.idler._idle_cb,unit.000002,,AGENT_SCHEDULING_PENDING
+1580489569.1566410,update_pushed,update.0.child,update.0.child.idler._idle_cb,unit.000002,,AGENT_SCHEDULING
+1580489569.1566560,update_pushed,update.0.child,update.0.child.idler._idle_cb,unit.000002,,AGENT_EXECUTING_PENDING
+1580489569.1566710,update_pushed,update.0.child,update.0.child.idler._idle_cb,unit.000002,,AGENT_EXECUTING
+1580489583.5673590,update_request,update.0.child,update.0.child.subscriber._state_cb,unit.000003,,AGENT_STAGING_INPUT
+1580489583.6702890,update_pushed,update.0.child,update.0.child.subscriber._state_cb,,,bulk size: 1
+1580489583.6703200,update_pushed,update.0.child,update.0.child.subscriber._state_cb,unit.000003,,AGENT_STAGING_INPUT
+1580489583.6704290,update_request,update.0.child,update.0.child.subscriber._state_cb,unit.000003,,AGENT_SCHEDULING_PENDING
+1580489583.6705310,update_request,update.0.child,update.0.child.subscriber._state_cb,unit.000003,,AGENT_SCHEDULING
+1580489583.6706140,update_request,update.0.child,update.0.child.subscriber._state_cb,unit.000003,,AGENT_EXECUTING_PENDING
+1580489583.6706929,update_request,update.0.child,update.0.child.subscriber._state_cb,unit.000003,,AGENT_EXECUTING
+1580489585.2867241,update_pushed,update.0.child,update.0.child.idler._idle_cb,,,bulk size: 4
+1580489585.2867651,update_pushed,update.0.child,update.0.child.idler._idle_cb,unit.000003,,AGENT_SCHEDULING_PENDING
+1580489585.2867839,update_pushed,update.0.child,update.0.child.idler._idle_cb,unit.000003,,AGENT_SCHEDULING
+1580489585.2867999,update_pushed,update.0.child,update.0.child.idler._idle_cb,unit.000003,,AGENT_EXECUTING_PENDING
+1580489585.2868159,update_pushed,update.0.child,update.0.child.idler._idle_cb,unit.000003,,AGENT_EXECUTING
+1580489597.0428970,update_request,update.0.child,update.0.child.subscriber._state_cb,unit.000004,,AGENT_STAGING_INPUT
+1580489597.1457429,update_pushed,update.0.child,update.0.child.subscriber._state_cb,,,bulk size: 1
+1580489597.1457970,update_pushed,update.0.child,update.0.child.subscriber._state_cb,unit.000004,,AGENT_STAGING_INPUT
+1580489597.1459489,update_request,update.0.child,update.0.child.subscriber._state_cb,unit.000004,,AGENT_SCHEDULING_PENDING
+1580489597.1460650,update_request,update.0.child,update.0.child.subscriber._state_cb,unit.000004,,AGENT_SCHEDULING
+1580489597.1461530,update_request,update.0.child,update.0.child.subscriber._state_cb,unit.000004,,AGENT_EXECUTING_PENDING
+1580489597.1462390,update_request,update.0.child,update.0.child.subscriber._state_cb,unit.000004,,AGENT_EXECUTING
+1580489598.4111969,update_pushed,update.0.child,update.0.child.idler._idle_cb,,,bulk size: 4
+1580489598.4112239,update_pushed,update.0.child,update.0.child.idler._idle_cb,unit.000004,,AGENT_SCHEDULING_PENDING
+1580489598.4112411,update_pushed,update.0.child,update.0.child.idler._idle_cb,unit.000004,,AGENT_SCHEDULING
+1580489598.4112549,update_pushed,update.0.child,update.0.child.idler._idle_cb,unit.000004,,AGENT_EXECUTING_PENDING
+1580489598.4112699,update_pushed,update.0.child,update.0.child.idler._idle_cb,unit.000004,,AGENT_EXECUTING
+1580489611.6262169,update_request,update.0.child,update.0.child.subscriber._state_cb,unit.000005,,AGENT_STAGING_INPUT
+1580489611.7288661,update_pushed,update.0.child,update.0.child.subscriber._state_cb,,,bulk size: 1
+1580489611.7289021,update_pushed,update.0.child,update.0.child.subscriber._state_cb,unit.000005,,AGENT_STAGING_INPUT
+1580489611.7290320,update_request,update.0.child,update.0.child.subscriber._state_cb,unit.000005,,AGENT_SCHEDULING_PENDING
+1580489611.7291710,update_request,update.0.child,update.0.child.subscriber._state_cb,unit.000005,,AGENT_SCHEDULING
+1580489611.7292609,update_request,update.0.child,update.0.child.subscriber._state_cb,unit.000005,,AGENT_EXECUTING_PENDING
+1580489611.7293479,update_request,update.0.child,update.0.child.subscriber._state_cb,unit.000005,,AGENT_EXECUTING
+1580489613.5392179,update_pushed,update.0.child,update.0.child.idler._idle_cb,,,bulk size: 4
+1580489613.5392530,update_pushed,update.0.child,update.0.child.idler._idle_cb,unit.000005,,AGENT_SCHEDULING_PENDING
+1580489613.5392699,update_pushed,update.0.child,update.0.child.idler._idle_cb,unit.000005,,AGENT_SCHEDULING
+1580489613.5392830,update_pushed,update.0.child,update.0.child.idler._idle_cb,unit.000005,,AGENT_EXECUTING_PENDING
+1580489613.5392959,update_pushed,update.0.child,update.0.child.idler._idle_cb,unit.000005,,AGENT_EXECUTING
+1580489663.2690549,update_request,update.0.child,update.0.child.subscriber._state_cb,unit.000004,,AGENT_STAGING_OUTPUT_PENDING
+1580489663.3721890,update_pushed,update.0.child,update.0.child.subscriber._state_cb,,,bulk size: 1
+1580489663.3722270,update_pushed,update.0.child,update.0.child.subscriber._state_cb,unit.000004,,AGENT_STAGING_OUTPUT_PENDING
+1580489663.3723640,update_request,update.0.child,update.0.child.subscriber._state_cb,unit.000004,,AGENT_STAGING_OUTPUT
+1580489663.3725290,update_request,update.0.child,update.0.child.subscriber._state_cb,unit.000004,,UMGR_STAGING_OUTPUT_PENDING
+1580489663.4703369,update_request,update.0.child,update.0.child.subscriber._state_cb,unit.000000,,AGENT_STAGING_OUTPUT_PENDING
+1580489663.4718490,update_request,update.0.child,update.0.child.subscriber._state_cb,unit.000000,,AGENT_STAGING_OUTPUT
+1580489663.4788880,update_request,update.0.child,update.0.child.subscriber._state_cb,unit.000000,,UMGR_STAGING_OUTPUT_PENDING
+1580489664.0726330,update_request,update.0.child,update.0.child.subscriber._state_cb,unit.000003,,AGENT_STAGING_OUTPUT_PENDING
+1580489664.0739450,update_request,update.0.child,update.0.child.subscriber._state_cb,unit.000003,,AGENT_STAGING_OUTPUT
+1580489664.0815401,update_request,update.0.child,update.0.child.subscriber._state_cb,unit.000003,,UMGR_STAGING_OUTPUT_PENDING
+1580489664.7280159,update_pushed,update.0.child,update.0.child.idler._idle_cb,,,bulk size: 8
+1580489664.7280691,update_pushed,update.0.child,update.0.child.idler._idle_cb,unit.000004,,AGENT_STAGING_OUTPUT
+1580489664.7280910,update_pushed,update.0.child,update.0.child.idler._idle_cb,unit.000004,,UMGR_STAGING_OUTPUT_PENDING
+1580489664.7281101,update_pushed,update.0.child,update.0.child.idler._idle_cb,unit.000000,,AGENT_STAGING_OUTPUT_PENDING
+1580489664.7281260,update_pushed,update.0.child,update.0.child.idler._idle_cb,unit.000000,,AGENT_STAGING_OUTPUT
+1580489664.7281420,update_pushed,update.0.child,update.0.child.idler._idle_cb,unit.000000,,UMGR_STAGING_OUTPUT_PENDING
+1580489664.7281570,update_pushed,update.0.child,update.0.child.idler._idle_cb,unit.000003,,AGENT_STAGING_OUTPUT_PENDING
+1580489664.7281730,update_pushed,update.0.child,update.0.child.idler._idle_cb,unit.000003,,AGENT_STAGING_OUTPUT
+1580489664.7281880,update_pushed,update.0.child,update.0.child.idler._idle_cb,unit.000003,,UMGR_STAGING_OUTPUT_PENDING
+1580489664.7754941,update_request,update.0.child,update.0.child.subscriber._state_cb,unit.000005,,AGENT_STAGING_OUTPUT_PENDING
+1580489664.7773199,update_request,update.0.child,update.0.child.subscriber._state_cb,unit.000005,,AGENT_STAGING_OUTPUT
+1580489664.7857230,update_request,update.0.child,update.0.child.subscriber._state_cb,unit.000005,,UMGR_STAGING_OUTPUT_PENDING
+1580489664.8765481,update_request,update.0.child,update.0.child.subscriber._state_cb,unit.000002,,AGENT_STAGING_OUTPUT_PENDING
+1580489664.8780730,update_request,update.0.child,update.0.child.subscriber._state_cb,unit.000002,,AGENT_STAGING_OUTPUT
+1580489664.8854909,update_request,update.0.child,update.0.child.subscriber._state_cb,unit.000002,,UMGR_STAGING_OUTPUT_PENDING
+1580489665.8351500,update_pushed,update.0.child,update.0.child.idler._idle_cb,,,bulk size: 6
+1580489665.8351860,update_pushed,update.0.child,update.0.child.idler._idle_cb,unit.000005,,AGENT_STAGING_OUTPUT_PENDING
+1580489665.8352079,update_pushed,update.0.child,update.0.child.idler._idle_cb,unit.000005,,AGENT_STAGING_OUTPUT
+1580489665.8352251,update_pushed,update.0.child,update.0.child.idler._idle_cb,unit.000005,,UMGR_STAGING_OUTPUT_PENDING
+1580489665.8352411,update_pushed,update.0.child,update.0.child.idler._idle_cb,unit.000002,,AGENT_STAGING_OUTPUT_PENDING
+1580489665.8352571,update_pushed,update.0.child,update.0.child.idler._idle_cb,unit.000002,,AGENT_STAGING_OUTPUT
+1580489665.8352730,update_pushed,update.0.child,update.0.child.idler._idle_cb,unit.000002,,UMGR_STAGING_OUTPUT_PENDING
+1580489672.6765590,flush,update.0.child,update.0.child.subscriber._cancel_monitor_cb,,,
+1580489673.1077261,component_final,update.0.child,update.0.child.subscriber._cancel_monitor_cb,,,
+1580489673.1077721,END,update.0.child,update.0.child.subscriber._cancel_monitor_cb,,,

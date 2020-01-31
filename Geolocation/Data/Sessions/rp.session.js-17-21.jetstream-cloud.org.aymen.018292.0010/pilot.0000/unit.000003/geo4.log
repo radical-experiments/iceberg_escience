@@ -1,0 +1,306 @@
+GEOTIFF image1 detected  /pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BEAU/Aerial/CA305300V0092_Panel3.tif
+GEOTIFF image2 detected  /pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BEAU/Satellite/WV02_20111227133152_1030010010368D00_11DEC27133152-M1BS-052888284040_01_P001_u08rf3031.tif
+gdal source image 1 inforamtion    0
+Source image size = (2000,2000)
+Target image size = (2000,2000)
+Initializing data...
+Device Number: 0
+  Device name: Tesla P100-PCIE-16GB
+  Memory Clock Rate (MHz): 715
+  Memory Bus Width (bits): 4096
+  Peak Memory Bandwidth (GB/s): 732.2
+
+Threshold value :3
+MatchSiftData time =          0.84 ms
+Number features detected by SIFT descriptors : Source Image 927, Target Image 1839
+Number of Matched features: 0
+Number of fitted features after applying ImproveHomography : 0
+0% 
+/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BEAU/Aerial/CA305300V0092_Panel3.tifimg1 saved
+img2 saved
+Output Images are saved in the same directory !) 
+PUB: tcp://10.4.219.124:37596
+
+SUB: tcp://10.4.219.124:44246
+
+PUB: tcp://10.4.219.128:40450
+
+{'type': 'image', 'data': '/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BEAU/Aerial/CA305300V0092_Panel3.tif$/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BEAU/Satellite/WV02_20111227133152_1030010010368D00_11DEC27133152-M1BS-052888284040_01_P001_u08rf3031.tif$2000$2000$2000$2000'}
+('This is the message : ', '/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BEAU/Aerial/CA305300V0092_Panel3.tif$/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BEAU/Satellite/WV02_20111227133152_1030010010368D00_11DEC27133152-M1BS-052888284040_01_P001_u08rf3031.tif$2000$2000$2000$2000')
+This is matching function
+('New message will be sent to Q2: ', '/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BEAU/Aerial/CA305300V0092_Panel3.tif$/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BEAU/Satellite/WV02_20111227133152_1030010010368D00_11DEC27133152-M1BS-052888284040_01_P001_u08rf3031.tif$/pylon5/mc3bggp/aymen/cuda_out/sift_matches_CA305300V0092_Panel3_WV02_20111227133152_1030010010368D00_11DEC27133152-M1BS-052888284040_01_P001_u08rf3031.csv')
+GEOTIFF image1 detected  /pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BEAU/Aerial/CA256832V0234_Panel3.tif
+GEOTIFF image2 detected  /pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BEAU/Satellite/WV02_20111212160201_103001000FBF5200_11DEC12160201-M1BS-052850989070_01_P001_u08rf3031.tif
+gdal source image 1 inforamtion    0
+Source image size = (2000,2000)
+Target image size = (2000,2000)
+Initializing data...
+Device Number: 0
+  Device name: Tesla P100-PCIE-16GB
+  Memory Clock Rate (MHz): 715
+  Memory Bus Width (bits): 4096
+  Peak Memory Bandwidth (GB/s): 732.2
+
+Threshold value :3
+MatchSiftData time =          37.86 ms
+Number features detected by SIFT descriptors : Source Image 42485, Target Image 2606
+Number of Matched features: 0
+Number of fitted features after applying ImproveHomography : 0
+0% 
+/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BEAU/Aerial/CA256832V0234_Panel3.tifimg1 saved
+img2 saved
+Output Images are saved in the same directory !) 
+{'type': 'image', 'data': '/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BEAU/Aerial/CA256832V0234_Panel3.tif$/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BEAU/Satellite/WV02_20111212160201_103001000FBF5200_11DEC12160201-M1BS-052850989070_01_P001_u08rf3031.tif$2000$2000$2000$2000'}
+('This is the message : ', '/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BEAU/Aerial/CA256832V0234_Panel3.tif$/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BEAU/Satellite/WV02_20111212160201_103001000FBF5200_11DEC12160201-M1BS-052850989070_01_P001_u08rf3031.tif$2000$2000$2000$2000')
+This is matching function
+('New message will be sent to Q2: ', '/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BEAU/Aerial/CA256832V0234_Panel3.tif$/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BEAU/Satellite/WV02_20111212160201_103001000FBF5200_11DEC12160201-M1BS-052850989070_01_P001_u08rf3031.tif$/pylon5/mc3bggp/aymen/cuda_out/sift_matches_CA256832V0234_Panel3_WV02_20111212160201_103001000FBF5200_11DEC12160201-M1BS-052850989070_01_P001_u08rf3031.csv')
+GEOTIFF image1 detected  /pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BEAU/Aerial/CA256832V0236_Panel4.tif
+GEOTIFF image2 detected  /pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BEAU/Satellite/WV02_20111212160201_103001000FBF5200_11DEC12160201-M1BS-052850989070_01_P001_u08rf3031.tif
+gdal source image 1 inforamtion    0
+Source image size = (2000,2000)
+Target image size = (2000,2000)
+Initializing data...
+Device Number: 0
+  Device name: Tesla P100-PCIE-16GB
+  Memory Clock Rate (MHz): 715
+  Memory Bus Width (bits): 4096
+  Peak Memory Bandwidth (GB/s): 732.2
+
+Threshold value :3
+MatchSiftData time =          15.04 ms
+Number features detected by SIFT descriptors : Source Image 15915, Target Image 2606
+Number of Matched features: 0
+Number of fitted features after applying ImproveHomography : 0
+0% 
+/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BEAU/Aerial/CA256832V0236_Panel4.tifimg1 saved
+img2 saved
+Output Images are saved in the same directory !) 
+{'type': 'image', 'data': '/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BEAU/Aerial/CA256832V0236_Panel4.tif$/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BEAU/Satellite/WV02_20111212160201_103001000FBF5200_11DEC12160201-M1BS-052850989070_01_P001_u08rf3031.tif$2000$2000$2000$2000'}
+('This is the message : ', '/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BEAU/Aerial/CA256832V0236_Panel4.tif$/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BEAU/Satellite/WV02_20111212160201_103001000FBF5200_11DEC12160201-M1BS-052850989070_01_P001_u08rf3031.tif$2000$2000$2000$2000')
+This is matching function
+('New message will be sent to Q2: ', '/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BEAU/Aerial/CA256832V0236_Panel4.tif$/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BEAU/Satellite/WV02_20111212160201_103001000FBF5200_11DEC12160201-M1BS-052850989070_01_P001_u08rf3031.tif$/pylon5/mc3bggp/aymen/cuda_out/sift_matches_CA256832V0236_Panel4_WV02_20111212160201_103001000FBF5200_11DEC12160201-M1BS-052850989070_01_P001_u08rf3031.csv')
+GEOTIFF image1 detected  /pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BRDN/Aerial/CA257132V0002_Panel1.tif
+GEOTIFF image2 detected  /pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BRDN/Satellite/WV02_20160123205233_1030010051A98200_16JAN23205233-M1BS-500638387040_01_P001_u08rf3031.tif
+gdal source image 1 inforamtion    0
+Source image size = (2000,2000)
+Target image size = (2000,2000)
+Initializing data...
+Device Number: 0
+  Device name: Tesla P100-PCIE-16GB
+  Memory Clock Rate (MHz): 715
+  Memory Bus Width (bits): 4096
+  Peak Memory Bandwidth (GB/s): 732.2
+
+Threshold value :3
+MatchSiftData time =          2.83 ms
+Number features detected by SIFT descriptors : Source Image 4695, Target Image 1187
+Number of Matched features: 0
+Number of fitted features after applying ImproveHomography : 0
+0% 
+/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BRDN/Aerial/CA257132V0002_Panel1.tifimg1 saved
+img2 saved
+Output Images are saved in the same directory !) 
+{'type': 'image', 'data': '/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BRDN/Aerial/CA257132V0002_Panel1.tif$/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BRDN/Satellite/WV02_20160123205233_1030010051A98200_16JAN23205233-M1BS-500638387040_01_P001_u08rf3031.tif$2000$2000$2000$2000'}
+('This is the message : ', '/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BRDN/Aerial/CA257132V0002_Panel1.tif$/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BRDN/Satellite/WV02_20160123205233_1030010051A98200_16JAN23205233-M1BS-500638387040_01_P001_u08rf3031.tif$2000$2000$2000$2000')
+This is matching function
+('New message will be sent to Q2: ', '/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BRDN/Aerial/CA257132V0002_Panel1.tif$/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BRDN/Satellite/WV02_20160123205233_1030010051A98200_16JAN23205233-M1BS-500638387040_01_P001_u08rf3031.tif$/pylon5/mc3bggp/aymen/cuda_out/sift_matches_CA257132V0002_Panel1_WV02_20160123205233_1030010051A98200_16JAN23205233-M1BS-500638387040_01_P001_u08rf3031.csv')
+GEOTIFF image1 detected  /pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BRDN/Aerial/CA257132V0003_Panel2.tif
+GEOTIFF image2 detected  /pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BRDN/Satellite/WV02_20160123205234_1030010051A98200_16JAN23205234-M1BS-500638387040_01_P002_u08rf3031.tif
+gdal source image 1 inforamtion    0
+Source image size = (2000,2000)
+Target image size = (2000,2000)
+Initializing data...
+Device Number: 0
+  Device name: Tesla P100-PCIE-16GB
+  Memory Clock Rate (MHz): 715
+  Memory Bus Width (bits): 4096
+  Peak Memory Bandwidth (GB/s): 732.2
+
+Threshold value :3
+MatchSiftData time =          0.75 ms
+Number features detected by SIFT descriptors : Source Image 2050, Target Image 397
+Number of Matched features: 0
+Number of fitted features after applying ImproveHomography : 0
+0% 
+/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BRDN/Aerial/CA257132V0003_Panel2.tifimg1 saved
+img2 saved
+Output Images are saved in the same directory !) 
+{'type': 'image', 'data': '/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BRDN/Aerial/CA257132V0003_Panel2.tif$/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BRDN/Satellite/WV02_20160123205234_1030010051A98200_16JAN23205234-M1BS-500638387040_01_P002_u08rf3031.tif$2000$2000$2000$2000'}
+('This is the message : ', '/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BRDN/Aerial/CA257132V0003_Panel2.tif$/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BRDN/Satellite/WV02_20160123205234_1030010051A98200_16JAN23205234-M1BS-500638387040_01_P002_u08rf3031.tif$2000$2000$2000$2000')
+This is matching function
+('New message will be sent to Q2: ', '/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BRDN/Aerial/CA257132V0003_Panel2.tif$/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BRDN/Satellite/WV02_20160123205234_1030010051A98200_16JAN23205234-M1BS-500638387040_01_P002_u08rf3031.tif$/pylon5/mc3bggp/aymen/cuda_out/sift_matches_CA257132V0003_Panel2_WV02_20160123205234_1030010051A98200_16JAN23205234-M1BS-500638387040_01_P002_u08rf3031.csv')
+GEOTIFF image1 detected  /pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BRDS/Aerial/CA256932V0249_Panel4.tif
+GEOTIFF image2 detected  /pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BRDS/Satellite/WV02_20160123205234_1030010051A98200_16JAN23205234-M1BS-500638387040_01_P002_u08rf3031.tif
+gdal source image 1 inforamtion    0
+Source image size = (2000,2000)
+Target image size = (2000,2000)
+Initializing data...
+Device Number: 0
+  Device name: Tesla P100-PCIE-16GB
+  Memory Clock Rate (MHz): 715
+  Memory Bus Width (bits): 4096
+  Peak Memory Bandwidth (GB/s): 732.2
+
+Threshold value :3
+MatchSiftData time =          2.82 ms
+Number features detected by SIFT descriptors : Source Image 9522, Target Image 397
+Number of Matched features: 0
+Number of fitted features after applying ImproveHomography : 0
+0% 
+/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BRDS/Aerial/CA256932V0249_Panel4.tifimg1 saved
+img2 saved
+Output Images are saved in the same directory !) 
+{'type': 'image', 'data': '/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BRDS/Aerial/CA256932V0249_Panel4.tif$/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BRDS/Satellite/WV02_20160123205234_1030010051A98200_16JAN23205234-M1BS-500638387040_01_P002_u08rf3031.tif$2000$2000$2000$2000'}
+('This is the message : ', '/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BRDS/Aerial/CA256932V0249_Panel4.tif$/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BRDS/Satellite/WV02_20160123205234_1030010051A98200_16JAN23205234-M1BS-500638387040_01_P002_u08rf3031.tif$2000$2000$2000$2000')
+This is matching function
+('New message will be sent to Q2: ', '/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BRDS/Aerial/CA256932V0249_Panel4.tif$/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BRDS/Satellite/WV02_20160123205234_1030010051A98200_16JAN23205234-M1BS-500638387040_01_P002_u08rf3031.tif$/pylon5/mc3bggp/aymen/cuda_out/sift_matches_CA256932V0249_Panel4_WV02_20160123205234_1030010051A98200_16JAN23205234-M1BS-500638387040_01_P002_u08rf3031.csv')
+GEOTIFF image1 detected  /pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BRDS/Aerial/CA256932V0247_Panel2.tif
+GEOTIFF image2 detected  /pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BRDS/Satellite/WV02_20151205205948_103001004E6C0B00_15DEC05205948-M1BS-500637505080_01_P002_u08rf3031.tif
+gdal source image 1 inforamtion    0
+Source image size = (2000,2000)
+Target image size = (2000,2000)
+Initializing data...
+Device Number: 0
+  Device name: Tesla P100-PCIE-16GB
+  Memory Clock Rate (MHz): 715
+  Memory Bus Width (bits): 4096
+  Peak Memory Bandwidth (GB/s): 732.2
+
+Threshold value :3
+MatchSiftData time =          20.45 ms
+Number features detected by SIFT descriptors : Source Image 4953, Target Image 16982
+Number of Matched features: 0
+Number of fitted features after applying ImproveHomography : 0
+0% 
+/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BRDS/Aerial/CA256932V0247_Panel2.tifimg1 saved
+img2 saved
+Output Images are saved in the same directory !) 
+{'type': 'image', 'data': '/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BRDS/Aerial/CA256932V0247_Panel2.tif$/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BRDS/Satellite/WV02_20151205205948_103001004E6C0B00_15DEC05205948-M1BS-500637505080_01_P002_u08rf3031.tif$2000$2000$2000$2000'}
+('This is the message : ', '/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BRDS/Aerial/CA256932V0247_Panel2.tif$/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BRDS/Satellite/WV02_20151205205948_103001004E6C0B00_15DEC05205948-M1BS-500637505080_01_P002_u08rf3031.tif$2000$2000$2000$2000')
+This is matching function
+('New message will be sent to Q2: ', '/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BRDS/Aerial/CA256932V0247_Panel2.tif$/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BRDS/Satellite/WV02_20151205205948_103001004E6C0B00_15DEC05205948-M1BS-500637505080_01_P002_u08rf3031.tif$/pylon5/mc3bggp/aymen/cuda_out/sift_matches_CA256932V0247_Panel2_WV02_20151205205948_103001004E6C0B00_15DEC05205948-M1BS-500637505080_01_P002_u08rf3031.csv')
+GEOTIFF image1 detected  /pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BRDS/Aerial/CA256932V0251_Panel6.tif
+GEOTIFF image2 detected  /pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BRDS/Satellite/WV02_20151205205948_103001004E6C0B00_15DEC05205948-M1BS-500637505080_01_P002_u08rf3031.tif
+gdal source image 1 inforamtion    0
+Source image size = (2000,2000)
+Target image size = (2000,2000)
+Initializing data...
+Device Number: 0
+  Device name: Tesla P100-PCIE-16GB
+  Memory Clock Rate (MHz): 715
+  Memory Bus Width (bits): 4096
+  Peak Memory Bandwidth (GB/s): 732.2
+
+Threshold value :3
+MatchSiftData time =          36.83 ms
+Number features detected by SIFT descriptors : Source Image 8573, Target Image 16982
+Number of Matched features: 0
+Number of fitted features after applying ImproveHomography : 0
+0% 
+/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BRDS/Aerial/CA256932V0251_Panel6.tifimg1 saved
+img2 saved
+Output Images are saved in the same directory !) 
+{'type': 'image', 'data': '/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BRDS/Aerial/CA256932V0251_Panel6.tif$/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BRDS/Satellite/WV02_20151205205948_103001004E6C0B00_15DEC05205948-M1BS-500637505080_01_P002_u08rf3031.tif$2000$2000$2000$2000'}
+('This is the message : ', '/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BRDS/Aerial/CA256932V0251_Panel6.tif$/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BRDS/Satellite/WV02_20151205205948_103001004E6C0B00_15DEC05205948-M1BS-500637505080_01_P002_u08rf3031.tif$2000$2000$2000$2000')
+This is matching function
+('New message will be sent to Q2: ', '/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BRDS/Aerial/CA256932V0251_Panel6.tif$/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BRDS/Satellite/WV02_20151205205948_103001004E6C0B00_15DEC05205948-M1BS-500637505080_01_P002_u08rf3031.tif$/pylon5/mc3bggp/aymen/cuda_out/sift_matches_CA256932V0251_Panel6_WV02_20151205205948_103001004E6C0B00_15DEC05205948-M1BS-500637505080_01_P002_u08rf3031.csv')
+GEOTIFF image1 detected  /pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BRDS/Aerial/CA256932V0248_Panel3.tif
+GEOTIFF image2 detected  /pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BRDS/Satellite/WV02_20151216141940_103001004D155E00_15DEC16141940-M1BS-500637503050_01_P008_u08rf3031.tif
+gdal source image 1 inforamtion    0
+Source image size = (2000,2000)
+Target image size = (2000,2000)
+Initializing data...
+Device Number: 0
+  Device name: Tesla P100-PCIE-16GB
+  Memory Clock Rate (MHz): 715
+  Memory Bus Width (bits): 4096
+  Peak Memory Bandwidth (GB/s): 732.2
+
+Threshold value :3
+MatchSiftData time =          2.88 ms
+Number features detected by SIFT descriptors : Source Image 10290, Target Image 234
+Number of Matched features: 0
+Number of fitted features after applying ImproveHomography : 0
+0% 
+/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BRDS/Aerial/CA256932V0248_Panel3.tifimg1 saved
+img2 saved
+Output Images are saved in the same directory !) 
+{'type': 'image', 'data': '/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BRDS/Aerial/CA256932V0248_Panel3.tif$/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BRDS/Satellite/WV02_20151216141940_103001004D155E00_15DEC16141940-M1BS-500637503050_01_P008_u08rf3031.tif$2000$2000$2000$2000'}
+('This is the message : ', '/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BRDS/Aerial/CA256932V0248_Panel3.tif$/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BRDS/Satellite/WV02_20151216141940_103001004D155E00_15DEC16141940-M1BS-500637503050_01_P008_u08rf3031.tif$2000$2000$2000$2000')
+This is matching function
+('New message will be sent to Q2: ', '/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BRDS/Aerial/CA256932V0248_Panel3.tif$/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/BRDS/Satellite/WV02_20151216141940_103001004D155E00_15DEC16141940-M1BS-500637503050_01_P008_u08rf3031.tif$/pylon5/mc3bggp/aymen/cuda_out/sift_matches_CA256932V0248_Panel3_WV02_20151216141940_103001004D155E00_15DEC16141940-M1BS-500637503050_01_P008_u08rf3031.csv')
+GEOTIFF image1 detected  /pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/CROZ/Aerial/CA256132V0145_CROZ_9Dec1983.tif
+GEOTIFF image2 detected  /pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/CROZ/Satellite/WV02_20110201205548_1030010009810400_11FEB01205548-M1BS-052549109050_01_P002_u08rf3031.tif
+gdal source image 1 inforamtion    0
+Source image size = (2000,2000)
+Target image size = (2000,2000)
+Initializing data...
+Device Number: 0
+  Device name: Tesla P100-PCIE-16GB
+  Memory Clock Rate (MHz): 715
+  Memory Bus Width (bits): 4096
+  Peak Memory Bandwidth (GB/s): 732.2
+
+Threshold value :3
+Number features detected by SIFT descriptors : Source Image 22650, Target Image 0
+Number of Matched features: 0
+Number of fitted features after applying ImproveHomography : 22650
+inf% 
+/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/CROZ/Aerial/CA256132V0145_CROZ_9Dec1983.tifimg1 saved
+img2 saved
+Output Images are saved in the same directory !) 
+{'type': 'image', 'data': '/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/CROZ/Aerial/CA256132V0145_CROZ_9Dec1983.tif$/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/CROZ/Satellite/WV02_20110201205548_1030010009810400_11FEB01205548-M1BS-052549109050_01_P002_u08rf3031.tif$2000$2000$2000$2000'}
+('This is the message : ', '/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/CROZ/Aerial/CA256132V0145_CROZ_9Dec1983.tif$/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/CROZ/Satellite/WV02_20110201205548_1030010009810400_11FEB01205548-M1BS-052549109050_01_P002_u08rf3031.tif$2000$2000$2000$2000')
+This is matching function
+('New message will be sent to Q2: ', '/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/CROZ/Aerial/CA256132V0145_CROZ_9Dec1983.tif$/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/CROZ/Satellite/WV02_20110201205548_1030010009810400_11FEB01205548-M1BS-052549109050_01_P002_u08rf3031.tif$/pylon5/mc3bggp/aymen/cuda_out/sift_matches_CA256132V0145_CROZ_9Dec1983_WV02_20110201205548_1030010009810400_11FEB01205548-M1BS-052549109050_01_P002_u08rf3031.csv')
+GEOTIFF image1 detected  /pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/CROZ/Aerial/CA256132V0145_CROZ_9Dec1983.tif
+GEOTIFF image2 detected  /pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/CROZ/Satellite/WV02_20160217203134_1030010052BCC300_16FEB17203134-M1BS-500638400090_01_P004_u08rf3031.tif
+gdal source image 1 inforamtion    0
+Source image size = (2000,2000)
+Target image size = (2000,2000)
+Initializing data...
+Device Number: 0
+  Device name: Tesla P100-PCIE-16GB
+  Memory Clock Rate (MHz): 715
+  Memory Bus Width (bits): 4096
+  Peak Memory Bandwidth (GB/s): 732.2
+
+Threshold value :3
+MatchSiftData time =          10.83 ms
+Number features detected by SIFT descriptors : Source Image 22650, Target Image 1291
+Number of Matched features: 0
+Number of fitted features after applying ImproveHomography : 0
+0% 
+/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/CROZ/Aerial/CA256132V0145_CROZ_9Dec1983.tifimg1 saved
+img2 saved
+Output Images are saved in the same directory !) 
+{'type': 'image', 'data': '/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/CROZ/Aerial/CA256132V0145_CROZ_9Dec1983.tif$/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/CROZ/Satellite/WV02_20160217203134_1030010052BCC300_16FEB17203134-M1BS-500638400090_01_P004_u08rf3031.tif$2000$2000$2000$2000'}
+('This is the message : ', '/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/CROZ/Aerial/CA256132V0145_CROZ_9Dec1983.tif$/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/CROZ/Satellite/WV02_20160217203134_1030010052BCC300_16FEB17203134-M1BS-500638400090_01_P004_u08rf3031.tif$2000$2000$2000$2000')
+This is matching function
+('New message will be sent to Q2: ', '/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/CROZ/Aerial/CA256132V0145_CROZ_9Dec1983.tif$/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/CROZ/Satellite/WV02_20160217203134_1030010052BCC300_16FEB17203134-M1BS-500638400090_01_P004_u08rf3031.tif$/pylon5/mc3bggp/aymen/cuda_out/sift_matches_CA256132V0145_CROZ_9Dec1983_WV02_20160217203134_1030010052BCC300_16FEB17203134-M1BS-500638400090_01_P004_u08rf3031.csv')
+GEOTIFF image1 detected  /pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/CROZ/Aerial/CA256132V0145_CROZ_9Dec1983.tif
+GEOTIFF image2 detected  /pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/CROZ/Satellite/WV02_20110227200721_103001000945C000_11FEB27200721-M1BS-052502412010_01_P001_u08rf3031.tif
+gdal source image 1 inforamtion    0
+Source image size = (2000,2000)
+Target image size = (2000,2000)
+Initializing data...
+Device Number: 0
+  Device name: Tesla P100-PCIE-16GB
+  Memory Clock Rate (MHz): 715
+  Memory Bus Width (bits): 4096
+  Peak Memory Bandwidth (GB/s): 732.2
+
+Threshold value :3
+MatchSiftData time =          8.77 ms
+Number features detected by SIFT descriptors : Source Image 22650, Target Image 918
+Number of Matched features: 0
+Number of fitted features after applying ImproveHomography : 0
+0% 
+/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/CROZ/Aerial/CA256132V0145_CROZ_9Dec1983.tifimg1 saved
+img2 saved
+Output Images are saved in the same directory !) 
+{'type': 'image', 'data': '/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/CROZ/Aerial/CA256132V0145_CROZ_9Dec1983.tif$/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/CROZ/Satellite/WV02_20110227200721_103001000945C000_11FEB27200721-M1BS-052502412010_01_P001_u08rf3031.tif$2000$2000$2000$2000'}
+('This is the message : ', '/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/CROZ/Aerial/CA256132V0145_CROZ_9Dec1983.tif$/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/CROZ/Satellite/WV02_20110227200721_103001000945C000_11FEB27200721-M1BS-052502412010_01_P001_u08rf3031.tif$2000$2000$2000$2000')
+This is matching function
+('New message will be sent to Q2: ', '/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/CROZ/Aerial/CA256132V0145_CROZ_9Dec1983.tif$/pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/CROZ/Satellite/WV02_20110227200721_103001000945C000_11FEB27200721-M1BS-052502412010_01_P001_u08rf3031.tif$/pylon5/mc3bggp/aymen/cuda_out/sift_matches_CA256132V0145_CROZ_9Dec1983_WV02_20110227200721_103001000945C000_11FEB27200721-M1BS-052502412010_01_P001_u08rf3031.csv')
+{'type': 'image', 'data': 'disconnect'}

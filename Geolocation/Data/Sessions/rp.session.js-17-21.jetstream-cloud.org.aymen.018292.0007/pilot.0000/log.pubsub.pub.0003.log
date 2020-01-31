@@ -1,0 +1,12 @@
+2020-01-31 01:28:41,666: log.pubsub.pub.0003 : update.0                        : MainThread     : INFO    : create log_pubsub - pub - tcp://10.4.119.119:43882
+2020-01-31 01:28:41,667: log.pubsub.pub.0003 : update.0                        : MainThread     : DEBUG   : start process
+2020-01-31 01:28:41,667: log.pubsub.pub.0003 : update.0                        : MainThread     : DEBUG   : ru_initialize_common (NOOP)
+2020-01-31 01:28:41,668: log.pubsub.pub.0003 : update.0                        : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
+2020-01-31 01:28:41,668: log.pubsub.pub.0003 : update.0                        : MainThread     : DEBUG   : process class started (no child)
+2020-01-31 01:28:42,314: log.pubsub.pub.0003 : MainProcess                     : MainThread     : INFO    : create log_pubsub - pub - tcp://10.4.119.119:43882
+2020-01-31 01:28:42,316: log.pubsub.pub.0003 : MainProcess                     : MainThread     : DEBUG   : start process
+2020-01-31 01:28:42,316: log.pubsub.pub.0003 : MainProcess                     : MainThread     : DEBUG   : ru_initialize_common (NOOP)
+2020-01-31 01:28:42,316: log.pubsub.pub.0003 : MainProcess                     : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
+2020-01-31 01:28:42,316: log.pubsub.pub.0003 : MainProcess                     : MainThread     : DEBUG   : process class started (no child)
+2020-01-31 01:31:05,535: log.pubsub.pub.0003 : update.0                        : update.0.child.subscriber._cancel_monitor_cb: INFO    : parent stops child  6681 -> None [log.pubsub.pub.0003]
+2020-01-31 01:31:05,535: log.pubsub.pub.0003 : update.0                        : update.0.child.subscriber._cancel_monitor_cb: DEBUG   : ru_finalize_parent (NOOP)

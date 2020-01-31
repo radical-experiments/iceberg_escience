@@ -1,0 +1,12 @@
+2020-01-31 11:51:37,968: state.pubsub.pub.0001: agent_0.scheduling.0            : MainThread     : INFO    : create state_pubsub - pub - tcp://10.4.119.124:36268
+2020-01-31 11:51:37,969: state.pubsub.pub.0001: agent_0.scheduling.0            : MainThread     : DEBUG   : start process
+2020-01-31 11:51:37,970: state.pubsub.pub.0001: agent_0.scheduling.0            : MainThread     : DEBUG   : ru_initialize_common (NOOP)
+2020-01-31 11:51:37,970: state.pubsub.pub.0001: agent_0.scheduling.0            : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
+2020-01-31 11:51:37,970: state.pubsub.pub.0001: agent_0.scheduling.0            : MainThread     : DEBUG   : process class started (no child)
+2020-01-31 11:51:38,080: state.pubsub.pub.0001: MainProcess                     : MainThread     : INFO    : create state_pubsub - pub - tcp://10.4.119.124:36268
+2020-01-31 11:51:38,082: state.pubsub.pub.0001: MainProcess                     : MainThread     : DEBUG   : start process
+2020-01-31 11:51:38,082: state.pubsub.pub.0001: MainProcess                     : MainThread     : DEBUG   : ru_initialize_common (NOOP)
+2020-01-31 11:51:38,082: state.pubsub.pub.0001: MainProcess                     : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
+2020-01-31 11:51:38,082: state.pubsub.pub.0001: MainProcess                     : MainThread     : DEBUG   : process class started (no child)
+2020-01-31 11:54:33,023: state.pubsub.pub.0001: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: INFO    : parent stops child  12518 -> None [state.pubsub.pub.0001]
+2020-01-31 11:54:33,024: state.pubsub.pub.0001: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: DEBUG   : ru_finalize_parent (NOOP)

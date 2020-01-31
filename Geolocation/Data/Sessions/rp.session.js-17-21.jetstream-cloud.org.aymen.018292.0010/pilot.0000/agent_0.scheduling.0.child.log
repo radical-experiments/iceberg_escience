@@ -1,0 +1,519 @@
+2020-01-31 11:51:37,952: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : INFO    : initialize agent_0.scheduling.0.child
+2020-01-31 11:51:37,960: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : INFO    : cfg: {'agent_launch_method': 'SSH',
+ 'agent_name': 'agent_0',
+ 'agents': {},
+ 'app_comm': None,
+ 'bridges': {'agent_executing_queue': {'addr_in': 'tcp://10.4.119.124:45805',
+                                       'addr_out': 'tcp://10.4.119.124:43511',
+                                       'bulk_size': 0,
+                                       'log_level': 'error',
+                                       'stall_hwm': 1},
+             'agent_schedule_pubsub': {'addr_in': 'tcp://10.4.119.124:42339',
+                                       'addr_out': 'tcp://10.4.119.124:38850',
+                                       'bulk_size': 0,
+                                       'log_level': 'error',
+                                       'stall_hwm': 1},
+             'agent_scheduling_queue': {'addr_in': 'tcp://10.4.119.124:35414',
+                                        'addr_out': 'tcp://10.4.119.124:35737',
+                                        'bulk_size': 0,
+                                        'log_level': 'error',
+                                        'stall_hwm': 1},
+             'agent_staging_input_queue': {'addr_in': 'tcp://10.4.119.124:34316',
+                                           'addr_out': 'tcp://10.4.119.124:33869',
+                                           'bulk_size': 0,
+                                           'log_level': 'error',
+                                           'stall_hwm': 1},
+             'agent_staging_output_queue': {'addr_in': 'tcp://10.4.119.124:37066',
+                                            'addr_out': 'tcp://10.4.119.124:44828',
+                                            'bulk_size': 0,
+                                            'log_level': 'error',
+                                            'stall_hwm': 1},
+             'agent_unschedule_pubsub': {'addr_in': 'tcp://10.4.119.124:41434',
+                                         'addr_out': 'tcp://10.4.119.124:41697',
+                                         'bulk_size': 0,
+                                         'log_level': 'error',
+                                         'stall_hwm': 1},
+             'control_pubsub': {'addr_in': 'tcp://10.4.119.124:34028',
+                                'addr_out': 'tcp://10.4.119.124:39630',
+                                'bulk_size': 0,
+                                'log_level': 'error',
+                                'stall_hwm': 1},
+             'log_pubsub': {'addr_in': 'tcp://10.4.119.124:41420',
+                            'addr_out': 'tcp://10.4.119.124:33289',
+                            'bulk_size': 0,
+                            'log_level': 'error',
+                            'stall_hwm': 1},
+             'state_pubsub': {'addr_in': 'tcp://10.4.119.124:36268',
+                              'addr_out': 'tcp://10.4.119.124:45403',
+                              'bulk_size': 0,
+                              'log_level': 'error',
+                              'stall_hwm': 1}},
+ 'bulk_collection_size': 100,
+ 'bulk_collection_time': 1.0,
+ 'cname': 'AgentSchedulingComponent',
+ 'components': {},
+ 'cores': 128,
+ 'cores_per_node': 0,
+ 'count': 1,
+ 'cu_post_exec': None,
+ 'cu_pre_exec': [],
+ 'cu_tmp': None,
+ 'db_poll_sleeptime': 1.0,
+ 'dburl': 'mongodb://rct:rct_test@two.radical-project.org/rct_test',
+ 'debug': 10,
+ 'export_to_cu': [],
+ 'gpus': 8,
+ 'gpus_per_node': 2,
+ 'lfs_path_per_node': '$LOCAL',
+ 'lfs_size_per_node': 3713368,
+ 'logdir': '.',
+ 'lrms': 'SLURM',
+ 'lrms_info': {'agent_nodes': {},
+               'cores_per_node': 32,
+               'gpus_per_node': 2,
+               'lfs_per_node': {'path': '/local/7536729', 'size': 3713368},
+               'lm_info': {'cores_per_node': 32},
+               'mem_per_node': 0,
+               'name': 'Slurm',
+               'node_list': [['gpu024', 'gpu024'],
+                             ['gpu028', 'gpu028'],
+                             ['gpu030', 'gpu030'],
+                             ['gpu031', 'gpu031']]},
+ 'max_io_loglength': 1024,
+ 'mode': 'shared',
+ 'mpi_launch_method': 'MPIRUN',
+ 'number': 0,
+ 'owner': 'agent_0',
+ 'pilot_id': 'pilot.0000',
+ 'pilot_sandbox': '/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0010/pilot.0000/',
+ 'resource_cfg': {'agent_launch_method': 'SSH',
+                  'agent_scheduler': 'CONTINUOUS',
+                  'agent_spawner': 'POPEN',
+                  'cu_pre_exec': [],
+                  'default_queue': 'RM',
+                  'default_remote_workdir': '$SCRATCH',
+                  'description': "The XSEDE 'Bridges' cluster at PSC (https://portal.xsede.org/psc-bridges/).",
+                  'export_to_cu': [],
+                  'filesystem_endpoint': 'gsisftp://bridges.psc.xsede.org:2222/',
+                  'go': {'filesystem_endpoint': 'go://xsede#bridges/',
+                         'job_manager_endpoint': 'slurm+ssh://bridges.psc.xsede.org/'},
+                  'gpus_per_node': 2,
+                  'gsissh': {'filesystem_endpoint': 'gsisftp://bridges.psc.xsede.org:2222/',
+                             'job_manager_endpoint': 'slurm+gsissh://bridges.psc.xsede.org:2222/'},
+                  'job_manager_endpoint': 'slurm+gsissh://bridges.psc.xsede.org:2222/',
+                  'label': 'xsede.bridges',
+                  'lfs_path_per_node': '$LOCAL',
+                  'lfs_size_per_node': 3713368,
+                  'lrms': 'SLURM',
+                  'mpi_launch_method': 'MPIRUN',
+                  'notes': 'Always set the ``project`` attribute in the ComputePilotDescription.',
+                  'pre_bootstrap_0': ['module purge',
+                                      'module load gcc',
+                                      'module load mpi/gcc_openmpi',
+                                      'module load slurm',
+                                      'module load python2'],
+                  'python_dist': 'default',
+                  'rp_version': 'local',
+                  'saga_jd_supplement': {'cpu_architecture': ['p100']},
+                  'schemas': ['gsissh', 'ssh', 'go'],
+                  'ssh': {'filesystem_endpoint': 'sftp://bridges.psc.xsede.org/',
+                          'job_manager_endpoint': 'slurm+ssh://bridges.psc.xsede.org/'},
+                  'task_launch_method': 'SSH',
+                  'valid_roots': ['/home', '/pylon1', '/pylon5'],
+                  'virtenv_mode': 'create'},
+ 'resource_sandbox': '/pylon5/mc3bggp/aymen/radical.pilot.sandbox',
+ 'runtime': 2880,
+ 'scheduler': 'CONTINUOUS',
+ 'session_id': 'rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0010',
+ 'session_sandbox': '/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0010',
+ 'spawner': 'POPEN',
+ 'staging_area': 'staging_area',
+ 'staging_schema': 'staging',
+ 'target': 'local',
+ 'task_launch_method': 'SSH',
+ 'uid': 'agent_0',
+ 'workdir': '/pylon5/mc3bggp/aymen/radical.pilot.sandbox/rp.session.js-17-21.jetstream-cloud.org.aymen.018292.0010/pilot.0000'}
+2020-01-31 11:51:37,960: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : start components: {}
+2020-01-31 11:51:37,960: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : alive check in term
+2020-01-31 11:51:37,961: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : START: agent_0.scheduling.0.child register publisher log_pubsub
+2020-01-31 11:51:37,961: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : using addr tcp://10.4.119.124:41420 for pubsub log_pubsub
+2020-01-31 11:51:37,966: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : registered publisher : log_pubsub : log.pubsub.pub.0001
+2020-01-31 11:51:37,966: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : alive check in term
+2020-01-31 11:51:37,966: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : START: agent_0.scheduling.0.child register publisher state_pubsub
+2020-01-31 11:51:37,966: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : using addr tcp://10.4.119.124:36268 for pubsub state_pubsub
+2020-01-31 11:51:37,970: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : registered publisher : state_pubsub : state.pubsub.pub.0001
+2020-01-31 11:51:37,970: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : alive check in term
+2020-01-31 11:51:37,970: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : START: agent_0.scheduling.0.child register publisher control_pubsub
+2020-01-31 11:51:37,970: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : using addr tcp://10.4.119.124:34028 for pubsub control_pubsub
+2020-01-31 11:51:37,981: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : registered publisher : control_pubsub : control.pubsub.pub.0001
+2020-01-31 11:51:37,984: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : alive check in term
+2020-01-31 11:51:37,984: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : START: agent_0.scheduling.0.child register subscriber agent_0.scheduling.0.child.subscriber._cancel_monitor_cb
+2020-01-31 11:51:37,984: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : using addr tcp://10.4.119.124:39630 for pubsub control_pubsub
+2020-01-31 11:51:37,988: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : parent name: agent_0.scheduling.0.child.subscriber._cancel_monitor_cb
+2020-01-31 11:51:37,988: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : start thread
+2020-01-31 11:51:37,988: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: DEBUG   : child name: agent_0.scheduling.0.child.subscriber._cancel_monitor_cb.thread
+2020-01-31 11:51:37,989: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: INFO    : child (me) initializing
+2020-01-31 11:51:37,989: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: DEBUG   : ru_initialize_common (NOOP)
+2020-01-31 11:51:37,989: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: DEBUG   : ru_initialize_child (NOOP)
+2020-01-31 11:51:37,989: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: INFO    : send alive
+2020-01-31 11:51:37,989: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: INFO    : put message: [agent_0.scheduling.0.child.subscriber._cancel_monitor_cb.thread] alive
+2020-01-31 11:51:37,990: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : INFO    : get msg: alive
+2020-01-31 11:51:37,990: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : ru_initialize_common (NOOP)
+2020-01-31 11:51:37,990: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
+2020-01-31 11:51:37,990: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : child thread agent_0.scheduling.0.child.subscriber._cancel_monitor_cb started
+2020-01-31 11:51:37,990: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : agent_0.scheduling.0.child registered control_pubsub subscriber agent_0.scheduling.0.child.subscriber._cancel_monitor_cb
+2020-01-31 11:51:37,990: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : alive check in term
+2020-01-31 11:51:37,990: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : using addr tcp://10.4.119.124:35737 for input agent_scheduling_queue
+2020-01-31 11:51:37,994: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : registered input agent_0.scheduling.0.child._schedule_units.AGENT_SCHEDULING_PENDING
+2020-01-31 11:51:37,994: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : START: agent_0.scheduling.0.child register input AGENT_SCHEDULING_PENDING: agent_0.scheduling.0.child._schedule_units.AGENT_SCHEDULING_PENDING
+2020-01-31 11:51:37,995: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : registered worker _schedule_units [AGENT_SCHEDULING_PENDING]
+2020-01-31 11:51:37,995: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : alive check in term
+2020-01-31 11:51:37,995: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : START: agent_0.scheduling.0.child register output AGENT_EXECUTING_PENDING
+2020-01-31 11:51:37,995: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : using addr tcp://10.4.119.124:45805 for output agent_executing_queue
+2020-01-31 11:51:37,999: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : registered output    : AGENT_EXECUTING_PENDING : agent_executing_queue : agent.executing.queue.input.0000
+2020-01-31 11:51:37,999: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : alive check in term
+2020-01-31 11:51:37,999: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : START: agent_0.scheduling.0.child register subscriber agent_0.scheduling.0.child.subscriber.unschedule_cb
+2020-01-31 11:51:37,999: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : using addr tcp://10.4.119.124:41697 for pubsub agent_unschedule_pubsub
+2020-01-31 11:51:38,003: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : parent name: agent_0.scheduling.0.child.subscriber.unschedule_cb
+2020-01-31 11:51:38,003: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : start thread
+2020-01-31 11:51:38,003: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : child name: agent_0.scheduling.0.child.subscriber.unschedule_cb.thread
+2020-01-31 11:51:38,004: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: INFO    : child (me) initializing
+2020-01-31 11:51:38,004: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : ru_initialize_common (NOOP)
+2020-01-31 11:51:38,004: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : ru_initialize_child (NOOP)
+2020-01-31 11:51:38,004: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: INFO    : send alive
+2020-01-31 11:51:38,004: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: INFO    : put message: [agent_0.scheduling.0.child.subscriber.unschedule_cb.thread] alive
+2020-01-31 11:51:38,005: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : INFO    : get msg: alive
+2020-01-31 11:51:38,005: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : ru_initialize_common (NOOP)
+2020-01-31 11:51:38,005: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
+2020-01-31 11:51:38,005: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : child thread agent_0.scheduling.0.child.subscriber.unschedule_cb started
+2020-01-31 11:51:38,005: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : agent_0.scheduling.0.child registered agent_unschedule_pubsub subscriber agent_0.scheduling.0.child.subscriber.unschedule_cb
+2020-01-31 11:51:38,005: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : alive check in term
+2020-01-31 11:51:38,005: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : START: agent_0.scheduling.0.child register publisher agent_schedule_pubsub
+2020-01-31 11:51:38,005: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : using addr tcp://10.4.119.124:42339 for pubsub agent_schedule_pubsub
+2020-01-31 11:51:38,010: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : registered publisher : agent_schedule_pubsub : agent.schedule.pubsub.pub.0000
+2020-01-31 11:51:38,010: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : alive check in term
+2020-01-31 11:51:38,010: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : START: agent_0.scheduling.0.child register subscriber agent_0.scheduling.0.child.subscriber.schedule_cb
+2020-01-31 11:51:38,010: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : using addr tcp://10.4.119.124:38850 for pubsub agent_schedule_pubsub
+2020-01-31 11:51:38,061: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : parent name: agent_0.scheduling.0.child.subscriber.schedule_cb
+2020-01-31 11:51:38,061: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : start thread
+2020-01-31 11:51:38,062: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : child name: agent_0.scheduling.0.child.subscriber.schedule_cb.thread
+2020-01-31 11:51:38,062: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: INFO    : child (me) initializing
+2020-01-31 11:51:38,062: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : ru_initialize_common (NOOP)
+2020-01-31 11:51:38,062: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : ru_initialize_child (NOOP)
+2020-01-31 11:51:38,062: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: INFO    : send alive
+2020-01-31 11:51:38,062: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: INFO    : put message: [agent_0.scheduling.0.child.subscriber.schedule_cb.thread] alive
+2020-01-31 11:51:38,063: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : INFO    : get msg: alive
+2020-01-31 11:51:38,063: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : ru_initialize_common (NOOP)
+2020-01-31 11:51:38,063: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
+2020-01-31 11:51:38,063: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : child thread agent_0.scheduling.0.child.subscriber.schedule_cb started
+2020-01-31 11:51:38,063: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : agent_0.scheduling.0.child registered agent_schedule_pubsub subscriber agent_0.scheduling.0.child.subscriber.schedule_cb
+2020-01-31 11:51:38,064: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : slot status after  init      : |--------------------------------:--|--------------------------------:--|--------------------------------:--|--------------------------------:--|
+2020-01-31 11:51:38,064: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : INFO    : child (me) initializing
+2020-01-31 11:51:38,064: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : parent name: agent_0.scheduling.0.child.watch
+2020-01-31 11:51:38,064: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : start thread
+2020-01-31 11:51:38,065: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.watch: DEBUG   : child name: agent_0.scheduling.0.child.watch.thread
+2020-01-31 11:51:38,065: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.watch: INFO    : child (me) initializing
+2020-01-31 11:51:38,065: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.watch: DEBUG   : ru_initialize_common (NOOP)
+2020-01-31 11:51:38,065: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.watch: DEBUG   : ru_initialize_child (NOOP)
+2020-01-31 11:51:38,065: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.watch: INFO    : send alive
+2020-01-31 11:51:38,065: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.watch: INFO    : put message: [agent_0.scheduling.0.child.watch.thread] alive
+2020-01-31 11:51:38,066: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : INFO    : get msg: alive
+2020-01-31 11:51:38,066: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : ru_initialize_common (NOOP)
+2020-01-31 11:51:38,066: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
+2020-01-31 11:51:38,067: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : child thread agent_0.scheduling.0.child.watch started
+2020-01-31 11:51:38,067: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : INFO    : child (me) is alive
+2020-01-31 11:51:38,067: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : INFO    : send alive
+2020-01-31 11:51:38,067: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : INFO    : send message: [agent_0.scheduling.0.child] alive
+2020-01-31 11:51:41,106: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000000)
+2020-01-31 11:51:41,107: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2020-01-31 11:51:41,107: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : alc : 1 0 0 0
+2020-01-31 11:51:41,107: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : === 5 found [0] cores, [] gpus, 1 tpp
+2020-01-31 11:51:41,107: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : === 5 found 1 cores, 0 gpus, 1 tpp
+2020-01-31 11:51:41,108: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : after  allocate   unit.000000: |#-------------------------------:--|--------------------------------:--|--------------------------------:--|--------------------------------:--|
+2020-01-31 11:51:41,108: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : unit.000000 [1/0] : {'cores_per_node': 32,
+ 'gpus_per_node': 2,
+ 'lfs_per_node': {'path': '/local/7536729', 'size': 3713368},
+ 'lm_info': {'cores_per_node': 32},
+ 'mem_per_node': 0,
+ 'nodes': [{'core_map': [[0]],
+            'gpu_map': [],
+            'lfs': {'path': '/local/7536729', 'size': 0},
+            'mem': 0,
+            'name': 'gpu024',
+            'uid': 'gpu024'}]}
+2020-01-31 11:51:41,109: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2020-01-31 11:51:41,109: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : put bulk AGENT_EXECUTING_PENDING: 1
+2020-01-31 11:51:50,163: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000001)
+2020-01-31 11:51:50,163: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2020-01-31 11:51:50,164: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : alc : 1 0 0 0
+2020-01-31 11:51:50,164: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : === 5 found [1] cores, [] gpus, 1 tpp
+2020-01-31 11:51:50,164: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : === 5 found 1 cores, 0 gpus, 1 tpp
+2020-01-31 11:51:50,164: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : after  allocate   unit.000001: |##------------------------------:--|--------------------------------:--|--------------------------------:--|--------------------------------:--|
+2020-01-31 11:51:50,165: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : unit.000001 [1/0] : {'cores_per_node': 32,
+ 'gpus_per_node': 2,
+ 'lfs_per_node': {'path': '/local/7536729', 'size': 3713368},
+ 'lm_info': {'cores_per_node': 32},
+ 'mem_per_node': 0,
+ 'nodes': [{'core_map': [[1]],
+            'gpu_map': [],
+            'lfs': {'path': '/local/7536729', 'size': 0},
+            'mem': 0,
+            'name': 'gpu024',
+            'uid': 'gpu024'}]}
+2020-01-31 11:51:50,165: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2020-01-31 11:51:50,165: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : put bulk AGENT_EXECUTING_PENDING: 1
+2020-01-31 11:52:04,244: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : before unschedule unit.000001: |##------------------------------:--|--------------------------------:--|--------------------------------:--|--------------------------------:--|
+2020-01-31 11:52:04,245: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : after  unschedule unit.000001: |#-------------------------------:--|--------------------------------:--|--------------------------------:--|--------------------------------:--|
+2020-01-31 11:52:47,880: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000002)
+2020-01-31 11:52:47,880: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2020-01-31 11:52:47,881: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : alc : 30 0 0 0
+2020-01-31 11:52:47,881: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : === 5 found [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30] cores, [] gpus, 1 tpp
+2020-01-31 11:52:47,881: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : === 5 found 30 cores, 0 gpus, 1 tpp
+2020-01-31 11:52:47,881: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : after  allocate   unit.000002: |###############################-:--|--------------------------------:--|--------------------------------:--|--------------------------------:--|
+2020-01-31 11:52:47,883: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : unit.000002 [30/0] : {'cores_per_node': 32,
+ 'gpus_per_node': 2,
+ 'lfs_per_node': {'path': '/local/7536729', 'size': 3713368},
+ 'lm_info': {'cores_per_node': 32},
+ 'mem_per_node': 0,
+ 'nodes': [{'core_map': [[1],
+                         [2],
+                         [3],
+                         [4],
+                         [5],
+                         [6],
+                         [7],
+                         [8],
+                         [9],
+                         [10],
+                         [11],
+                         [12],
+                         [13],
+                         [14],
+                         [15],
+                         [16],
+                         [17],
+                         [18],
+                         [19],
+                         [20],
+                         [21],
+                         [22],
+                         [23],
+                         [24],
+                         [25],
+                         [26],
+                         [27],
+                         [28],
+                         [29],
+                         [30]],
+            'gpu_map': [],
+            'lfs': {'path': '/local/7536729', 'size': 0},
+            'mem': 0,
+            'name': 'gpu024',
+            'uid': 'gpu024'}]}
+2020-01-31 11:52:47,883: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2020-01-31 11:52:47,883: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : put bulk AGENT_EXECUTING_PENDING: 1
+2020-01-31 11:53:03,567: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000003)
+2020-01-31 11:53:03,568: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2020-01-31 11:53:03,568: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : alc : 32 0 0 0
+2020-01-31 11:53:03,568: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : === 5 found [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31] cores, [] gpus, 1 tpp
+2020-01-31 11:53:03,568: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : === 5 found 32 cores, 0 gpus, 1 tpp
+2020-01-31 11:53:03,568: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : after  allocate   unit.000003: |###############################-:--|################################:--|--------------------------------:--|--------------------------------:--|
+2020-01-31 11:53:03,570: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : unit.000003 [32/0] : {'cores_per_node': 32,
+ 'gpus_per_node': 2,
+ 'lfs_per_node': {'path': '/local/7536729', 'size': 3713368},
+ 'lm_info': {'cores_per_node': 32},
+ 'mem_per_node': 0,
+ 'nodes': [{'core_map': [[0],
+                         [1],
+                         [2],
+                         [3],
+                         [4],
+                         [5],
+                         [6],
+                         [7],
+                         [8],
+                         [9],
+                         [10],
+                         [11],
+                         [12],
+                         [13],
+                         [14],
+                         [15],
+                         [16],
+                         [17],
+                         [18],
+                         [19],
+                         [20],
+                         [21],
+                         [22],
+                         [23],
+                         [24],
+                         [25],
+                         [26],
+                         [27],
+                         [28],
+                         [29],
+                         [30],
+                         [31]],
+            'gpu_map': [],
+            'lfs': {'path': '/local/7536729', 'size': 0},
+            'mem': 0,
+            'name': 'gpu028',
+            'uid': 'gpu028'}]}
+2020-01-31 11:53:03,570: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2020-01-31 11:53:03,570: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : put bulk AGENT_EXECUTING_PENDING: 1
+2020-01-31 11:53:17,043: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000004)
+2020-01-31 11:53:17,045: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2020-01-31 11:53:17,046: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : alc : 32 0 0 0
+2020-01-31 11:53:17,046: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : === 5 found [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31] cores, [] gpus, 1 tpp
+2020-01-31 11:53:17,046: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : === 5 found 32 cores, 0 gpus, 1 tpp
+2020-01-31 11:53:17,046: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : after  allocate   unit.000004: |###############################-:--|################################:--|################################:--|--------------------------------:--|
+2020-01-31 11:53:17,048: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : unit.000004 [32/0] : {'cores_per_node': 32,
+ 'gpus_per_node': 2,
+ 'lfs_per_node': {'path': '/local/7536729', 'size': 3713368},
+ 'lm_info': {'cores_per_node': 32},
+ 'mem_per_node': 0,
+ 'nodes': [{'core_map': [[0],
+                         [1],
+                         [2],
+                         [3],
+                         [4],
+                         [5],
+                         [6],
+                         [7],
+                         [8],
+                         [9],
+                         [10],
+                         [11],
+                         [12],
+                         [13],
+                         [14],
+                         [15],
+                         [16],
+                         [17],
+                         [18],
+                         [19],
+                         [20],
+                         [21],
+                         [22],
+                         [23],
+                         [24],
+                         [25],
+                         [26],
+                         [27],
+                         [28],
+                         [29],
+                         [30],
+                         [31]],
+            'gpu_map': [],
+            'lfs': {'path': '/local/7536729', 'size': 0},
+            'mem': 0,
+            'name': 'gpu030',
+            'uid': 'gpu030'}]}
+2020-01-31 11:53:17,048: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2020-01-31 11:53:17,048: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : put bulk AGENT_EXECUTING_PENDING: 1
+2020-01-31 11:53:31,626: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : got unit (unit.000005)
+2020-01-31 11:53:31,626: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : advance bulk size: 1 [False, True]
+2020-01-31 11:53:31,627: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : alc : 32 0 0 0
+2020-01-31 11:53:31,627: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : === 5 found [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31] cores, [] gpus, 1 tpp
+2020-01-31 11:53:31,627: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : === 5 found 32 cores, 0 gpus, 1 tpp
+2020-01-31 11:53:31,627: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : after  allocate   unit.000005: |###############################-:--|################################:--|################################:--|################################:--|
+2020-01-31 11:53:31,629: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : unit.000005 [32/0] : {'cores_per_node': 32,
+ 'gpus_per_node': 2,
+ 'lfs_per_node': {'path': '/local/7536729', 'size': 3713368},
+ 'lm_info': {'cores_per_node': 32},
+ 'mem_per_node': 0,
+ 'nodes': [{'core_map': [[0],
+                         [1],
+                         [2],
+                         [3],
+                         [4],
+                         [5],
+                         [6],
+                         [7],
+                         [8],
+                         [9],
+                         [10],
+                         [11],
+                         [12],
+                         [13],
+                         [14],
+                         [15],
+                         [16],
+                         [17],
+                         [18],
+                         [19],
+                         [20],
+                         [21],
+                         [22],
+                         [23],
+                         [24],
+                         [25],
+                         [26],
+                         [27],
+                         [28],
+                         [29],
+                         [30],
+                         [31]],
+            'gpu_map': [],
+            'lfs': {'path': '/local/7536729', 'size': 0},
+            'mem': 0,
+            'name': 'gpu031',
+            'uid': 'gpu031'}]}
+2020-01-31 11:53:31,629: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : advance bulk size: 1 [True, True]
+2020-01-31 11:53:31,629: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : put bulk AGENT_EXECUTING_PENDING: 1
+2020-01-31 11:54:23,269: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : before unschedule unit.000004: |###############################-:--|################################:--|################################:--|################################:--|
+2020-01-31 11:54:23,269: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : after  unschedule unit.000004: |###############################-:--|################################:--|--------------------------------:--|################################:--|
+2020-01-31 11:54:23,470: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : before unschedule unit.000000: |###############################-:--|################################:--|--------------------------------:--|################################:--|
+2020-01-31 11:54:23,470: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : after  unschedule unit.000000: |-##############################-:--|################################:--|--------------------------------:--|################################:--|
+2020-01-31 11:54:24,072: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : before unschedule unit.000003: |-##############################-:--|################################:--|--------------------------------:--|################################:--|
+2020-01-31 11:54:24,072: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : after  unschedule unit.000003: |-##############################-:--|--------------------------------:--|--------------------------------:--|################################:--|
+2020-01-31 11:54:24,775: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : before unschedule unit.000005: |-##############################-:--|--------------------------------:--|--------------------------------:--|################################:--|
+2020-01-31 11:54:24,776: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : after  unschedule unit.000005: |-##############################-:--|--------------------------------:--|--------------------------------:--|--------------------------------:--|
+2020-01-31 11:54:24,876: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : before unschedule unit.000002: |-##############################-:--|--------------------------------:--|--------------------------------:--|--------------------------------:--|
+2020-01-31 11:54:24,876: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : after  unschedule unit.000002: |--------------------------------:--|--------------------------------:--|--------------------------------:--|--------------------------------:--|
+2020-01-31 11:54:32,548: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: INFO    : got termination command
+2020-01-31 11:54:32,676: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: INFO    : stop agent_0.scheduling.0.child (12518 : 12518 : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb) [radical.pilot.utils.component.Continuous._cancel_monitor_cb]
+2020-01-31 11:54:33,021: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: INFO    : parent stops child  12518 -> 12518 [agent_0.scheduling.0.child]
+2020-01-31 11:54:33,021: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: INFO    : send message: [agent_0.scheduling.0.child] STOP
+2020-01-31 11:54:33,022: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: DEBUG   : ru_finalize_common()
+2020-01-31 11:54:33,022: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: DEBUG   : TERM : agent_0.scheduling.0.child unregister publisher log_pubsub
+2020-01-31 11:54:33,022: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.watch: INFO    : recv message: 
+2020-01-31 11:54:33,023: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: DEBUG   : unregistered publisher log_pubsub
+2020-01-31 11:54:33,022: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.watch: INFO    : message received: 
+2020-01-31 11:54:33,023: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: DEBUG   : TERM : agent_0.scheduling.0.child unregister publisher state_pubsub
+2020-01-31 11:54:33,023: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.watch: WARNING : no message, parent closed ep!
+2020-01-31 11:54:33,024: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.watch: INFO    : watcher closes
+2020-01-31 11:54:33,024: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.watch: INFO    : put message: [agent_0.scheduling.0.child.watch.thread] work finished
+2020-01-31 11:54:33,024: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.watch: DEBUG   : ru_finalize_child (NOOP)
+2020-01-31 11:54:33,024: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.watch: DEBUG   : ru_finalize_common (NOOP)
+2020-01-31 11:54:33,024: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.watch: INFO    : put message: [agent_0.scheduling.0.child.watch.thread] terminating
+2020-01-31 11:54:33,024: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: DEBUG   : unregistered publisher state_pubsub
+2020-01-31 11:54:33,025: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: DEBUG   : TERM : agent_0.scheduling.0.child unregister publisher control_pubsub
+2020-01-31 11:54:33,026: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: DEBUG   : unregistered publisher control_pubsub
+2020-01-31 11:54:33,026: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: DEBUG   : agent_0.scheduling.0.child close prof
+2020-01-31 11:54:33,150: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: INFO    : signal stop for agent_0.scheduling.0.child.subscriber._cancel_monitor_cb
+2020-01-31 11:54:33,150: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: INFO    : child calls stop()
+2020-01-31 11:54:33,150: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: INFO    : signal stop for agent_0.scheduling.0.child.subscriber._cancel_monitor_cb
+2020-01-31 11:54:33,151: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: INFO    : signal stop for agent_0.scheduling.0.child.subscriber._cancel_monitor_cb
+2020-01-31 11:54:33,151: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: INFO    : signal stop for agent_0.scheduling.0.child.subscriber._cancel_monitor_cb
+2020-01-31 11:54:33,151: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: INFO    : signal stop for agent_0.scheduling.0.child.subscriber._cancel_monitor_cb
+2020-01-31 11:54:33,151: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: DEBUG   : ru_finalize_child (NOOP)
+2020-01-31 11:54:33,152: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: INFO    : put message: [agent_0.scheduling.0.child.subscriber._cancel_monitor_cb.thread] terminating
+2020-01-31 11:54:33,388: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: DEBUG   : ru_finalize_child (NOOP)
+2020-01-31 11:54:33,388: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: DEBUG   : ru_finalize_child (NOOP)
+2020-01-31 11:54:33,390: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.unschedule_cb: INFO    : put message: [agent_0.scheduling.0.child.subscriber.unschedule_cb.thread] terminating
+2020-01-31 11:54:33,390: agent_0.scheduling.0.child: agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber.schedule_cb: INFO    : put message: [agent_0.scheduling.0.child.subscriber.schedule_cb.thread] terminating
+2020-01-31 11:54:33,698: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : ru_finalize_common()
+2020-01-31 11:54:33,698: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : WARNING : publisher log_pubsub is not registered
+2020-01-31 11:54:33,698: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : WARNING : publisher state_pubsub is not registered
+2020-01-31 11:54:33,698: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : WARNING : publisher control_pubsub is not registered
+2020-01-31 11:54:33,698: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : agent_0.scheduling.0.child close prof
+2020-01-31 11:54:33,699: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : INFO    : send message: [agent_0.scheduling.0.child] terminating
+2020-01-31 11:54:33,699: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : WARNING : send failed ([Errno 9] Bad file descriptor) - terminate
+2020-01-31 11:54:33,699: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : INFO    : parent stops child
+2020-01-31 11:54:33,699: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : ru_finalize_parent (NOOP)
+2020-01-31 11:54:33,699: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : INFO    : parent stops child
+2020-01-31 11:54:33,699: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : ru_finalize_parent (NOOP)
+2020-01-31 11:54:33,699: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : INFO    : parent stops child
+2020-01-31 11:54:33,700: agent_0.scheduling.0.child: agent_0.scheduling.0            : MainThread     : DEBUG   : ru_finalize_parent (NOOP)

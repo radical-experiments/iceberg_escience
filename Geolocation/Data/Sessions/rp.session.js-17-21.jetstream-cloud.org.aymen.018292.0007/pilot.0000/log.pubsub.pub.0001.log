@@ -1,0 +1,12 @@
+2020-01-31 01:28:39,689: log.pubsub.pub.0001 : agent_0.scheduling.0            : MainThread     : INFO    : create log_pubsub - pub - tcp://10.4.119.119:43882
+2020-01-31 01:28:39,690: log.pubsub.pub.0001 : agent_0.scheduling.0            : MainThread     : DEBUG   : start process
+2020-01-31 01:28:39,690: log.pubsub.pub.0001 : agent_0.scheduling.0            : MainThread     : DEBUG   : ru_initialize_common (NOOP)
+2020-01-31 01:28:39,691: log.pubsub.pub.0001 : agent_0.scheduling.0            : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
+2020-01-31 01:28:39,691: log.pubsub.pub.0001 : agent_0.scheduling.0            : MainThread     : DEBUG   : process class started (no child)
+2020-01-31 01:28:40,088: log.pubsub.pub.0001 : MainProcess                     : MainThread     : INFO    : create log_pubsub - pub - tcp://10.4.119.119:43882
+2020-01-31 01:28:40,089: log.pubsub.pub.0001 : MainProcess                     : MainThread     : DEBUG   : start process
+2020-01-31 01:28:40,089: log.pubsub.pub.0001 : MainProcess                     : MainThread     : DEBUG   : ru_initialize_common (NOOP)
+2020-01-31 01:28:40,089: log.pubsub.pub.0001 : MainProcess                     : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
+2020-01-31 01:28:40,090: log.pubsub.pub.0001 : MainProcess                     : MainThread     : DEBUG   : process class started (no child)
+2020-01-31 01:31:05,679: log.pubsub.pub.0001 : agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: INFO    : parent stops child  6625 -> None [log.pubsub.pub.0001]
+2020-01-31 01:31:05,679: log.pubsub.pub.0001 : agent_0.scheduling.0            : agent_0.scheduling.0.child.subscriber._cancel_monitor_cb: DEBUG   : ru_finalize_parent (NOOP)

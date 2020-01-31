@@ -1,0 +1,5 @@
+2020-01-31 11:51:38,707: agent.staging.input.queue.output.0000: agent_0.staging.input.0         : MainThread     : INFO    : create agent_staging_input_queue - output - tcp://10.4.119.124:33869
+2020-01-31 11:51:38,708: agent.staging.input.queue.output.0000: agent_0.staging.input.0         : MainThread     : DEBUG   : start process
+2020-01-31 11:51:38,709: agent.staging.input.queue.output.0000: agent_0.staging.input.0         : MainThread     : DEBUG   : ru_initialize_common (NOOP)
+2020-01-31 11:51:38,709: agent.staging.input.queue.output.0000: agent_0.staging.input.0         : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
+2020-01-31 11:51:38,709: agent.staging.input.queue.output.0000: agent_0.staging.input.0         : MainThread     : DEBUG   : process class started (no child)

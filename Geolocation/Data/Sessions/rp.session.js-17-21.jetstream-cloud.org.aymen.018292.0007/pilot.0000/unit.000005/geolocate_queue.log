@@ -1,0 +1,4 @@
+('request', {'request': 'connect', 'type': 'receiver', 'name': 'ransac4'})
+('image', {'request': 'dequeue', 'name': 'ransac4'})
+('Dequeueing', u'ransac4', 'disconnect')
+('request', {'type': 'receiver', 'request': 'disconnect', 'name': 'ransac4'})
