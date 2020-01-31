@@ -18,7 +18,7 @@ CUDA_VISIBLE_DEVICES=1 python geolocate.py  --name geolocate6 --queue_in /pylon5
 
 sleep 1 
 
-python ransac.py --name ransac3 --queue_in ransac.queue.url > ransac3.log &
+python ransac.py --name ransac3 --queue_in geolocate.queue.url > ransac3.log &
 
 wait
 
