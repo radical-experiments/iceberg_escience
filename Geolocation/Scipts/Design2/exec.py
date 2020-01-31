@@ -77,8 +77,8 @@ if __name__ == '__main__':
                         'module load slurm/default',
 			'module load intel/19.5',
 			'module load xdusage/2.1-1',
-                        'source /pylon5/mc3bggp/aymen/penguins_pkg/bin/activate',
-                        'export PYTHONPATH=/pylon5/mc3bggp/aymen/penguins_pkg/lib/python2.7/site-packages:$PYTHONPATH']
+                        'module load anaconda2',
+			'source activate /pylon5/mc3bggp/aymen/anaconda3/envs/geo']
         cud.executable = 'python'
         cud.arguments = ['q1.py','--queue=/pylon5/mc3bggp/aymen/Des3Test/discovered']
         cud.input_staging  = [{'source': 'client:///q1.py', 'target': 'unit:///q1.py', 'action': rp.TRANSFER}]
@@ -92,8 +92,8 @@ if __name__ == '__main__':
                         'module load slurm/default',
 			'module load intel/19.5',
 			'module load xdusage/2.1-1',
-                        'source /pylon5/mc3bggp/aymen/penguins_pkg/bin/activate',
-                        'export PYTHONPATH=/pylon5/mc3bggp/aymen/penguins_pkg/lib/python2.7/site-packages:$PYTHONPATH']
+                        'module load anaconda2',
+                        'source activate /pylon5/mc3bggp/aymen/anaconda3/envs/geo']
         cud.executable = 'python'
         cud.arguments = ['disc.py','--src_path /pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/',
                                    '--trg_path /pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/',
