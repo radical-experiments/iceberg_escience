@@ -7,5 +7,5 @@ module load anaconda2
 
 source activate /pylon5/mc3bggp/aymen/anaconda3/envs/geo
 
-python disc.py --src_path /pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/ --trg_path /pylon5/mc3bggp/aymen/Penguin_colonies_2000Pix/ --name discovery --queue_file /pylon5/mc3bggp/aymen/Des3Test/discovered.queue.url  > discovery.log
+python disc.py --path /pylon5/mc3bggp/aymen/geolocation_dataset/ --name discovery --queue_file /pylon5/mc3bggp/aymen/Des3Test/discovered.queue.url  > discovery.log
 
