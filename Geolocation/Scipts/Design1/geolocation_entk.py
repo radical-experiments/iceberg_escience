@@ -162,7 +162,7 @@ if __name__ == '__main__':
     res_dict = {
 
                   'resource' : 'xsede.bridges',
-                  'walltime' : '2880',
+                  'walltime' : 2880,
                   'cpus'     : 128,
                   'gpus'     : 8,
                   'project'  : 'mc3bggp',
