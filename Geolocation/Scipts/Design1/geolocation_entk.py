@@ -30,18 +30,18 @@ port = os.environ.get('RMQ_PORT',32773)
 
 parser = argparse.ArgumentParser(description='Scaling inputs')
 parser.add_argument('name', type=str, help='session name')
-parser.add_argument('src_dataset', type=str, help='data_set path for source images ')
-parser.add_argument('trg_dataset', type=str, help='data_set path for target images')
+#parser.add_argument('src_dataset', type=str, help='data_set path for source images ')
+parser.add_argument('dataset', type=str, help='data_set path')
 parser.add_argument('desc', type=int, help='Matching Method SIFT=1, SURF=2, Root-SIFT=11 (Default)')
-parser.add_argument('walltime',type=int,help='Estimated Number of Minutes for the entire pipeline to execute and finish')
-parser.add_argument('cores', type=int, help='Number of CPU Cores')
-parser.add_argument('gpus',type=int, help='Number of GPUs')
-parser.add_argument('queue',type=str, help='Queue to submit to')
+#parser.add_argument('walltime',type=int,help='Estimated Number of Minutes for the entire pipeline to execute and finish')
+#parser.add_argument('cores', type=int, help='Number of CPU Cores')
+#parser.add_argument('gpus',type=int, help='Number of GPUs')
+#parser.add_argument('queue',type=str, help='Queue to submit to')
 print (parser.parse_args())
 args = parser.parse_args()
 
 
-def generate_discover_pipeline(src_dataset,trg_dataset):
+def generate_discover_pipeline(dataset):
 
     '''
     This function takes as an input a single source image and path of set of images on a specific resource and returns a pipeline
@@ -58,9 +58,9 @@ def generate_discover_pipeline(src_dataset,trg_dataset):
 
     # Create a Task object
     task = Task()
-    task.name = 'Parser'
+    task.name = 'Image_Discovering'
     
-    #task.executable = ['/bin/date']
+    
     task.pre_exec = ['module load psc_path/1.1',
 		     'module load slurm/default',
                      'module load intel/18.4',
@@ -70,7 +70,8 @@ def generate_discover_pipeline(src_dataset,trg_dataset):
                      'module load opencv/2.4.13.2']
 
     task.executable= 'python2'
-    task.arguments = ['/home/aymen/RadicalCodeTest/entk-June/img_parser_all_gpu.py','%s' %src_dataset,'%s' % trg_dataset]
+    task.copy_input_data = ['image_disc.py']
+    task.arguments = ['image_disc.py','%s' % dataset]
     task.download_output_data = ['images.json']
 
     # Add the Task to the Stage
@@ -161,12 +162,12 @@ if __name__ == '__main__':
     res_dict = {
 
                   'resource' : 'xsede.bridges',
-                  'walltime' : args.walltime,
-                  'cpus'     : args.cores,
-                  'gpus'     : args.gpus,
+                  'walltime' : '2880',
+                  'cpus'     : 128,
+                  'gpus'     : 8,
                   'project'  : 'mc3bggp',
-                  'queue'    : args.queue,
-                  'schema'   :'gsissh',
+                  'queue'    : 'GPU',
+                  'schema'   :'gsissh'
                }
 
    
@@ -177,7 +178,7 @@ if __name__ == '__main__':
     # Assign resource request description to the Application Manager
     appman.resource_desc = res_dict
 
-    parser_pipeline = generate_discover_pipeline(args.src_dataset,args.trg_dataset)
+    parser_pipeline = generate_discover_pipeline(args.dataset)
     appman.workflow = set([parser_pipeline])
 
     # Run
