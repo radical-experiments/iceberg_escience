@@ -45,10 +45,10 @@ for image in os.listdir(data_path):
                     tmp_dict = {}
                     tmp_dict["img1"] = data_path+image
                     tmp_dict["img2"] = data_path+image2
-                    tmp_dict["x1"] = img1.shape[0]
-                    tmp_dict["y1"] = img1.shape[1]
-                    tmp_dict["x2"] = img2.shape[0]
-                    tmp_dict["y2"] = img2.shape[1]
+                    tmp_dict["x1"] = img1.shape[1]
+                    tmp_dict["y1"] = img1.shape[0]
+                    tmp_dict["x2"] = img2.shape[1]
+                    tmp_dict["y2"] = img2.shape[0]
                     data.append(tmp_dict)
 #json_dict["filename"] = filename
 json_dict["Dataset"] = data

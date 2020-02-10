@@ -25,14 +25,13 @@ os.environ['RADICAL_ENTK_PROFILE'] = 'True'
 #if not os.environ.get('RADICAL_PILOT_DBURL'):
 #    os.environ['RADICAL_PILOT_DBURL'] = "mongodb://aymenfja:123456789@ds127490.mlab.com:27490/radicallab"
 
-hostname = os.environ.get('RMQ_HOSTNAME', '149.165.157.203')
-port = os.environ.get('RMQ_PORT',32773)
+hostname = os.environ.get('RMQ_HOSTNAME', 'two.radical-project.org')
+port = os.environ.get('RMQ_PORT',33235)
 
 parser = argparse.ArgumentParser(description='Scaling inputs')
 parser.add_argument('name', type=str, help='session name')
 #parser.add_argument('src_dataset', type=str, help='data_set path for source images ')
 parser.add_argument('dataset', type=str, help='data_set path')
-parser.add_argument('desc', type=int, help='Matching Method SIFT=1, SURF=2, Root-SIFT=11 (Default)')
 #parser.add_argument('walltime',type=int,help='Estimated Number of Minutes for the entire pipeline to execute and finish')
 #parser.add_argument('cores', type=int, help='Number of CPU Cores')
 #parser.add_argument('gpus',type=int, help='Number of GPUs')
@@ -70,7 +69,8 @@ def generate_discover_pipeline(dataset):
                      'module load opencv/2.4.13.2']
 
     task.executable= 'python2'
-    task.copy_input_data = ['image_disc.py']
+    
+    task.upload_input_data = ['/home/aymen/SummerRadical/iceberg_escience/Geolocation/Scipts/Design1/image_disc.py']
     task.arguments = ['image_disc.py','%s' % dataset]
     task.download_output_data = ['images.json']
 
@@ -137,13 +137,19 @@ def generate_pipeline(img1,img2,x1,y1,x2,y2,dev,name):
                   ]
 
     t1.executable ='python2'
-    t1.link_input_data = ['$Pipeline_%s_Stage_%s_Task_%s/CUDA_data_matches.csv' % (p.name, s1.name, t1.name)]
+    
+    base1 = os.path.basename(source_img)
+    base2 = os.path.basename(target_img)
+    name1 = os.path.splitext(base1)[0]
+    name2 = os.path.splitext(base2)[0]
+    cuda_matches = '/pylon5/mc3bggp/aymen/cuda_out/sift_matches_'+name1+'_'+name2+'.csv' 
+    ransac_out = '/pylon5/mc3bggp/aymen/ransac_out/ransaced_matches_'+name1+'_'+name2+'.csv'
     t1.arguments = ['/home/aymen/SummerRadical/4DGeolocation/ASIFT/src/PHASE_3_RANSAC_FILTERING/ransac_filter.py',
                     '-img1_filename',source_img,
                     '-img1_nodata',0,
                     '-img2_filename',target_img,
                     '-img2_nodata',0,
-                    'CUDA_data_matches.csv','ransac.csv'
+                    cuda_matches, ransac_out
                     ]
                     
     t1.cpu_reqs = {'processes': 1,'process_type': None,'threads_per_process': 1,'thread_type': None}
