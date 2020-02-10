@@ -1,4 +1,0 @@
-#time,event,comp,thread,uid,state,msg
-1580452120.2293,sync_abs,agent_0.staging.input.0,MainThread,,,gpu019.pvt.bridges.psc.edu:10.4.219.119:1580452120.15:1580452120.15:ntp
-1580452120.4645309,END,agent_0.staging.input.0,MainThread,,,
-1580452120.8577809,component_init,agent_0.staging.input.0,MainThread,,,

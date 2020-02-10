@@ -1,5 +1,0 @@
-#!/pylon5/mc3bggp/aymen/radical.pilot.sandbox/ve.xsede.bridges.0.70.0/bin/python
-
-import radical.saga
-print radical.saga.version_detail
-

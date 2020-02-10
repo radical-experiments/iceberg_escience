@@ -1,5 +1,0 @@
-1580452192.293876,cu_start,unit_script,MainThread,unit.000004,AGENT_EXECUTING,
-1580452192.311684,cu_cd_done,unit_script,MainThread,unit.000004,AGENT_EXECUTING,
-1580452192.313921,cu_exec_start,unit_script,MainThread,unit.000004,AGENT_EXECUTING,
-1580452253.758006,cu_exec_stop,unit_script,MainThread,unit.000004,AGENT_EXECUTING,
-1580452253.760864,cu_stop,unit_script,MainThread,unit.000004,AGENT_EXECUTING,

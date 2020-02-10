@@ -1,7 +1,0 @@
-2020-01-31 10:50:28,558: state.pubsub.pub.0002: MainProcess                     : MainThread     : INFO    : create state_pubsub - pub - tcp://172.27.61.10:42218
-2020-01-31 10:50:28,559: state.pubsub.pub.0002: MainProcess                     : MainThread     : DEBUG   : start process
-2020-01-31 10:50:28,559: state.pubsub.pub.0002: MainProcess                     : MainThread     : DEBUG   : ru_initialize_common (NOOP)
-2020-01-31 10:50:28,559: state.pubsub.pub.0002: MainProcess                     : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
-2020-01-31 10:50:28,559: state.pubsub.pub.0002: MainProcess                     : MainThread     : DEBUG   : process class started (no child)
-2020-01-31 10:54:32,750: state.pubsub.pub.0002: MainProcess                     : MainThread     : INFO    : parent stops child  18510 -> None [state.pubsub.pub.0002]
-2020-01-31 10:54:32,750: state.pubsub.pub.0002: MainProcess                     : MainThread     : DEBUG   : ru_finalize_parent (NOOP)

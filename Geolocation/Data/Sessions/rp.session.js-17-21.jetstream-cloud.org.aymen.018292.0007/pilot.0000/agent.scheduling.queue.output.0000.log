@@ -1,5 +1,0 @@
-2020-01-31 01:28:39,834: agent.scheduling.queue.output.0000: agent_0.scheduling.0            : MainThread     : INFO    : create agent_scheduling_queue - output - tcp://10.4.119.119:36484
-2020-01-31 01:28:39,835: agent.scheduling.queue.output.0000: agent_0.scheduling.0            : MainThread     : DEBUG   : start process
-2020-01-31 01:28:39,835: agent.scheduling.queue.output.0000: agent_0.scheduling.0            : MainThread     : DEBUG   : ru_initialize_common (NOOP)
-2020-01-31 01:28:39,835: agent.scheduling.queue.output.0000: agent_0.scheduling.0            : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
-2020-01-31 01:28:39,835: agent.scheduling.queue.output.0000: agent_0.scheduling.0            : MainThread     : DEBUG   : process class started (no child)

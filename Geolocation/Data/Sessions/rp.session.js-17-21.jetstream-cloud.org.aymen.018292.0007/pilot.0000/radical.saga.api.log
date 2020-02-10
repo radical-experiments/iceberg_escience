@@ -1,3 +1,0 @@
-2020-01-31 01:28:35,947: radical.saga.api    : MainProcess                     : MainThread     : INFO    : use condor_history: 
-2020-01-31 01:28:35,977: radical.saga.api    : MainProcess                     : MainThread     : WARNING : Could not load libcloud module, disable EC2 resource adaptor
-2020-01-31 01:28:35,977: radical.saga.api    : MainProcess                     : MainThread     : WARNING : No module named libcloud

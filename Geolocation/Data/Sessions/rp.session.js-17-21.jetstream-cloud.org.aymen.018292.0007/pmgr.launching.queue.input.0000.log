@@ -1,5 +1,0 @@
-2020-01-31 00:25:16,826: pmgr.launching.queue.input.0000: MainProcess                     : MainThread     : INFO    : create pmgr_launching_queue - input - tcp://172.27.61.10:45069
-2020-01-31 00:25:16,827: pmgr.launching.queue.input.0000: MainProcess                     : MainThread     : DEBUG   : start process
-2020-01-31 00:25:16,827: pmgr.launching.queue.input.0000: MainProcess                     : MainThread     : DEBUG   : ru_initialize_common (NOOP)
-2020-01-31 00:25:16,827: pmgr.launching.queue.input.0000: MainProcess                     : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
-2020-01-31 00:25:16,827: pmgr.launching.queue.input.0000: MainProcess                     : MainThread     : DEBUG   : process class started (no child)

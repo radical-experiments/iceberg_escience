@@ -1,5 +1,0 @@
-Namespace(name='ransac2', queue_in='geolocate.queue.url')
-PUB: tcp://10.4.219.120:40806
-
-SUB: tcp://10.4.219.120:35364
-

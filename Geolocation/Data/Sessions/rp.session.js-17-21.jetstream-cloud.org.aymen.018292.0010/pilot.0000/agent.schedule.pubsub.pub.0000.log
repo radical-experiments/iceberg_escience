@@ -1,5 +1,0 @@
-2020-01-31 11:51:38,008: agent.schedule.pubsub.pub.0000: agent_0.scheduling.0            : MainThread     : INFO    : create agent_schedule_pubsub - pub - tcp://10.4.119.124:42339
-2020-01-31 11:51:38,010: agent.schedule.pubsub.pub.0000: agent_0.scheduling.0            : MainThread     : DEBUG   : start process
-2020-01-31 11:51:38,010: agent.schedule.pubsub.pub.0000: agent_0.scheduling.0            : MainThread     : DEBUG   : ru_initialize_common (NOOP)
-2020-01-31 11:51:38,010: agent.schedule.pubsub.pub.0000: agent_0.scheduling.0            : MainThread     : DEBUG   : ru_initialize_parent (NOOP)
-2020-01-31 11:51:38,010: agent.schedule.pubsub.pub.0000: agent_0.scheduling.0            : MainThread     : DEBUG   : process class started (no child)
