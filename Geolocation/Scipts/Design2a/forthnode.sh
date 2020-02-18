@@ -10,7 +10,7 @@ source /pylon5/mc3bggp/aymen/geo_env/bin/activate
 export PYTHONPATH=/pylon5/mc3bggp/aymen/geo_env/lib/python2.7/site-packages:$PYTHONPATH
 
 
-python q1.py --queue /home/aymen/Des3Test/geolocate4 > geolocate_queue.log &
+python q1.py --queue /home/aymen/Des3Test/geolocate4 --data node4_images.csv > geolocate_queue.log &
 
 sleep 5
 
