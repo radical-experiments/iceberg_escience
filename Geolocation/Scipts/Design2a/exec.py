@@ -69,48 +69,13 @@ if __name__ == '__main__':
         umgr = rp.UnitManager(session=session)
         umgr.add_pilots(pilot)
 
-
-        # create a new CU description, and fill it.
-        # Here we don't use dict initialization.
-        cud = rp.ComputeUnitDescription()
-        cud.pre_exec = ['module load psc_path/1.1',
-                        'module load slurm/default',
-			'module load intel/19.5',
-			'module load xdusage/2.1-1',
-                        'module load python2',
-                        'source /pylon5/mc3bggp/aymen/geo_env/bin/activate',
-                        'export PYTHONPATH=/pylon5/mc3bggp/aymen/geo_env/lib/python2.7/site-packages:$PYTHONPATH']
-        cud.executable = 'python'
-        cud.arguments = ['q1.py','--queue=/home/aymen/Des3Test/discovered']
-        cud.input_staging  = [{'source': 'client:///q1.py', 'target': 'unit:///q1.py', 'action': rp.TRANSFER}]
-        cud.cpu_processes = 1
-        unit1 = umgr.submit_units(cud)
- 
-        unit1.wait(state=rp.AGENT_EXECUTING)
-
-        cud = rp.ComputeUnitDescription()
-        cud.pre_exec = ['module load psc_path/1.1',
-                        'module load slurm/default',
-			'module load intel/19.5',
-			'module load xdusage/2.1-1',
-                        'module load python2',
-                        'source /pylon5/mc3bggp/aymen/geo_env/bin/activate',
-                        'export PYTHONPATH=/pylon5/mc3bggp/aymen/geo_env/lib/python2.7/site-packages:$PYTHONPATH']
-        cud.executable = 'python'
-        cud.arguments = ['disc.py','--path=/pylon5/mc3bggp/aymen/geolocation_dataset_new/',
-                                   '--name=discovery',
-				   '--queue_file=/home/aymen/Des3Test/discovered.queue.url'
-                        ]
-        cud.input_staging  = [{'source': 'client:///disc.py', 'target': 'unit:///disc.py', 'action': rp.TRANSFER}]
-        cud.cpu_processes = 1
-        unit2 = umgr.submit_units(cud)
-        umgr.wait_units(uids=[unit2.uid],state=rp.FINAL)
         
         cuds = list()
         cud = rp.ComputeUnitDescription()
         cud.executable = 'sh'
         cud.arguments = ['firstnode.sh']
         cud.input_staging  = [{'source': 'client:///firstnode.sh', 'target': 'unit:///firstnode.sh', 'action': rp.TRANSFER},
+                              { 'source': 'client:///node1_images.csv', 'target': 'unit:///node1_images.csv', 'action': rp.TRANSFER},
                               {'source': 'client:///geolocate.py', 'target': 'unit:///geolocate.py', 'action': rp.TRANSFER},
                               {'source': 'client:///ransac.py', 'target': 'unit:///ransac.py', 'action': rp.TRANSFER},
                               {'source': 'client:///q1.py', 'target': 'unit:///q1.py', 'action': rp.TRANSFER}]
@@ -121,6 +86,7 @@ if __name__ == '__main__':
         cud.executable = 'sh'
         cud.arguments = ['secondnode.sh']
         cud.input_staging  = [{'source': 'client:///secondnode.sh', 'target': 'unit:///secondnode.sh', 'action': rp.TRANSFER},
+                              {'source': 'client:///node2_images.csv', 'target': 'unit:///node2_images.csv', 'action': rp.TRANSFER},
                               {'source': 'client:///geolocate.py', 'target': 'unit:///geolocate.py', 'action': rp.TRANSFER},
                               {'source': 'client:///ransac.py', 'target': 'unit:///ransac.py', 'action': rp.TRANSFER},
                               {'source': 'client:///q1.py', 'target': 'unit:///q1.py', 'action': rp.TRANSFER}]
@@ -131,6 +97,7 @@ if __name__ == '__main__':
         cud.executable = 'sh'
         cud.arguments = ['thirdnode.sh']
         cud.input_staging  = [{'source': 'client:///thirdnode.sh', 'target': 'unit:///thirdnode.sh', 'action': rp.TRANSFER},
+                              {'source': 'client:///node3_images.csv', 'target': 'unit:///node3_images.csv', 'action': rp.TRANSFER},
                               {'source': 'client:///geolocate.py', 'target': 'unit:///geolocate.py', 'action': rp.TRANSFER},
                               {'source': 'client:///ransac.py', 'target': 'unit:///ransac.py', 'action': rp.TRANSFER},
                               {'source': 'client:///q1.py', 'target': 'unit:///q1.py', 'action': rp.TRANSFER}]
@@ -141,14 +108,17 @@ if __name__ == '__main__':
         cud.executable = 'sh'
         cud.arguments = ['forthnode.sh']
         cud.input_staging  = [{'source': 'client:///forthnode.sh', 'target': 'unit:///forthnode.sh', 'action': rp.TRANSFER},
+                              {'source': 'client:///node4_images.csv', 'target': 'unit:///node4_images.csv', 'action': rp.TRANSFER},
                               {'source': 'client:///geolocate.py', 'target': 'unit:///geolocate.py', 'action': rp.TRANSFER},
                               {'source': 'client:///ransac.py', 'target': 'unit:///ransac.py', 'action': rp.TRANSFER},
                               {'source': 'client:///q1.py', 'target': 'unit:///q1.py', 'action': rp.TRANSFER}]
         cud.cpu_processes = 32
         cuds.append(cud)
-       
+        report.info('Waiting Pilot to become active\n')
+        pmgr.wait_pilots(state=rp.PMGR_ACTIVE)
+        
         units = umgr.submit_units(cuds)
-
+        
         report.ok('>>ok\n')
 
         # Wait for all compute units to reach a final state (DONE, CANCELED or FAILED).
