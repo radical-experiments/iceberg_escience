@@ -10,16 +10,16 @@ source /pylon5/mc3bggp/aymen/geo_env/bin/activate
 export PYTHONPATH=/pylon5/mc3bggp/aymen/geo_env/lib/python2.7/site-packages:$PYTHONPATH
 
 
-python q1.py --queue /home/aymen/Des3Test/discovered1 --data node1_images.csv > discovered1_queue.log &
+python q1.py --queue discovered1 --data node1_images.csv > discovered1_queue.log &
 
-sleep 5
+sleep 15
 
 python q1.py --queue /home/aymen/Des3Test/geolocate1 > geolocate_queue.log &
 
 sleep 5
 
-CUDA_VISIBLE_DEVICES=0 python geolocate.py --name geolocate1 --queue_in /home/aymen/Des3Test/discovered1.queue.url  --queue_out /home/aymen/Des3Test/geolocate1.queue.url >geo1.log &
-CUDA_VISIBLE_DEVICES=1 python geolocate.py --name geolocate2 --queue_in /home/aymen/Des3Test/discovered1.queue.url  --queue_out /home/aymen/Des3Test/geolocate1.queue.url >geo2.log &
+CUDA_VISIBLE_DEVICES=0 python geolocate.py --name /home/aymen/Des3Test/geolocate1 --queue_in discovered1.queue.url  --queue_out /home/aymen/Des3Test/geolocate1.queue.url >geo1.log &
+CUDA_VISIBLE_DEVICES=1 python geolocate.py --name /home/aymen/Des3Test/geolocate2 --queue_in discovered1.queue.url  --queue_out /home/aymen/Des3Test/geolocate1.queue.url >geo2.log &
 
 sleep 10
 
