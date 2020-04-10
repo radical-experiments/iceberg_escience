@@ -1,0 +1,17 @@
+#time,event,comp,thread,uid,state,msg
+1582140771.7744,sync_abs,umgr.0000.staging.output.0.child,MainThread,,,js-17-21.jetstream-cloud.org:172.27.61.10:1582140771.77:1582140771.77:sys
+1582140771.9249051,component_init,umgr.0000.staging.output.0.child,MainThread,,,
+1582147125.1375079,get,umgr.0000.staging.output.0.child,MainThread,unit.000002,UMGR_STAGING_OUTPUT_PENDING,
+1582147125.1376221,get,umgr.0000.staging.output.0.child,MainThread,unit.000003,UMGR_STAGING_OUTPUT_PENDING,
+1582147125.1380701,advance,umgr.0000.staging.output.0.child,MainThread,unit.000002,UMGR_STAGING_OUTPUT,
+1582147125.1380701,advance,umgr.0000.staging.output.0.child,MainThread,unit.000003,UMGR_STAGING_OUTPUT,
+1582147125.1385419,publish,umgr.0000.staging.output.0.child,MainThread,unit.000002,UMGR_STAGING_OUTPUT,
+1582147125.1385419,publish,umgr.0000.staging.output.0.child,MainThread,unit.000003,UMGR_STAGING_OUTPUT,
+1582147125.1386130,advance,umgr.0000.staging.output.0.child,MainThread,unit.000002,DONE,
+1582147125.1386130,advance,umgr.0000.staging.output.0.child,MainThread,unit.000003,DONE,
+1582147125.1390719,publish,umgr.0000.staging.output.0.child,MainThread,unit.000002,DONE,
+1582147125.1390719,publish,umgr.0000.staging.output.0.child,MainThread,unit.000003,DONE,
+1582147125.1391120,drop,umgr.0000.staging.output.0.child,MainThread,unit.000002,DONE,
+1582147125.1391120,drop,umgr.0000.staging.output.0.child,MainThread,unit.000003,DONE,
+1582234665.1419020,component_final,umgr.0000.staging.output.0.child,MainThread,,,
+1582234665.1419320,END,umgr.0000.staging.output.0.child,MainThread,,,

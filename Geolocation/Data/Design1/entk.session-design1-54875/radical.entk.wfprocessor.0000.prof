@@ -1,0 +1,23 @@
+#time,event,comp,thread,uid,state,msg
+1581261338.4320,sync_abs,radical.entk.wfprocessor.0000,MainThread,,,js-17-21.jetstream-cloud.org:172.27.61.10:1581261338.43:1581261338.43:sys
+1581261338.4324210,create_wfp,radical.entk.wfprocessor.0000,MainThread,wfprocessor.0000,,
+1581261338.4324751,wf_init_start,radical.entk.wfprocessor.0000,MainThread,wfprocessor.0000,,
+1581261338.4336970,wf_init_stop,radical.entk.wfprocessor.0000,MainThread,wfprocessor.0000,,
+1581261338.4343669,wfp_start,radical.entk.wfprocessor.0000,MainThread,wfprocessor.0000,,
+1581261338.4345150,starting dequeue-thread,radical.entk.wfprocessor.0000,MainThread,wfprocessor.0000,,
+1581261338.4369509,starting enqueue-thread,radical.entk.wfprocessor.0000,MainThread,wfprocessor.0000,,
+1581261338.4384310,deq_start,radical.entk.wfprocessor.0000,dequeue-thread,wfprocessor.0000,,
+1581261338.4396870,enq_start,radical.entk.wfprocessor.0000,enqueue-thread,wfprocessor.0000,,
+1581261338.4399929,advance,radical.entk.wfprocessor.0000,enqueue-thread,pipeline.0000,SCHEDULING,
+1581261338.4402621,wfp_started,radical.entk.wfprocessor.0000,MainThread,wfprocessor.0000,,
+1581261338.4435451,advance,radical.entk.wfprocessor.0000,enqueue-thread,stage.0000,SCHEDULING,pipeline.0000
+1581261338.4445240,advance,radical.entk.wfprocessor.0000,enqueue-thread,task.0000,SCHEDULING,stage.0000
+1581261339.1188550,advance,radical.entk.wfprocessor.0000,enqueue-thread,task.0000,SCHEDULED,stage.0000
+1581261339.1193690,advance,radical.entk.wfprocessor.0000,enqueue-thread,stage.0000,SCHEDULED,pipeline.0000
+1581262228.9043810,advance,radical.entk.wfprocessor.0000,dequeue-thread,task.0000,DONE,stage.0000
+1581262228.9047129,advance,radical.entk.wfprocessor.0000,dequeue-thread,stage.0000,DONE,pipeline.0000
+1581262228.9049771,advance,radical.entk.wfprocessor.0000,dequeue-thread,pipeline.0000,DONE,
+1581262231.0362520,enq_stop,radical.entk.wfprocessor.0000,enqueue-thread,wfprocessor.0000,,
+1581262231.1037700,deq_stop,radical.entk.wfprocessor.0000,dequeue-thread,wfprocessor.0000,,
+1581262231.3692279,wfp_stop,radical.entk.wfprocessor.0000,MainThread,wfprocessor.0000,,
+1581262231.3693421,END,radical.entk.wfprocessor.0000,MainThread,,,

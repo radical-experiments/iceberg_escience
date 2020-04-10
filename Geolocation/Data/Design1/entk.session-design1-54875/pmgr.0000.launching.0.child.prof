@@ -1,0 +1,17 @@
+#time,event,comp,thread,uid,state,msg
+1581261266.0107,sync_abs,pmgr.0000.launching.0.child,MainThread,,,js-17-21.jetstream-cloud.org:172.27.61.10:1581261266.01:1581261266.01:sys
+1581261266.0788541,component_init,pmgr.0000.launching.0.child,MainThread,,,
+1581261267.6964240,get,pmgr.0000.launching.0.child,MainThread,pilot.0000,PMGR_LAUNCHING_PENDING,
+1581261267.6965401,advance,pmgr.0000.launching.0.child,MainThread,pilot.0000,PMGR_LAUNCHING,
+1581261267.6967950,publish,pmgr.0000.launching.0.child,MainThread,pilot.0000,PMGR_LAUNCHING,
+1581261268.8700881,staging_in_start,pmgr.0000.launching.0.child,MainThread,pilot.0000,,
+1581261278.0255229,staging_in_stop,pmgr.0000.launching.0.child,MainThread,pilot.0000,,
+1581261278.0255971,submission_start,pmgr.0000.launching.0.child,MainThread,pilot.0000,,
+1581261283.5929811,submission_stop,pmgr.0000.launching.0.child,MainThread,pilot.0000,,
+1581261283.5933030,advance,pmgr.0000.launching.0.child,MainThread,pilot.0000,PMGR_ACTIVE_PENDING,
+1581261283.5936830,publish,pmgr.0000.launching.0.child,MainThread,pilot.0000,PMGR_ACTIVE_PENDING,
+1581339674.9028180,advance,pmgr.0000.launching.0.child,pmgr.0000.launching.0.child.idler._pilot_watcher_cb,pilot.0000,CANCELED,
+1581339674.9035211,publish,pmgr.0000.launching.0.child,pmgr.0000.launching.0.child.idler._pilot_watcher_cb,pilot.0000,CANCELED,
+1581339676.0291300,flush,pmgr.0000.launching.0.child,MainThread,,,
+1581339676.4649141,component_final,pmgr.0000.launching.0.child,MainThread,,,
+1581339676.4649689,END,pmgr.0000.launching.0.child,MainThread,,,

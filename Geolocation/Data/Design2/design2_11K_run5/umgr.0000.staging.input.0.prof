@@ -1,0 +1,7 @@
+#time,event,comp,thread,uid,state,msg
+1581712240.6384,sync_abs,umgr.0000.staging.input.0,MainThread,,,js-17-21.jetstream-cloud.org:172.27.61.10:1581712240.64:1581712240.64:sys
+1581712241.6984680,END,umgr.0000.staging.input.0,MainThread,,,
+1581712241.7848799,component_init,umgr.0000.staging.input.0,MainThread,,,
+1581719998.1127119,flush,umgr.0000.staging.input.0,MainThread,,,
+1581719998.1243169,component_final,umgr.0000.staging.input.0,MainThread,,,
+1581719998.1243441,END,umgr.0000.staging.input.0,MainThread,,,

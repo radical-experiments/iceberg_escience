@@ -1,0 +1,1121 @@
+{
+    "pilot": [
+        {
+            "_id": "pilot.0000", 
+            "cfg": {
+                "agent_launch_method": "SSH", 
+                "app_comm": null, 
+                "bridges": {
+                    "agent_executing_queue": {
+                        "bulk_size": 1, 
+                        "log_level": "error", 
+                        "stall_hwm": 1
+                    }, 
+                    "agent_schedule_pubsub": {
+                        "log_level": "error"
+                    }, 
+                    "agent_scheduling_queue": {
+                        "bulk_size": 1, 
+                        "log_level": "error", 
+                        "stall_hwm": 1
+                    }, 
+                    "agent_staging_input_queue": {
+                        "bulk_size": 1, 
+                        "log_level": "error", 
+                        "stall_hwm": 1
+                    }, 
+                    "agent_staging_output_queue": {
+                        "bulk_size": 1, 
+                        "log_level": "error", 
+                        "stall_hwm": 1
+                    }, 
+                    "agent_unschedule_pubsub": {
+                        "log_level": "error"
+                    }, 
+                    "control_pubsub": {
+                        "log_level": "error"
+                    }, 
+                    "funcs_res_queue": {
+                        "bulk_size": 0, 
+                        "log_level": "debug", 
+                        "stall_hwm": 1
+                    }, 
+                    "funcs_wrk_queue": {
+                        "bulk_size": 0, 
+                        "log_level": "debug", 
+                        "stall_hwm": 1
+                    }, 
+                    "log_pubsub": {
+                        "log_level": "error"
+                    }, 
+                    "state_pubsub": {
+                        "log_level": "error"
+                    }
+                }, 
+                "bulk_collection_size": 1024, 
+                "bulk_collection_time": 1.0, 
+                "components": {
+                    "AgentExecutingComponent": {
+                        "count": 1
+                    }, 
+                    "AgentSchedulingComponent": {
+                        "count": 1
+                    }, 
+                    "AgentStagingInputComponent": {
+                        "count": 1
+                    }, 
+                    "AgentStagingOutputComponent": {
+                        "count": 1
+                    }, 
+                    "UpdateWorker": {
+                        "count": 1
+                    }
+                }, 
+                "cores": 128, 
+                "cores_per_node": 0, 
+                "cu_post_exec": null, 
+                "cu_pre_exec": [], 
+                "cu_tmp": null, 
+                "db_poll_sleeptime": 2.0, 
+                "dburl": "mongodb://rct:rct_test@two.radical-project.org/rct_test", 
+                "debug": 10, 
+                "export_to_cu": [], 
+                "gpus": 8, 
+                "gpus_per_node": 2, 
+                "lfs_path_per_node": "$LOCAL", 
+                "lfs_size_per_node": 3713368, 
+                "logdir": ".", 
+                "lrms": "SLURM", 
+                "mode": "shared", 
+                "mpi_launch_method": "MPIRUN", 
+                "owner": "agent_0", 
+                "pilot_id": "pilot.0000", 
+                "pilot_sandbox": "/pylon5/mc3bggp/aymen/radical.pilot.sandbox/design2a_11k_test5/pilot.0000/", 
+                "resource_cfg": {
+                    "agent_launch_method": "SSH", 
+                    "agent_scheduler": "CONTINUOUS", 
+                    "agent_spawner": "POPEN", 
+                    "cu_pre_exec": [], 
+                    "default_queue": "RM", 
+                    "default_remote_workdir": "$SCRATCH", 
+                    "description": "The XSEDE 'Bridges' cluster at PSC (https://portal.xsede.org/psc-bridges/).", 
+                    "export_to_cu": [], 
+                    "filesystem_endpoint": "gsisftp://bridges.psc.xsede.org:2222/", 
+                    "go": {
+                        "filesystem_endpoint": "go://xsede#bridges/", 
+                        "job_manager_endpoint": "slurm+ssh://bridges.psc.xsede.org/"
+                    }, 
+                    "gpus_per_node": 2, 
+                    "gsissh": {
+                        "filesystem_endpoint": "gsisftp://bridges.psc.xsede.org:2222/", 
+                        "job_manager_endpoint": "slurm+gsissh://bridges.psc.xsede.org:2222/"
+                    }, 
+                    "job_manager_endpoint": "slurm+gsissh://bridges.psc.xsede.org:2222/", 
+                    "label": "xsede.bridges", 
+                    "lfs_path_per_node": "$LOCAL", 
+                    "lfs_size_per_node": 3713368, 
+                    "lrms": "SLURM", 
+                    "mpi_launch_method": "MPIRUN", 
+                    "notes": "Always set the ``project`` attribute in the ComputePilotDescription.", 
+                    "pre_bootstrap_0": [
+                        "module purge", 
+                        "module load gcc", 
+                        "module load mpi/gcc_openmpi", 
+                        "module load slurm", 
+                        "module load python2"
+                    ], 
+                    "python_dist": "default", 
+                    "rp_version": "local", 
+                    "saga_jd_supplement": {
+                        "cpu_architecture": [
+                            "p100"
+                        ]
+                    }, 
+                    "schemas": [
+                        "gsissh", 
+                        "ssh", 
+                        "go"
+                    ], 
+                    "ssh": {
+                        "filesystem_endpoint": "sftp://bridges.psc.xsede.org/", 
+                        "job_manager_endpoint": "slurm+ssh://bridges.psc.xsede.org/"
+                    }, 
+                    "task_launch_method": "SSH", 
+                    "valid_roots": [
+                        "/home", 
+                        "/pylon1", 
+                        "/pylon5"
+                    ], 
+                    "virtenv_mode": "create"
+                }, 
+                "resource_sandbox": "/pylon5/mc3bggp/aymen/radical.pilot.sandbox", 
+                "runtime": 2880, 
+                "scheduler": "CONTINUOUS", 
+                "session_id": "design2a_11k_test5", 
+                "session_sandbox": "/pylon5/mc3bggp/aymen/radical.pilot.sandbox/design2a_11k_test5", 
+                "spawner": "POPEN", 
+                "target": "local", 
+                "task_launch_method": "SSH"
+            }, 
+            "client_sandbox": "/home/aymen/iceberg_escience/Geolocation/Scipts/Design2a", 
+            "cmd": [], 
+            "control": "pmgr", 
+            "description": {
+                "access_schema": "gsissh", 
+                "app_comm": null, 
+                "candidate_hosts": null, 
+                "cleanup": null, 
+                "cores": 128, 
+                "exit_on_error": true, 
+                "gpus": 8, 
+                "memory": null, 
+                "project": "mc3bggp", 
+                "queue": "GPU", 
+                "resource": "xsede.bridges", 
+                "runtime": 2880, 
+                "sandbox": null
+            }, 
+            "finished": 1582234689.502881, 
+            "js_hop": "gsissh://bridges.psc.xsede.org:2222/", 
+            "js_url": "slurm+gsissh://bridges.psc.xsede.org:2222/", 
+            "log": null, 
+            "pilot_sandbox": "gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/design2a_11k_test5/pilot.0000/", 
+            "pmgr": "pmgr.0000", 
+            "resource": "xsede.bridges", 
+            "resource_details": {
+                "lm_detail": null, 
+                "lm_info": null, 
+                "rm_info": {
+                    "agent_nodes": {}, 
+                    "cores_per_node": 32, 
+                    "gpus_per_node": 2, 
+                    "lfs_per_node": {
+                        "path": "/local/7844826", 
+                        "size": 3713368
+                    }, 
+                    "lm_info": {
+                        "cores_per_node": 32
+                    }, 
+                    "mem_per_node": 0, 
+                    "name": "Slurm", 
+                    "node_list": [
+                        [
+                            "gpu038", 
+                            "gpu038"
+                        ], 
+                        [
+                            "gpu039", 
+                            "gpu039"
+                        ], 
+                        [
+                            "gpu040", 
+                            "gpu040"
+                        ], 
+                        [
+                            "gpu041", 
+                            "gpu041"
+                        ]
+                    ]
+                }
+            }, 
+            "resource_sandbox": "gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox", 
+            "session": "design2a_11k_test5", 
+            "session_sandbox": "gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/design2a_11k_test5", 
+            "state": "CANCELED", 
+            "states": [
+                "NEW", 
+                "PMGR_LAUNCHING_PENDING", 
+                "PMGR_LAUNCHING", 
+                "PMGR_ACTIVE_PENDING", 
+                "PMGR_ACTIVE", 
+                "PMGR_ACTIVE", 
+                "CANCELED"
+            ], 
+            "stderr": null, 
+            "stdout": null, 
+            "type": "pilot", 
+            "uid": "pilot.0000", 
+            "unit_ids": [
+                "unit.000000", 
+                "unit.000001", 
+                "unit.000002", 
+                "unit.000003"
+            ]
+        }
+    ], 
+    "pmgr": [
+        {
+            "_id": "pmgr.0000", 
+            "cfg": {
+                "bridges": {
+                    "control_pubsub": {
+                        "addr_in": "tcp://172.27.61.10:40726", 
+                        "addr_out": "tcp://172.27.61.10:40445", 
+                        "bulk_size": 0, 
+                        "log_level": "error", 
+                        "stall_hwm": 1
+                    }, 
+                    "log_pubsub": {
+                        "addr_in": "tcp://172.27.61.10:38709", 
+                        "addr_out": "tcp://172.27.61.10:45086", 
+                        "bulk_size": 0, 
+                        "log_level": "error", 
+                        "stall_hwm": 1
+                    }, 
+                    "pmgr_launching_queue": {
+                        "addr_in": "tcp://172.27.61.10:34874", 
+                        "addr_out": "tcp://172.27.61.10:37359", 
+                        "bulk_size": 0, 
+                        "log_level": "error", 
+                        "stall_hwm": 1
+                    }, 
+                    "state_pubsub": {
+                        "addr_in": "tcp://172.27.61.10:40349", 
+                        "addr_out": "tcp://172.27.61.10:46084", 
+                        "bulk_size": 0, 
+                        "log_level": "error", 
+                        "stall_hwm": 1
+                    }
+                }, 
+                "components": {
+                    "PMGRLaunchingComponent": {
+                        "count": 1
+                    }
+                }, 
+                "db_poll_sleeptime": 10.0, 
+                "owner": "pmgr.0000", 
+                "uid": "pmgr.0000"
+            }, 
+            "type": "pmgr", 
+            "uid": "pmgr.0000"
+        }
+    ], 
+    "session": {
+        "_id": "design2a_11k_test5", 
+        "cfg": {
+            "bridges": {
+                "control_pubsub": {
+                    "bulk_size": 0, 
+                    "log_level": "error", 
+                    "stall_hwm": 1
+                }, 
+                "log_pubsub": {
+                    "bulk_size": 0, 
+                    "log_level": "error", 
+                    "stall_hwm": 1
+                }, 
+                "state_pubsub": {
+                    "bulk_size": 0, 
+                    "log_level": "error", 
+                    "stall_hwm": 1
+                }
+            }, 
+            "components": {
+                "UpdateWorker": {
+                    "count": 1
+                }
+            }, 
+            "dburl": "mongodb://rct:rct_test@two.radical-project.org/rct_test", 
+            "default_dburl": "mongodb://rct:rct_test@two.radical-project.org/rct_test", 
+            "logdir": "/home/aymen/iceberg_escience/Geolocation/Scipts/Design2a/design2a_11k_test5", 
+            "owner": "design2a_11k_test5", 
+            "session_id": "design2a_11k_test5"
+        }, 
+        "connected": 1582140755.613398, 
+        "created": 1582140754.31867, 
+        "metadata": [
+            {
+                "radical_stack": {
+                    "py": "2.7.12 (default, Oct  8 2019, 14:14:10)  [GCC 5.4.0 20160609]", 
+                    "rp": "0.73.1", 
+                    "rs": "0.72.1", 
+                    "ru": "0.72.0"
+                }
+            }, 
+            {
+                "radical_stack": {
+                    "py": "2.7.11 (default, Feb 23 2016, 17:47:07)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-4)]", 
+                    "rp": "0.73.1", 
+                    "rs": "0.72.1", 
+                    "ru": "0.72.0"
+                }
+            }
+        ], 
+        "type": "session", 
+        "uid": "design2a_11k_test5"
+    }, 
+    "umgr": [
+        {
+            "_id": "umgr.0000", 
+            "cfg": {
+                "bridges": {
+                    "control_pubsub": {
+                        "addr_in": "tcp://172.27.61.10:40726", 
+                        "addr_out": "tcp://172.27.61.10:40445", 
+                        "bulk_size": 0, 
+                        "log_level": "error", 
+                        "stall_hwm": 1
+                    }, 
+                    "log_pubsub": {
+                        "addr_in": "tcp://172.27.61.10:38709", 
+                        "addr_out": "tcp://172.27.61.10:45086", 
+                        "bulk_size": 0, 
+                        "log_level": "error", 
+                        "stall_hwm": 1
+                    }, 
+                    "state_pubsub": {
+                        "addr_in": "tcp://172.27.61.10:40349", 
+                        "addr_out": "tcp://172.27.61.10:46084", 
+                        "bulk_size": 0, 
+                        "log_level": "error", 
+                        "stall_hwm": 1
+                    }, 
+                    "umgr_reschedule_pubsub": {
+                        "addr_in": "tcp://172.27.61.10:40383", 
+                        "addr_out": "tcp://172.27.61.10:36520", 
+                        "bulk_size": 0, 
+                        "log_level": "error", 
+                        "stall_hwm": 1
+                    }, 
+                    "umgr_scheduling_queue": {
+                        "addr_in": "tcp://172.27.61.10:46195", 
+                        "addr_out": "tcp://172.27.61.10:39751", 
+                        "bulk_size": 0, 
+                        "log_level": "error", 
+                        "stall_hwm": 1
+                    }, 
+                    "umgr_staging_input_queue": {
+                        "addr_in": "tcp://172.27.61.10:40196", 
+                        "addr_out": "tcp://172.27.61.10:42797", 
+                        "bulk_size": 0, 
+                        "log_level": "error", 
+                        "stall_hwm": 1
+                    }, 
+                    "umgr_staging_output_queue": {
+                        "addr_in": "tcp://172.27.61.10:35343", 
+                        "addr_out": "tcp://172.27.61.10:34861", 
+                        "bulk_size": 0, 
+                        "log_level": "error", 
+                        "stall_hwm": 1
+                    }, 
+                    "umgr_unschedule_pubsub": {
+                        "addr_in": "tcp://172.27.61.10:35764", 
+                        "addr_out": "tcp://172.27.61.10:41921", 
+                        "bulk_size": 0, 
+                        "log_level": "error", 
+                        "stall_hwm": 1
+                    }
+                }, 
+                "bulk_collection_size": 100, 
+                "bulk_collection_time": 1.0, 
+                "components": {
+                    "UMGRSchedulingComponent": {
+                        "count": 1
+                    }, 
+                    "UMGRStagingInputComponent": {
+                        "count": 1
+                    }, 
+                    "UMGRStagingOutputComponent": {
+                        "count": 1
+                    }
+                }, 
+                "db_poll_sleeptime": 1.0, 
+                "owner": "umgr.0000", 
+                "scheduler": "round_robin", 
+                "uid": "umgr.0000"
+            }, 
+            "type": "umgr", 
+            "uid": "umgr.0000"
+        }
+    ], 
+    "unit": [
+        {
+            "_id": "unit.000000", 
+            "client_sandbox": "/home/aymen/iceberg_escience/Geolocation/Scipts/Design2a", 
+            "cmd": [], 
+            "control": "agent", 
+            "description": {
+                "arguments": [
+                    "firstnode.sh"
+                ], 
+                "cleanup": false, 
+                "cpu_process_type": "", 
+                "cpu_processes": 30, 
+                "cpu_thread_type": "", 
+                "cpu_threads": 1, 
+                "environment": {}, 
+                "executable": "sh", 
+                "gpu_process_type": "", 
+                "gpu_processes": 0, 
+                "gpu_thread_type": "", 
+                "gpu_threads": 1, 
+                "input_staging": [
+                    {
+                        "action": "Transfer", 
+                        "flags": 64, 
+                        "priority": 0, 
+                        "source": "client:///firstnode.sh", 
+                        "target": "unit:///firstnode.sh", 
+                        "uid": "sd.0000"
+                    }, 
+                    {
+                        "action": "Transfer", 
+                        "flags": 64, 
+                        "priority": 0, 
+                        "source": "client:///node1_images.csv", 
+                        "target": "unit:///node1_images.csv", 
+                        "uid": "sd.0001"
+                    }, 
+                    {
+                        "action": "Transfer", 
+                        "flags": 64, 
+                        "priority": 0, 
+                        "source": "client:///geolocate.py", 
+                        "target": "unit:///geolocate.py", 
+                        "uid": "sd.0002"
+                    }, 
+                    {
+                        "action": "Transfer", 
+                        "flags": 64, 
+                        "priority": 0, 
+                        "source": "client:///ransac.py", 
+                        "target": "unit:///ransac.py", 
+                        "uid": "sd.0003"
+                    }, 
+                    {
+                        "action": "Transfer", 
+                        "flags": 64, 
+                        "priority": 0, 
+                        "source": "client:///q1.py", 
+                        "target": "unit:///q1.py", 
+                        "uid": "sd.0004"
+                    }
+                ], 
+                "kernel": "", 
+                "lfs_per_process": 0, 
+                "mem_per_process": 0, 
+                "metadata": null, 
+                "name": "", 
+                "output_staging": [], 
+                "pilot": "", 
+                "post_exec": [], 
+                "pre_exec": [], 
+                "restartable": false, 
+                "sandbox": null, 
+                "stderr": "", 
+                "stdout": "", 
+                "tag": null, 
+                "tags": {}
+            }, 
+            "exit_code": null, 
+            "name": "", 
+            "pilot": "pilot.0000", 
+            "pilot_sandbox": "gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/design2a_11k_test5/pilot.0000/", 
+            "resource_sandbox": "gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox", 
+            "state": "AGENT_EXECUTING", 
+            "states": [
+                "NEW", 
+                "UMGR_SCHEDULING_PENDING", 
+                "UMGR_SCHEDULING", 
+                "UMGR_STAGING_INPUT_PENDING", 
+                "UMGR_STAGING_INPUT", 
+                "AGENT_STAGING_INPUT_PENDING", 
+                "AGENT_STAGING_INPUT", 
+                "AGENT_SCHEDULING_PENDING", 
+                "AGENT_SCHEDULING", 
+                "AGENT_EXECUTING_PENDING", 
+                "AGENT_EXECUTING"
+            ], 
+            "stderr": null, 
+            "stdout": null, 
+            "type": "unit", 
+            "uid": "unit.000000", 
+            "umgr": "umgr.0000", 
+            "unit_sandbox": "gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/design2a_11k_test5/pilot.0000/unit.000000/", 
+            "unit_sandbox_path": "/pylon5/mc3bggp/aymen/radical.pilot.sandbox/design2a_11k_test5/pilot.0000/unit.000000/"
+        }, 
+        {
+            "_id": "unit.000001", 
+            "client_sandbox": "/home/aymen/iceberg_escience/Geolocation/Scipts/Design2a", 
+            "cmd": [], 
+            "control": "agent", 
+            "description": {
+                "arguments": [
+                    "secondnode.sh"
+                ], 
+                "cleanup": false, 
+                "cpu_process_type": "", 
+                "cpu_processes": 32, 
+                "cpu_thread_type": "", 
+                "cpu_threads": 1, 
+                "environment": {}, 
+                "executable": "sh", 
+                "gpu_process_type": "", 
+                "gpu_processes": 0, 
+                "gpu_thread_type": "", 
+                "gpu_threads": 1, 
+                "input_staging": [
+                    {
+                        "action": "Transfer", 
+                        "flags": 64, 
+                        "priority": 0, 
+                        "source": "client:///secondnode.sh", 
+                        "target": "unit:///secondnode.sh", 
+                        "uid": "sd.0005"
+                    }, 
+                    {
+                        "action": "Transfer", 
+                        "flags": 64, 
+                        "priority": 0, 
+                        "source": "client:///node2_images.csv", 
+                        "target": "unit:///node2_images.csv", 
+                        "uid": "sd.0006"
+                    }, 
+                    {
+                        "action": "Transfer", 
+                        "flags": 64, 
+                        "priority": 0, 
+                        "source": "client:///geolocate.py", 
+                        "target": "unit:///geolocate.py", 
+                        "uid": "sd.0007"
+                    }, 
+                    {
+                        "action": "Transfer", 
+                        "flags": 64, 
+                        "priority": 0, 
+                        "source": "client:///ransac.py", 
+                        "target": "unit:///ransac.py", 
+                        "uid": "sd.0008"
+                    }, 
+                    {
+                        "action": "Transfer", 
+                        "flags": 64, 
+                        "priority": 0, 
+                        "source": "client:///q1.py", 
+                        "target": "unit:///q1.py", 
+                        "uid": "sd.0009"
+                    }
+                ], 
+                "kernel": "", 
+                "lfs_per_process": 0, 
+                "mem_per_process": 0, 
+                "metadata": null, 
+                "name": "", 
+                "output_staging": [], 
+                "pilot": "", 
+                "post_exec": [], 
+                "pre_exec": [], 
+                "restartable": false, 
+                "sandbox": null, 
+                "stderr": "", 
+                "stdout": "", 
+                "tag": null, 
+                "tags": {}
+            }, 
+            "exit_code": null, 
+            "name": "", 
+            "pilot": "pilot.0000", 
+            "pilot_sandbox": "gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/design2a_11k_test5/pilot.0000/", 
+            "resource_sandbox": "gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox", 
+            "state": "AGENT_EXECUTING", 
+            "states": [
+                "NEW", 
+                "UMGR_SCHEDULING_PENDING", 
+                "UMGR_SCHEDULING", 
+                "UMGR_STAGING_INPUT_PENDING", 
+                "UMGR_STAGING_INPUT", 
+                "AGENT_STAGING_INPUT_PENDING", 
+                "AGENT_STAGING_INPUT", 
+                "AGENT_SCHEDULING_PENDING", 
+                "AGENT_SCHEDULING", 
+                "AGENT_EXECUTING_PENDING", 
+                "AGENT_EXECUTING"
+            ], 
+            "stderr": null, 
+            "stdout": null, 
+            "type": "unit", 
+            "uid": "unit.000001", 
+            "umgr": "umgr.0000", 
+            "unit_sandbox": "gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/design2a_11k_test5/pilot.0000/unit.000001/", 
+            "unit_sandbox_path": "/pylon5/mc3bggp/aymen/radical.pilot.sandbox/design2a_11k_test5/pilot.0000/unit.000001/"
+        }, 
+        {
+            "_id": "unit.000002", 
+            "client_sandbox": "/home/aymen/iceberg_escience/Geolocation/Scipts/Design2a", 
+            "cmd": [], 
+            "control": null, 
+            "description": {
+                "arguments": [
+                    "thirdnode.sh"
+                ], 
+                "cleanup": false, 
+                "cpu_process_type": "", 
+                "cpu_processes": 32, 
+                "cpu_thread_type": "", 
+                "cpu_threads": 1, 
+                "environment": {
+                    "CUDA_VISIBLE_DEVICES": "", 
+                    "NODE_LFS_PATH": "/local/7844826"
+                }, 
+                "executable": "sh", 
+                "gpu_process_type": "", 
+                "gpu_processes": 0, 
+                "gpu_thread_type": "", 
+                "gpu_threads": 1, 
+                "input_staging": [
+                    {
+                        "action": "Transfer", 
+                        "flags": 64, 
+                        "priority": 0, 
+                        "source": "client:///thirdnode.sh", 
+                        "target": "unit:///thirdnode.sh", 
+                        "uid": "sd.0010"
+                    }, 
+                    {
+                        "action": "Transfer", 
+                        "flags": 64, 
+                        "priority": 0, 
+                        "source": "client:///node3_images.csv", 
+                        "target": "unit:///node3_images.csv", 
+                        "uid": "sd.0011"
+                    }, 
+                    {
+                        "action": "Transfer", 
+                        "flags": 64, 
+                        "priority": 0, 
+                        "source": "client:///geolocate.py", 
+                        "target": "unit:///geolocate.py", 
+                        "uid": "sd.0012"
+                    }, 
+                    {
+                        "action": "Transfer", 
+                        "flags": 64, 
+                        "priority": 0, 
+                        "source": "client:///ransac.py", 
+                        "target": "unit:///ransac.py", 
+                        "uid": "sd.0013"
+                    }, 
+                    {
+                        "action": "Transfer", 
+                        "flags": 64, 
+                        "priority": 0, 
+                        "source": "client:///q1.py", 
+                        "target": "unit:///q1.py", 
+                        "uid": "sd.0014"
+                    }
+                ], 
+                "kernel": "", 
+                "lfs_per_process": 0, 
+                "mem_per_process": 0, 
+                "metadata": null, 
+                "name": "", 
+                "output_staging": [], 
+                "pilot": "", 
+                "post_exec": [], 
+                "pre_exec": [], 
+                "restartable": false, 
+                "sandbox": null, 
+                "stderr": "", 
+                "stdout": "", 
+                "tag": null, 
+                "tags": {}
+            }, 
+            "exit_code": 0, 
+            "name": "", 
+            "pilot": "pilot.0000", 
+            "pilot_sandbox": "gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/design2a_11k_test5/pilot.0000/", 
+            "resource_sandbox": "gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox", 
+            "slots": {
+                "cores_per_node": 32, 
+                "gpus_per_node": 2, 
+                "lfs_per_node": {
+                    "path": "/local/7844826", 
+                    "size": 3713368
+                }, 
+                "lm_info": {
+                    "cores_per_node": 32
+                }, 
+                "mem_per_node": 0, 
+                "nodes": [
+                    {
+                        "core_map": [
+                            [
+                                0
+                            ], 
+                            [
+                                1
+                            ], 
+                            [
+                                2
+                            ], 
+                            [
+                                3
+                            ], 
+                            [
+                                4
+                            ], 
+                            [
+                                5
+                            ], 
+                            [
+                                6
+                            ], 
+                            [
+                                7
+                            ], 
+                            [
+                                8
+                            ], 
+                            [
+                                9
+                            ], 
+                            [
+                                10
+                            ], 
+                            [
+                                11
+                            ], 
+                            [
+                                12
+                            ], 
+                            [
+                                13
+                            ], 
+                            [
+                                14
+                            ], 
+                            [
+                                15
+                            ], 
+                            [
+                                16
+                            ], 
+                            [
+                                17
+                            ], 
+                            [
+                                18
+                            ], 
+                            [
+                                19
+                            ], 
+                            [
+                                20
+                            ], 
+                            [
+                                21
+                            ], 
+                            [
+                                22
+                            ], 
+                            [
+                                23
+                            ], 
+                            [
+                                24
+                            ], 
+                            [
+                                25
+                            ], 
+                            [
+                                26
+                            ], 
+                            [
+                                27
+                            ], 
+                            [
+                                28
+                            ], 
+                            [
+                                29
+                            ], 
+                            [
+                                30
+                            ], 
+                            [
+                                31
+                            ]
+                        ], 
+                        "gpu_map": [], 
+                        "lfs": {
+                            "path": "/local/7844826", 
+                            "size": 0
+                        }, 
+                        "mem": 0, 
+                        "name": "gpu040", 
+                        "uid": "gpu040"
+                    }
+                ]
+            }, 
+            "state": "DONE", 
+            "states": [
+                "NEW", 
+                "UMGR_SCHEDULING_PENDING", 
+                "UMGR_SCHEDULING", 
+                "UMGR_STAGING_INPUT_PENDING", 
+                "UMGR_STAGING_INPUT", 
+                "AGENT_STAGING_INPUT_PENDING", 
+                "AGENT_STAGING_INPUT", 
+                "AGENT_SCHEDULING_PENDING", 
+                "AGENT_SCHEDULING", 
+                "AGENT_EXECUTING_PENDING", 
+                "AGENT_EXECUTING", 
+                "AGENT_STAGING_OUTPUT_PENDING", 
+                "AGENT_STAGING_OUTPUT", 
+                "UMGR_STAGING_OUTPUT_PENDING", 
+                "UMGR_STAGING_OUTPUT_PENDING", 
+                "UMGR_STAGING_OUTPUT", 
+                "DONE"
+            ], 
+            "stderr": "[... CONTENT SHORTENED ...]\nFT/src/PHASE_3_RANSAC_FILTERING/matches_reader.py\", line 67, in read\n    f = open(filename, 'r')\nIOError: [Errno 2] No such file or directory: '/pylon5/mc3bggp/aymen/cuda_out/sift_matches_[KIRB]_WV02_20160104054805_103001004F61BD00_16JAN04054805-P1BS-500638396040_01_P003_u08rf3031_[KIRB]_WV02_20160104054805_103001004F61BD00_16JAN04054805-M1BS-500638396040_01_P003_u08rf3031.csv'\nTraceback (most recent call last):\n  File \"/home/aymen/SummerRadical/4DGeolocation/ASIFT/src/PHASE_3_RANSAC_FILTERING/ransac_filter.py\", line 185, in <module>\n    img2_nodata = None if (args.img2_nodata == -999) else args.img2_nodata)\n  File \"/home/aymen/SummerRadical/4DGeolocation/ASIFT/src/PHASE_3_RANSAC_FILTERING/ransac_filter.py\", line 121, in filter_ASIFT_matches\n    H, mask = cv2.findHomography(keys1_ndarray, keys2_ndarray, cv2.RANSAC, ransac_threshold,2000)\ncv2.error: OpenCV(4.1.2) /io/opencv/modules/calib3d/src/fundam.cpp:372: error: (-5:Bad argument) The input arrays should be 2D or 3D point sets in function 'findHomography'\n\n[... CONTENT SHORTENED ...]\nFT/src/PHASE_3_RANSAC_FILTERING/matches_reader.py\", line 67, in read\n    f = open(filename, 'r')\nIOError: [Errno 2] No such file or directory: '/pylon5/mc3bggp/aymen/cuda_out/sift_matches_[KIRB]_WV02_20160104054805_103001004F61BD00_16JAN04054805-P1BS-500638396040_01_P003_u08rf3031_[KIRB]_WV02_20160104054805_103001004F61BD00_16JAN04054805-M1BS-500638396040_01_P003_u08rf3031.csv'\nTraceback (most recent call last):\n  File \"/home/aymen/SummerRadical/4DGeolocation/ASIFT/src/PHASE_3_RANSAC_FILTERING/ransac_filter.py\", line 185, in <module>\n    img2_nodata = None if (args.img2_nodata == -999) else args.img2_nodata)\n  File \"/home/aymen/SummerRadical/4DGeolocation/ASIFT/src/PHASE_3_RANSAC_FILTERING/ransac_filter.py\", line 121, in filter_ASIFT_matches\n    H, mask = cv2.findHomography(keys1_ndarray, keys2_ndarray, cv2.RANSAC, ransac_threshold,2000)\ncv2.error: OpenCV(4.1.2) /io/opencv/modules/calib3d/src/fundam.cpp:372: error: (-5:Bad argument) The input arrays should be 2D or 3D point sets in function 'findHomography'\n\n", 
+            "stderr_file": "/pylon5/mc3bggp/aymen/radical.pilot.sandbox/design2a_11k_test5/pilot.0000/unit.000002/STDERR", 
+            "stdout": "", 
+            "stdout_file": "/pylon5/mc3bggp/aymen/radical.pilot.sandbox/design2a_11k_test5/pilot.0000/unit.000002/STDOUT", 
+            "target_state": "DONE", 
+            "type": "unit", 
+            "uid": "unit.000002", 
+            "umgr": "umgr.0000", 
+            "unit_sandbox": "gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/design2a_11k_test5/pilot.0000/unit.000002/", 
+            "unit_sandbox_path": "/pylon5/mc3bggp/aymen/radical.pilot.sandbox/design2a_11k_test5/pilot.0000/unit.000002/"
+        }, 
+        {
+            "_id": "unit.000003", 
+            "client_sandbox": "/home/aymen/iceberg_escience/Geolocation/Scipts/Design2a", 
+            "cmd": [], 
+            "control": null, 
+            "description": {
+                "arguments": [
+                    "forthnode.sh"
+                ], 
+                "cleanup": false, 
+                "cpu_process_type": "", 
+                "cpu_processes": 32, 
+                "cpu_thread_type": "", 
+                "cpu_threads": 1, 
+                "environment": {
+                    "CUDA_VISIBLE_DEVICES": "", 
+                    "NODE_LFS_PATH": "/local/7844826"
+                }, 
+                "executable": "sh", 
+                "gpu_process_type": "", 
+                "gpu_processes": 0, 
+                "gpu_thread_type": "", 
+                "gpu_threads": 1, 
+                "input_staging": [
+                    {
+                        "action": "Transfer", 
+                        "flags": 64, 
+                        "priority": 0, 
+                        "source": "client:///forthnode.sh", 
+                        "target": "unit:///forthnode.sh", 
+                        "uid": "sd.0015"
+                    }, 
+                    {
+                        "action": "Transfer", 
+                        "flags": 64, 
+                        "priority": 0, 
+                        "source": "client:///node4_images.csv", 
+                        "target": "unit:///node4_images.csv", 
+                        "uid": "sd.0016"
+                    }, 
+                    {
+                        "action": "Transfer", 
+                        "flags": 64, 
+                        "priority": 0, 
+                        "source": "client:///geolocate.py", 
+                        "target": "unit:///geolocate.py", 
+                        "uid": "sd.0017"
+                    }, 
+                    {
+                        "action": "Transfer", 
+                        "flags": 64, 
+                        "priority": 0, 
+                        "source": "client:///ransac.py", 
+                        "target": "unit:///ransac.py", 
+                        "uid": "sd.0018"
+                    }, 
+                    {
+                        "action": "Transfer", 
+                        "flags": 64, 
+                        "priority": 0, 
+                        "source": "client:///q1.py", 
+                        "target": "unit:///q1.py", 
+                        "uid": "sd.0019"
+                    }
+                ], 
+                "kernel": "", 
+                "lfs_per_process": 0, 
+                "mem_per_process": 0, 
+                "metadata": null, 
+                "name": "", 
+                "output_staging": [], 
+                "pilot": "", 
+                "post_exec": [], 
+                "pre_exec": [], 
+                "restartable": false, 
+                "sandbox": null, 
+                "stderr": "", 
+                "stdout": "", 
+                "tag": null, 
+                "tags": {}
+            }, 
+            "exit_code": 0, 
+            "name": "", 
+            "pilot": "pilot.0000", 
+            "pilot_sandbox": "gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/design2a_11k_test5/pilot.0000/", 
+            "resource_sandbox": "gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox", 
+            "slots": {
+                "cores_per_node": 32, 
+                "gpus_per_node": 2, 
+                "lfs_per_node": {
+                    "path": "/local/7844826", 
+                    "size": 3713368
+                }, 
+                "lm_info": {
+                    "cores_per_node": 32
+                }, 
+                "mem_per_node": 0, 
+                "nodes": [
+                    {
+                        "core_map": [
+                            [
+                                0
+                            ], 
+                            [
+                                1
+                            ], 
+                            [
+                                2
+                            ], 
+                            [
+                                3
+                            ], 
+                            [
+                                4
+                            ], 
+                            [
+                                5
+                            ], 
+                            [
+                                6
+                            ], 
+                            [
+                                7
+                            ], 
+                            [
+                                8
+                            ], 
+                            [
+                                9
+                            ], 
+                            [
+                                10
+                            ], 
+                            [
+                                11
+                            ], 
+                            [
+                                12
+                            ], 
+                            [
+                                13
+                            ], 
+                            [
+                                14
+                            ], 
+                            [
+                                15
+                            ], 
+                            [
+                                16
+                            ], 
+                            [
+                                17
+                            ], 
+                            [
+                                18
+                            ], 
+                            [
+                                19
+                            ], 
+                            [
+                                20
+                            ], 
+                            [
+                                21
+                            ], 
+                            [
+                                22
+                            ], 
+                            [
+                                23
+                            ], 
+                            [
+                                24
+                            ], 
+                            [
+                                25
+                            ], 
+                            [
+                                26
+                            ], 
+                            [
+                                27
+                            ], 
+                            [
+                                28
+                            ], 
+                            [
+                                29
+                            ], 
+                            [
+                                30
+                            ], 
+                            [
+                                31
+                            ]
+                        ], 
+                        "gpu_map": [], 
+                        "lfs": {
+                            "path": "/local/7844826", 
+                            "size": 0
+                        }, 
+                        "mem": 0, 
+                        "name": "gpu041", 
+                        "uid": "gpu041"
+                    }
+                ]
+            }, 
+            "state": "DONE", 
+            "states": [
+                "NEW", 
+                "UMGR_SCHEDULING_PENDING", 
+                "UMGR_SCHEDULING", 
+                "UMGR_STAGING_INPUT_PENDING", 
+                "UMGR_STAGING_INPUT", 
+                "AGENT_STAGING_INPUT_PENDING", 
+                "AGENT_STAGING_INPUT", 
+                "AGENT_SCHEDULING_PENDING", 
+                "AGENT_SCHEDULING", 
+                "AGENT_EXECUTING_PENDING", 
+                "AGENT_EXECUTING", 
+                "AGENT_STAGING_OUTPUT_PENDING", 
+                "AGENT_STAGING_OUTPUT", 
+                "UMGR_STAGING_OUTPUT_PENDING", 
+                "UMGR_STAGING_OUTPUT_PENDING", 
+                "UMGR_STAGING_OUTPUT", 
+                "DONE"
+            ], 
+            "stderr": "[... CONTENT SHORTENED ...]\nadical/4DGeolocation/ASIFT/src/PHASE_3_RANSAC_FILTERING/ransac_filter.py\", line 121, in filter_ASIFT_matches\n    H, mask = cv2.findHomography(keys1_ndarray, keys2_ndarray, cv2.RANSAC, ransac_threshold,2000)\ncv2.error: OpenCV(4.1.2) /io/opencv/modules/calib3d/src/fundam.cpp:372: error: (-5:Bad argument) The input arrays should be 2D or 3D point sets in function 'findHomography'\n\nTraceback (most recent call last):\n  File \"/home/aymen/SummerRadical/4DGeolocation/ASIFT/src/PHASE_3_RANSAC_FILTERING/ransac_filter.py\", line 185, in <module>\n    img2_nodata = None if (args.img2_nodata == -999) else args.img2_nodata)\n  File \"/home/aymen/SummerRadical/4DGeolocation/ASIFT/src/PHASE_3_RANSAC_FILTERING/ransac_filter.py\", line 121, in filter_ASIFT_matches\n    H, mask = cv2.findHomography(keys1_ndarray, keys2_ndarray, cv2.RANSAC, ransac_threshold,2000)\ncv2.error: OpenCV(4.1.2) /io/opencv/modules/calib3d/src/fundam.cpp:372: error: (-5:Bad argument) The input arrays should be 2D or 3D point sets in function 'findHomography'\n\n[... CONTENT SHORTENED ...]\nadical/4DGeolocation/ASIFT/src/PHASE_3_RANSAC_FILTERING/ransac_filter.py\", line 121, in filter_ASIFT_matches\n    H, mask = cv2.findHomography(keys1_ndarray, keys2_ndarray, cv2.RANSAC, ransac_threshold,2000)\ncv2.error: OpenCV(4.1.2) /io/opencv/modules/calib3d/src/fundam.cpp:372: error: (-5:Bad argument) The input arrays should be 2D or 3D point sets in function 'findHomography'\n\nTraceback (most recent call last):\n  File \"/home/aymen/SummerRadical/4DGeolocation/ASIFT/src/PHASE_3_RANSAC_FILTERING/ransac_filter.py\", line 185, in <module>\n    img2_nodata = None if (args.img2_nodata == -999) else args.img2_nodata)\n  File \"/home/aymen/SummerRadical/4DGeolocation/ASIFT/src/PHASE_3_RANSAC_FILTERING/ransac_filter.py\", line 121, in filter_ASIFT_matches\n    H, mask = cv2.findHomography(keys1_ndarray, keys2_ndarray, cv2.RANSAC, ransac_threshold,2000)\ncv2.error: OpenCV(4.1.2) /io/opencv/modules/calib3d/src/fundam.cpp:372: error: (-5:Bad argument) The input arrays should be 2D or 3D point sets in function 'findHomography'\n\n", 
+            "stderr_file": "/pylon5/mc3bggp/aymen/radical.pilot.sandbox/design2a_11k_test5/pilot.0000/unit.000003/STDERR", 
+            "stdout": "", 
+            "stdout_file": "/pylon5/mc3bggp/aymen/radical.pilot.sandbox/design2a_11k_test5/pilot.0000/unit.000003/STDOUT", 
+            "target_state": "DONE", 
+            "type": "unit", 
+            "uid": "unit.000003", 
+            "umgr": "umgr.0000", 
+            "unit_sandbox": "gsisftp://bridges.psc.xsede.org:2222/pylon5/mc3bggp/aymen/radical.pilot.sandbox/design2a_11k_test5/pilot.0000/unit.000003/", 
+            "unit_sandbox_path": "/pylon5/mc3bggp/aymen/radical.pilot.sandbox/design2a_11k_test5/pilot.0000/unit.000003/"
+        }
+    ]
+}

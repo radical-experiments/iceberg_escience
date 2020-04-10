@@ -1,0 +1,28 @@
+#time,event,comp,thread,uid,state,msg
+1582140835.7416,sync_abs,agent_0,MainThread,,,gpu038.pvt.bridges.psc.edu:10.4.219.138:1582140835.5:1582140835.66:ntp
+1582140835.9978089,config_parser_start,agent_0,MainThread,design2a_11k_test5,,
+1582140836.0783379,config_parser_stop,agent_0,MainThread,design2a_11k_test5,,
+#time,event,comp,thread,uid,state,msg
+1582140837.6466,sync_abs,agent_0,MainThread,,,gpu038.pvt.bridges.psc.edu:10.4.219.138:1582140837.63:1582140837.59:ntp
+1582140837.6468959,sync_rel,agent_0,MainThread,pilot.0000,,agent_0 start
+1582140843.3270891,advance,agent_0,MainThread,pilot.0000,PMGR_ACTIVE,
+1582140843.3290031,publish,agent_0,MainThread,pilot.0000,PMGR_ACTIVE,
+1582140843.4121251,hostname,agent_0,MainThread,pilot.0000,,gpu038.pvt.bridges.psc.edu
+1582140843.4122620,component_init,agent_0,MainThread,,,
+1582140873.2243950,get,agent_0,agent_0.idler._check_units_cb,pilot.0000,,bulk size: 1
+1582140873.2244830,get,agent_0,agent_0.idler._check_units_cb,unit.000000,,
+1582140873.2246201,advance,agent_0,agent_0.idler._check_units_cb,unit.000000,AGENT_STAGING_INPUT_PENDING,
+1582140873.2250490,put,agent_0,agent_0.idler._check_units_cb,unit.000000,AGENT_STAGING_INPUT_PENDING,agent.staging.input.queue.input.0000
+1582140902.9321179,get,agent_0,agent_0.idler._check_units_cb,pilot.0000,,bulk size: 1
+1582140902.9322009,get,agent_0,agent_0.idler._check_units_cb,unit.000001,,
+1582140902.9323249,advance,agent_0,agent_0.idler._check_units_cb,unit.000001,AGENT_STAGING_INPUT_PENDING,
+1582140902.9327791,put,agent_0,agent_0.idler._check_units_cb,unit.000001,AGENT_STAGING_INPUT_PENDING,agent.staging.input.queue.input.0000
+1582140928.4212050,get,agent_0,agent_0.idler._check_units_cb,pilot.0000,,bulk size: 1
+1582140928.4212639,get,agent_0,agent_0.idler._check_units_cb,unit.000002,,
+1582140928.4213519,advance,agent_0,agent_0.idler._check_units_cb,unit.000002,AGENT_STAGING_INPUT_PENDING,
+1582140928.4216559,put,agent_0,agent_0.idler._check_units_cb,unit.000002,AGENT_STAGING_INPUT_PENDING,agent.staging.input.queue.input.0000
+1582140951.8078570,get,agent_0,agent_0.idler._check_units_cb,pilot.0000,,bulk size: 1
+1582140951.8079469,get,agent_0,agent_0.idler._check_units_cb,unit.000003,,
+1582140951.8080790,advance,agent_0,agent_0.idler._check_units_cb,unit.000003,AGENT_STAGING_INPUT_PENDING,
+1582140951.8085141,put,agent_0,agent_0.idler._check_units_cb,unit.000003,AGENT_STAGING_INPUT_PENDING,agent.staging.input.queue.input.0000
+1582234668.6268930,cmd,agent_0,agent_0.idler._agent_command_cb,pilot.0000,,cancel_pilot : []
